@@ -1,6 +1,6 @@
 # ISO 27001 Analyst — Practical GRC Portfolio
 
-**Jumoke Eluwa** · Information Security GRC · [LinkedIn](https://www.linkedin.com/in/jumokeeluwa/) · [GitHub repository URL]
+**Jumoke Eluwa** · Information Security GRC · [LinkedIn](https://www.linkedin.com/in/jumokeeluwa/) · [GitHub](https://github.com/jumokeeluwa-dotcom/)
 
 
 ## Overview
@@ -33,6 +33,10 @@ A fictional B2B SaaS provider of about 85 people, with a UK head office and EU-b
 
 ## Background and objective
 
-14+ years across IT service management, project management and information security GRC, including GRC analyst work in banking. **Certifications:** CISA · ISO/IEC 27001 Lead Auditor and Lead Implementer · ITIL Foundation · COBIT 2019 Foundation. **Education:** MSc Cyber Security, Threat Intelligence and Forensics (University of Salford). **Seeking** an Information Security GRC or ISO 27001 Analyst role, particularly in UK financial services: risk management, control assurance, third-party risk, operational resilience and audit readiness.
+10+ years across IT service management, project management and information security GRC.
 
-*Northstar Digital Solutions Ltd is fictional and every record in this portfolio is simulated; it shows how I approach building and assuring an ISMS, not a real implementation or certification. My employment experience is in my CV.*
+**Certifications:** CISA · ISO/IEC 27001 Lead Auditor and Lead Implementer · ITIL Foundation · COBIT 2019 Foundation. **Education:** MSc Cyber Security, Threat Intelligence and Forensics (University of Salford).
+
+**Seeking** an Information Security GRC or ISO 27001 Analyst role covering risk management, control assurance, third-party risk, operational resilience and audit readiness.
+
+*Northstar Digital Solutions Ltd is fictional and every record in this portfolio is simulated; it shows how I approach building and assuring an ISMS. My employment experience is in my CV.*
