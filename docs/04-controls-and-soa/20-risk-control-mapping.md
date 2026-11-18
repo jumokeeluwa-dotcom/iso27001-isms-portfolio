@@ -3,7 +3,7 @@
 | Field | Value |
 | --- | --- |
 | Reference | NSD-ISMS-020 |
-| Version | 0.1 — Draft for review |
+| Version | 1.0 — Draft for review |
 | Framework | ISO/IEC 27001:2022 incl. Amendment 1:2024 (clause 6.1.3(b)–(d)) |
 | Related documents | [NSD-ISMS-014 Risk Register](../03-risk-management/14-risk-register.md) · [NSD-ISMS-015 Treatment Plan](../03-risk-management/15-risk-treatment-plan.md) · [NSD-ISMS-017 Risk Ownership](../03-risk-management/17-risk-ownership-register.md) · [NSD-ISMS-018 SoA Methodology](18-soa-methodology.md) · [NSD-ISMS-019 SoA](19-statement-of-applicability.md) |
 | Owner | Information Security / GRC Analyst |
@@ -178,19 +178,7 @@ R-07 also needs the additional control **NSD-C-01** (SBOM verification), already
 4. When a risk, treatment action or SoA entry changes, this register is regenerated from those documents, not edited by hand.
 5. Every applicable control must appear in section 4, with either a risk link or a reason code.
 
-## 8. Changes from the portfolio draft
-
-| Draft | v0.1 |
-| --- | --- |
-| Numbered NSD-ISMS-017 | NSD-ISMS-020; 017 is the risk ownership register |
-| 11 risks with old IDs (R-001 to R-020) | All 20 risks with NSD-ISMS-014 IDs, owners and scores |
-| Risk → control only | Both directions, plus a reverse check of every SoA control |
-| "Proposed treatment" as general phrases | Linked to the specific treatment actions (T-xx) in NSD-ISMS-015 |
-| No implementation view | Weakest SoA status for each risk |
-| Note 5 (check Annex A for omissions) stated as a principle | Applied: 11 Wave 2 controls identified as needed |
-| Its useful notes (one control for many risks; Annex A titles) | Kept in section 7 |
-
-## 9. Approval
+## 8. Approval
 
 | Role | Responsibility | Decision | Date |
 | --- | --- | --- | --- |

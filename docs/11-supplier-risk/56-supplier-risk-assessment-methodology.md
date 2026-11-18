@@ -3,7 +3,7 @@
 | Field | Value |
 | --- | --- |
 | Reference | NSD-ISMS-056 |
-| Version | 0.2 — Draft for MD approval |
+| Version | 1.0 — Draft for MD approval |
 | Framework | ISO/IEC 27001:2022 incl. Amendment 1:2024: clauses 6.1.2, 6.1.3, 8.2; Annex A 5.19–5.23 |
 | Parent documents | [NSD-ISMS-012 Risk Assessment Methodology](../03-risk-management/12-risk-assessment-methodology.md) · [NSD-ISMS-013 Scoring Matrix](../03-risk-management/13-risk-scoring-matrix.md) · [NSD-ISMS-016 Acceptance Criteria](../03-risk-management/16-risk-acceptance-criteria-register.md) · [NSD-ISMS-026 Supplier Security Policy](../05-policies/26-supplier-security-policy.md) |
 | Records | Tiers: [NSD-ISMS-055](55-supplier-register.md) · Assessment results: NSD-ISMS-058 · Risks: [NSD-ISMS-014](../03-risk-management/14-risk-register.md) |
@@ -19,11 +19,11 @@ This methodology sets out how Northstar decides how closely to examine each supp
 
 ## 2. Why there is no separate supplier scoring scale
 
-The draft proposed a 3×3 matrix with Low, Medium and High bands. Northstar already has an approved 5×5 matrix with four bands and acceptance rules tied to them.
+Supplier risks are scored on Northstar's 5×5 matrix, with its four bands and the acceptance rules tied to them, not on a separate scale.
 
 A second scale would make supplier risks impossible to compare with every other risk: a supplier "High" (6–9 out of 9) would not mean the same as a register "High" (10–15 out of 25), and the acceptance authorities in NSD-ISMS-016 could not be applied. Clause 6.1.2(b) requires risk assessments to produce **consistent, valid and comparable** results.
 
-So the method separates two questions the draft combined:
+So the method separates two questions:
 
 | Question | Answered by | Result |
 | --- | --- | --- |
@@ -52,13 +52,13 @@ The tier is set **before** onboarding, from what the supplier will hold or touch
 | **Standard** | None of the above |
 | **Unknown facts** | Treated at the higher tier until confirmed (NSD-ISMS-055 §3) |
 
-This closes gap 5 in the supplier register: suppliers holding **Restricted** information that is not personal data, such as penetration test reports, are now High by rule rather than by judgement. NSD-ISMS-026 §3 is updated to match (v0.3).
+This closes gap 5 in the supplier register: suppliers holding **Restricted** information that is not personal data, such as penetration test reports, are now High by rule rather than by judgement. NSD-ISMS-026 §3 is updated to match (v1.0).
 
 **Depth of assessment by tier** follows NSD-ISMS-026 §3: Critical suppliers need independent assurance, **plus** the questionnaire (NSD-ISMS-057), **plus** a DPA where relevant; High suppliers need the questionnaire, plus a certificate where available; Standard suppliers need contract terms only.
 
 ## 4. Assurance factors
 
-The draft's other factors describe how well the supplier protects what it holds. They affect **likelihood,** and they are assessed in due diligence (NSD-ISMS-057) and recorded in NSD-ISMS-058.
+Assurance factors describe how well the supplier protects what it holds. They affect **likelihood,** and they are assessed in due diligence (NSD-ISMS-057) and recorded in NSD-ISMS-058.
 
 | Factor | What is checked | Evidence, strongest first |
 | --- | --- | --- |
@@ -93,7 +93,7 @@ Supplier risks are scored like any other risk: **likelihood × impact on the NSD
 
 **Not every supplier needs its own risk.** If an assessment finds the supplier's controls adequate and the residual risk within appetite (NSD-ISMS-016 §2), the result is recorded in NSD-ISMS-058 against the existing risks (for example R-16). A **new or re-scored** risk is raised in NSD-ISMS-014 only when the assessment finds something that changes the risk picture: a gap, a missing assurance, a new data flow, or a concentration.
 
-**Tier is not a risk score.** A Critical supplier with strong, evidenced assurance can carry a Medium residual risk. A High supplier with no assurance and Restricted data can carry a High one. The draft's note that "a critical supplier may need enhanced assessment even if its score appears low" is built into this method: the tier sets the depth of examination, whatever the score.
+**Tier is not a risk score.** A Critical supplier with strong, evidenced assurance can carry a Medium residual risk. A High supplier with no assurance and Restricted data can carry a High one. The tier sets the depth of examination, whatever the score.
 
 ## 6. Process
 
@@ -145,16 +145,11 @@ The GRC Analyst assesses and recommends, and **never accepts risk** for the busi
 | Merger, acquisition or adverse news | Within 20 working days |
 | KPI-14 or other monitoring shows a problem | As decided by the Steering Group |
 
-## 10. Approval and change log
+## 10. Approval
 
 | Role | Decision | Date |
 | --- | --- | --- |
 | Managing Director | Pending | |
-
-| Version | Change |
-| --- | --- |
-| 0.1 (portfolio draft, as NSD-ISMS-052) | Ten factors, a 3×3 scoring model, 12-step process |
-| 0.2 | Numbered NSD-ISMS-056. Approver changed to the MD. **The 3×3 matrix replaced by the approved NSD-ISMS-013 5×5 matrix,** so supplier risks are comparable and NSD-ISMS-016 acceptance rules apply (clause 6.1.2(b)). The draft's factors split into **exposure factors** (setting the tier and impact) and **assurance factors** (affecting likelihood). Tier rule written out, closing the supplier register's gap on Restricted non-personal information. Control credit rule applied to supplier evidence: certificate scope, SOC 2 Type II, exceptions, bridge letters, complementary controls; questionnaire answers alone get no credit. Supplier risks recorded in NSD-ISMS-014 only when the assessment changes the risk picture. Treatment terms aligned with NSD-ISMS-012 (Modify, Avoid, Share, Retain). Concentration and exit added. Approval by band, with legal non-compliance not acceptable. Review triggers given timescales. |
 
 ---
 

@@ -3,7 +3,7 @@
 | Field | Value |
 | --- | --- |
 | Reference | NSD-ISMS-012 |
-| Version | 0.3 — Draft for approval |
+| Version | 1.0 — Draft for approval |
 | Framework | ISO/IEC 27001:2022 incl. Amendment 1:2024 (clauses 6.1.1, 6.1.2, 6.1.3, 8.2, 8.3) |
 | Related documents | [NSD-ISMS-002 Context](../01-initiation-and-context/02-organisational-context-register.md) · [NSD-ISMS-003 Interested Parties](../01-initiation-and-context/03-interested-party-requirements-register.md) · [NSD-ISMS-004 Scope](../01-initiation-and-context/04-isms-scope-statement.md) · [NSD-ISMS-009 Valuation](../02-asset-management/09-asset-valuation-methodology.md) · [NSD-ISMS-010 Risk Mapping](../02-asset-management/10-asset-risk-mapping.md) |
 | Owner | Information Security / GRC Analyst |
@@ -212,14 +212,6 @@ These records are the documented information required by clauses 8.2 and 8.3.
 | Managing Director | Approves the methodology | Pending | |
 | ISMS Steering Group | Reviews the methodology | Pending | |
 | Information Security / GRC Analyst | Prepared the methodology | Prepared | |
-
-## 12. Change log
-
-| Version | Change |
-| --- | --- |
-| 0.1 (portfolio draft) | First draft as NSD-ISMS-011 |
-| 0.2 | Renumbered to NSD-ISMS-012, since 011 is the asset procedure. Named the MD as approver instead of "Senior Management". Added the milestone document map and the clause 6.1.2(a) approval order. Added three identification sources linked to NSD-ISMS-002, 003 and 010, and a scenario template with an example. Set a 12-month assessment period. Linked impact to the NSD-ISMS-009 valuation. Defined three ratings (inherent, current residual, target residual) and the control credit rule. Added risk bands, a calibration step, quality checks, review frequency by band, records with classification and the Statement of Applicability step. Made the annual assessment a firm commitment. |
-| 0.3 | Treatment option shown as "Modify (also called mitigate)" so it reads the same in NSD-ISMS-014 and 015. |
 
 ---
 

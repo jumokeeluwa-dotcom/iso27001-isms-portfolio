@@ -3,7 +3,7 @@
 | Field | Value |
 | --- | --- |
 | Reference | NSD-ISMS-068 |
-| Version | 0.2 — Simulated tracker |
+| Version | 1.0 — Simulated tracker |
 | Status | **Simulated planning items. No action is shown as complete unless a record exists; where a due date has passed with no record, the item is Overdue** |
 | Position as at | 15 October 2027 (after the baseline mock Stage 1, NSD-ISMS-066) |
 | Sources | [061](61-clause-gap-assessment.md) · [062](62-annex-a-control-readiness-review.md) · [063](63-soa-validation.md) · [064](64-audit-evidence-index.md) · [065](65-certification-readiness-report.md) · [066](66-mock-stage1-audit.md) · [067](67-mock-stage2-audit.md) |
@@ -17,7 +17,7 @@
 
 **One register per item.** Most certification gaps are already actions in another register: a corrective action (034), a risk treatment action (015), a proposed management review action (039), a supplier assessment (058) or a scheduled test. This tracker **points to** that record and does not copy it, so each action has one owner, one date and one status.
 
-Only gaps with **no other home** become new remediation actions here (**RA-nn**). The draft gave every gap a new CR number, including work already tracked elsewhere and two items (internal audit and management review) described as not yet started.
+Only gaps with **no other home** become new remediation actions here (**RA-nn**).
 
 | Field | Meaning |
 | --- | --- |
@@ -98,7 +98,7 @@ If investigation shows that an RA item is a nonconformity, it moves to NSD-ISMS-
 
 ## 4. Closure
 
-The draft's five closure criteria are kept:
+A gap closes only when:
 
 1. The action is complete.
 2. Evidence has been obtained and reviewed.
@@ -106,7 +106,7 @@ The draft's five closure criteria are kept:
 4. Any effectiveness check is complete.
 5. An authorised reviewer has accepted closure.
 
-Two rules are added. **The verifier is never the owner,** and where the GRC Analyst owns the action, the internal auditor or the MD verifies (G12, G16). **An item closes in its home register first;** this tracker then reflects that status and never closes an item on its own authority.
+Two further rules apply. **The verifier is never the owner,** and where the GRC Analyst owns the action, the internal auditor or the MD verifies (G12, G16). **An item closes in its home register first;** this tracker then reflects that status and never closes an item on its own authority.
 
 ## 5. Escalation and reporting
 
@@ -115,22 +115,17 @@ Two rules are added. **The verifier is never the owner,** and where the GRC Anal
 | Status of all items; Overdue items; items blocked by another | Steering Group | Monthly |
 | Overdue Stage 1 blockers | MD | Immediately, and at every Steering Group |
 | Overdue more than 30 days | MD | As NSD-ISMS-046 §9 |
-| Summary of readiness and progress | Management review, input 9.3.2(c) | Each review |
+| Summary of readiness and progress | Management review, input 9.3.2(d) | Each review |
 
 The GRC Analyst co-ordinates and reports. **It does not accept risk on behalf of management:** a gap that cannot be closed in time is decided by the MD, under NSD-ISMS-016 where it involves accepting risk.
 
 **Position at 15 Oct 2027:** 26 gaps, 8 new remediation actions. **6 overdue:** the management review, SoA Wave 2, the failover test, the incident exercise, the MSP access restriction and the RCA-01 result. **One in progress:** the restore test, with its report due 19 Oct. **None closed.**
 
-## 6. Approval and change log
+## 6. Approval
 
 | Role | Decision | Date |
 | --- | --- | --- |
 | Managing Director | Pending | |
-
-| Version | Change |
-| --- | --- |
-| 0.1 (portfolio draft, as NSD-ISMS-064) | 18 CR actions, all "Open" with targets "to agree"; closure criteria; escalation; reporting |
-| 0.2 | Numbered NSD-ISMS-068. **Points to existing registers** instead of creating duplicate actions; only 8 gaps with no other home become new actions (RA-01 to RA-08). Gaps taken from 061–067, grouped by whether they block Stage 1 or Stage 2. Owners changed to charter roles ("Senior Management", "Security Lead", "Procurement", "Internal Audit Lead" and "Mock Audit Lead" removed). Dates set, with **Overdue** shown where a due date has passed with no record. The draft's "conduct internal audit" and "conduct management review" replaced: one audit exists, so the gap is the other eight; no review is recorded, so the first review is now an overdue Stage 1 blocker. Mock Stage 1 shown as held (baseline), with a second mock as a milestone. Verifier and closure evidence for every gap. |
 
 ---
 

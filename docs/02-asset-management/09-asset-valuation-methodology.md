@@ -3,7 +3,7 @@
 | Field | Value |
 | --- | --- |
 | Reference | NSD-ISMS-009 |
-| Version | 0.1 — Draft for approval |
+| Version | 1.0 — Draft for approval |
 | Framework | ISO/IEC 27001:2022 incl. Amendment 1:2024 (clauses 6.1.2, 8.2; Annex A 5.9, 5.12, 5.30) |
 | Related documents | [NSD-ISMS-006 Asset Register](06-information-asset-register.md) · [NSD-ISMS-007 Ownership](07-asset-ownership-register.md) · [NSD-ISMS-008 Classification](08-information-classification-scheme.md) |
 | Owner | Information Security / GRC Analyst |
@@ -87,7 +87,7 @@ Taking the highest rating as the overall value ranks nearly every important asse
 
 ## 6. Valuation of the 20 registered assets
 
-Ratings are taken from NSD-ISMS-006 v0.2 and validated against the criteria in section 3.
+Ratings are taken from NSD-ISMS-006 v1.0 and validated against the criteria in section 3.
 
 | ID | Asset | C | I | A | Tier | Main reason for the highest ratings |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -113,17 +113,6 @@ Ratings are taken from NSD-ISMS-006 v0.2 and validated against the criteria in s
 | AST-020 | Company endpoints | M | M | M | Medium | No Restricted data stored locally (NSD-ISMS-008) |
 
 **Result:** 11 Critical, 6 High, 3 Medium and 0 Low. The register so far holds only the 20 highest-value assets, so a top-heavy result is expected. The Medium and Low tiers will fill as the items in NSD-ISMS-006 §5 are added.
-
-### 6.1 Differences from the 1.0 draft, and how they were resolved
-
-| Asset | 1.0 draft | Resolved | Reason |
-| --- | --- | --- | --- |
-| Microsoft 365 | C2 I2 A3 | H H M | Holds Restricted files (inheritance rule). An email outage of under 2 working days has workarounds |
-| Azure / production environment | C2 I3 A3 | H H H | Hosts customer platform data |
-| Source code | C2 I3 A3 | M H M | Deployments can wait up to 2 working days; the live platform keeps running |
-| Customer support records | C3 I2 A2 | M M M | Support tickets are Confidential under NSD-ISMS-008 §3.3 |
-| Vulnerability reports | C3 I2 A2 | H H L | Altering a report could hide an unfixed vulnerability (integrity); the reports aren't needed urgently (availability) |
-| Security policies, development docs, network diagrams | Rated | Removed or merged | Matches the NSD-ISMS-006 asset list |
 
 ## 7. Valuation process
 
@@ -151,13 +140,6 @@ Ratings are taken from NSD-ISMS-006 v0.2 and validated against the criteria in s
 | Data Protection lead | Validates personal data ratings | Pending | |
 | Asset owners | Confirm the valuation of their assets | Pending | |
 | Information Security / GRC Analyst | Prepared the methodology | Prepared | |
-
-## 10. Change log
-
-| Version | Change |
-| --- | --- |
-| 1.0 (portfolio draft) | First draft: 1–3 scale; criticality equal to the highest rating |
-| 0.1 | Renumbered from NSD-ISMS-008 to NSD-ISMS-009, since 008 is the classification standard. Aligned the scale with the H/M/L ratings in NSD-ISMS-006. Added impact criteria across five impact areas, with illustrative financial thresholds. Added time-based availability bands and indicative RTO/RPO targets. Linked confidentiality to the NSD-ISMS-008 classification. Added rules for inherent value, dependencies and aggregation. Replaced "highest rating" criticality with tiers based on the number of High ratings. Revalued all 20 assets using the NSD-ISMS-006 list and recorded the differences from the draft. Added the valuation process and review triggers. |
 
 ---
 

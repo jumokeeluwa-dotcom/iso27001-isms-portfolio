@@ -5,34 +5,12 @@
 | Field | Value |
 | --- | --- |
 | Reference | NSD-ISMS-001 |
-| Version | 0.5 — Draft for senior management review |
+| Version | 1.0 — Draft for senior management review |
 | Framework | ISO/IEC 27001:2022 incl. Amendment 1:2024 |
 | Related documents | [NSD-ISMS-002 Organisational Context Register](02-organisational-context-register.md) · [NSD-ISMS-003 Interested-Party Requirements Register](03-interested-party-requirements-register.md) · [NSD-ISMS-004 ISMS Scope Statement](04-isms-scope-statement.md) |
 | Owner | Information Security / GRC Analyst |
 | Executive sponsor | Managing Director |
 | Classification | Internal — Simulated portfolio document |
-
-**Changes from v0.1**
-
-| Area | v0.1 | v0.2 |
-| --- | --- | --- |
-| Scope | Categories only, "proposed" | Named services, locations, boundaries, interfaces and exclusions (clause 4.3) |
-| Locations | "UK business operations" | UK office, hybrid/remote staff and EU-based personnel |
-| Data | Customer and employee only | Financial information added |
-| Interested parties | 6 generic parties | 16 parties with IDs, named requirements and an "addressed by ISMS" decision (4.2c) |
-| Context | Not documented | Internal and external issues held in NSD-ISMS-002 |
-| Climate change | Assumption only | Assessed in 4.1 context and 4.2 interested parties |
-| Objectives | Activities | Measurable objectives with targets (6.2) |
-| Control selection | "Assess Annex A controls" | Controls derived from risk treatment, then compared with Annex A (6.1.3) |
-| Governance | No sponsor or independence | Sponsor, risk owners, steering group, independent internal audit |
-| Plan | None | Milestones, resources, project risks |
-| Business continuity | Not mentioned | Included in objectives and deliverables |
-
-**Changes in v0.3:** the interested-party table in section 5.2 moved to NSD-ISMS-003, which is now the master record. IP-17 (business and integration partners) was added there.
-
-**Changes in v0.4:** the detailed scope in section 4 moved to NSD-ISMS-004, which is now the master scope record. The planned legal register is renumbered NSD-ISMS-005.
-
-**Changes in v0.5:** internal audit (phase 4) starts in month 7 and needs about 12 external auditor days, following the internal audit programme (NSD-ISMS-030).
 
 ## 1. Purpose and business drivers
 

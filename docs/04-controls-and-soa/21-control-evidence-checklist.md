@@ -3,7 +3,7 @@
 | Field | Value |
 | --- | --- |
 | Reference | NSD-ISMS-021 |
-| Version | 0.1 — Draft for control owner review |
+| Version | 1.0 — Draft for control owner review |
 | Framework | ISO/IEC 27001:2022 incl. Amendment 1:2024 (clauses 6.1.3(d), 7.5, 9.1, 9.2) |
 | Related documents | [NSD-ISMS-012 Methodology](../03-risk-management/12-risk-assessment-methodology.md) · [NSD-ISMS-015 Treatment Plan](../03-risk-management/15-risk-treatment-plan.md) · [NSD-ISMS-018 SoA Methodology](18-soa-methodology.md) · [NSD-ISMS-019 SoA](19-statement-of-applicability.md) · [NSD-ISMS-020 Risk–Control Mapping](20-risk-control-mapping.md) |
 | Owner | Information Security / GRC Analyst |
@@ -167,12 +167,6 @@ Controls confirmed in SoA Wave 2 (NSD-ISMS-020 §5) are added once they are asse
 | Control owners | Confirm the evidence they can provide | Pending | |
 | Internal auditor | Reviews the effectiveness tests for adequacy | Pending | |
 | Information Security / GRC Analyst | Prepared the checklist | Prepared | |
-
-## 10. Change log
-
-| Version | Change |
-| --- | --- |
-| 0.1 | First version. The three evidence types from the course brief (documented, operational, effectiveness), linked to SoA statuses and risk credit. Evidence ranking, quality criteria and sample sizes added. Checklist for 27 priority controls: the 18 from the brief plus 9 controls that treat Very High risks. Northstar-specific evidence, effectiveness tests and links to risks and treatment actions. Evidence handling rules. |
 
 ---
 

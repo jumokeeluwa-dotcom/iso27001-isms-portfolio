@@ -3,7 +3,7 @@
 | Field | Value |
 | --- | --- |
 | Reference | NSD-ISMS-046 |
-| Version | 0.2 — Draft for MD approval |
+| Version | 1.0 — Draft for MD approval |
 | Framework | ISO/IEC 27001:2022 incl. Amendment 1:2024 (clause 10.2) |
 | Related documents | [NSD-ISMS-034 Corrective Action Register](../06-internal-audit/34-corrective-action-register.md) · [NSD-ISMS-045 Continual Improvement](45-continual-improvement-procedure.md) · NSD-ISMS-048 Root Cause Analysis Report · [NSD-ISMS-030 Audit Programme](../06-internal-audit/30-internal-audit-programme.md) §8 |
 | Owner | Information Security / GRC Analyst |
@@ -139,16 +139,11 @@ These match NSD-ISMS-030 §8. Where the verification needs a longer observation 
 
 The register (NSD-ISMS-034), the evidence, root cause analyses, RCA reports (NSD-ISMS-048), extent checks, implementation evidence and verification results are kept for **3 years after closure**, classified Confidential.
 
-## 12. Approval and change log
+## 12. Approval
 
 | Role | Decision | Date |
 | --- | --- | --- |
 | Managing Director | Pending | |
-
-| Version | Change |
-| --- | --- |
-| 0.1 (portfolio draft, as NSD-ISMS-042) | First draft |
-| 0.2 | Numbered NSD-ISMS-046. Approver changed to the MD. Added a correction / corrective action / verification table with a Northstar example. The draft's clause 10.2 (a)–(e) list is kept and mapped to NSD-ISMS-034 fields; this also **exposed an error in NSD-ISMS-034 v0.2,** which had added an ISO 9001 item as 10.2(e), corrected in v0.3. Added "appropriate to the effects", grading for all sources, the rule that the owner (not the auditor) writes the root cause, an RCA report trigger, a recorded extent check even when nothing is found, timescales, observation periods by control frequency, independent verifiers, reopening on failure, and escalation for repeat and significant nonconformities. The draft's "never stop at human error" rule is kept with an example. |
 
 ---
 

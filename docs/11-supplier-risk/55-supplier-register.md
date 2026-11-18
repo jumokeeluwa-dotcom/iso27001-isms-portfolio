@@ -3,7 +3,7 @@
 | Field | Value |
 | --- | --- |
 | Reference | NSD-ISMS-055 |
-| Version | 0.2 — Simulated records |
+| Version | 1.0 — Simulated records |
 | Framework | ISO/IEC 27001:2022 incl. Amendment 1:2024: Annex A 5.19–5.23 |
 | Status | **Simulated. Suppliers named "Fictional … Ltd" are invented. Where the asset register shows a provider as "TBC", this register does the same rather than invent one. No contract review or assessment is represented** |
 | Position as at | 30 September 2027 |
@@ -43,36 +43,36 @@ This is the master list of every supplier within the scope of NSD-ISMS-026: who 
 
 ## 3. Tier and ownership
 
-Tiers follow NSD-ISMS-026 §3: **Critical** (processes customer data, has privileged access, or the platform depends on it), **High** (Northstar personal data or Confidential information) and **Standard.** The draft's Medium and Low tiers are not in the policy, so they are not used.
+Tiers follow NSD-ISMS-026 §3: **Critical** (processes customer data, has privileged access, or the platform depends on it), **High** (Northstar personal data or Confidential information) and **Standard.**
 
 **Rule for unknowns:** where a fact that decides the tier is not yet known, the supplier is treated at the **higher** tier until it is confirmed. Under-tiering a supplier means under-assessing it.
 
-| ID | Tier | Reason | Draft tier | Business owner | Review (026 §3) |
-| --- | --- | --- | --- | --- | --- |
-| SUP-01 | **Critical** | Customer data; the platform depends on it | Critical | Head of Engineering | Annually |
-| SUP-02 | **Critical** | Identity for all privileged access; named Critical in 026 §3 | High | IT Manager | Annually |
-| SUP-03 | High | Northstar personal data | High | HR Manager | Every 2 years |
-| SUP-04 | **Critical (provisional)** | Critical if it holds any administrator role; High if not. **To confirm** | High | IT Manager | Annually until confirmed |
-| SUP-05 | High | Confidential and personal data | High | Finance Manager | Every 2 years |
-| SUP-06 | **High** | Personal data | Medium | Sales lead | Every 2 years |
-| SUP-07 | **Critical** | Broad access to security telemetry; incident response (BIA A3) depends on it; may see customer data | High | GRC Analyst | Annually |
-| SUP-08 | **High** | Personal data | Medium | HR Manager | Every 2 years |
-| SUP-09 | **Critical** | Deploys to production, so it is a privileged route into the platform; named Critical in 026 §3 | Not listed | Head of Engineering | Annually |
-| SUP-10 | **Critical** | Likely processes customer data | Not listed | Customer Support Manager | Annually |
-| SUP-11 | High | Personal data | Not listed | HR Manager | Every 2 years |
-| SUP-12 | High | Confidential information | Not listed | Finance Manager | Every 2 years |
-| SUP-13 | High | Restricted information (see gap 5) | Not listed | Managing Director | Every 2 years |
-| SUP-14 | High | Restricted information (see gap 5) | Not listed | GRC Analyst | Before each engagement |
-| SUP-15 | High; **Critical** for any agency whose contractors have production or privileged access | By access | Not listed | HR Manager | By tier |
-| SUP-16 | **Critical** | Full access when engaged. Assessed **before** an incident, because there is no time during one | Not listed | GRC Analyst | Annually |
+| ID | Tier | Reason | Business owner | Review (026 §3) |
+| --- | --- | --- | --- | --- |
+| SUP-01 | **Critical** | Customer data; the platform depends on it | Head of Engineering | Annually |
+| SUP-02 | **Critical** | Identity for all privileged access; named Critical in 026 §3 | IT Manager | Annually |
+| SUP-03 | High | Northstar personal data | HR Manager | Every 2 years |
+| SUP-04 | **Critical (provisional)** | Critical if it holds any administrator role; High if not. **To confirm** | IT Manager | Annually until confirmed |
+| SUP-05 | High | Confidential and personal data | Finance Manager | Every 2 years |
+| SUP-06 | **High** | Personal data | Sales lead | Every 2 years |
+| SUP-07 | **Critical** | Broad access to security telemetry; incident response (BIA A3) depends on it; may see customer data | GRC Analyst | Annually |
+| SUP-08 | **High** | Personal data | HR Manager | Every 2 years |
+| SUP-09 | **Critical** | Deploys to production, so it is a privileged route into the platform; named Critical in 026 §3 | Head of Engineering | Annually |
+| SUP-10 | **Critical** | Likely processes customer data | Customer Support Manager | Annually |
+| SUP-11 | High | Personal data | HR Manager | Every 2 years |
+| SUP-12 | High | Confidential information | Finance Manager | Every 2 years |
+| SUP-13 | High | Restricted information (see gap 5) | Managing Director | Every 2 years |
+| SUP-14 | High | Restricted information (see gap 5) | GRC Analyst | Before each engagement |
+| SUP-15 | High; **Critical** for any agency whose contractors have production or privileged access | By access | HR Manager | By tier |
+| SUP-16 | **Critical** | Full access when engaged. Assessed **before** an incident, because there is no time during one | GRC Analyst | Annually |
 
-**Result:** 7 Critical suppliers (one provisional), against 1 in the draft and 5 in the Q2 2027 KPI count; 9 High.
+**Result:** 7 Critical suppliers (one provisional), against 5 in the Q2 2027 KPI count; 9 High.
 
 ## 4. Gaps this register found
 
 | # | Gap | Why it matters | Route |
 | --- | --- | --- | --- |
-| 1 | The draft listed **one** Critical supplier. The Q2 2027 dashboard counted **five** (KPI-14: 4 of 5 assessed). The policy's own criteria give **seven** | KPI-14 has been measured against an incomplete list. From Q3 2027 it is reported against the new count, with the change explained, **not compared like for like** with Q2. Which five suppliers were counted, and their assessment records, are not in the portfolio (see NSD-ISMS-058 §2) | NSD-ISMS-044 note; KPI owner (Finance Manager) |
+| 1 | The Q2 2027 dashboard counted **five** Critical suppliers (KPI-14: 4 of 5 assessed). The policy's own criteria give **seven** | KPI-14 has been measured against an incomplete list. From Q3 2027 it is reported against the new count, with the change explained, **not compared like for like** with Q2. Which five suppliers were counted, and their assessment records, are not in the portfolio (see NSD-ISMS-058 §2) | NSD-ISMS-044 note; KPI owner (Finance Manager) |
 | 2 | Eight suppliers that the asset register already relies on were not listed | Unlisted suppliers are never assessed | Added (SUP-09 to SUP-16) |
 | 3 | The CRM (SUP-06) holds customer contacts but is **not in the asset register** | An unregistered asset has no owner, classification or risk assessment | NSD-ISMS-006 update (asset owner: Sales lead) |
 | 4 | SUP-02, 07, 09, 10 and 14 may process customer personal data | NSD-ISMS-026 §5 requires each sub-processor to be on the customer-facing list, and customers notified **before** it processes their data. If any already does and is not listed, a requirement is not met | Data Protection lead confirms; **possible nonconformity** (NSD-ISMS-034) if confirmed |
@@ -118,16 +118,11 @@ Reconciling against other records is what makes the register complete. Relying o
 
 The register supports Annex A **5.19** (supplier relationships), **5.21** (ICT supply chain), **5.22** (monitoring) and **5.23** (cloud services). The SoA currently shows 5.19, 5.20 and 5.22 as **To be assessed,** and 5.21 as "likely applicable" in Wave 2. The SoA entries, with applicability, justification and status, are updated **at the end of this milestone,** once assessment evidence exists (NSD-ISMS-058). The register alone shows that suppliers are listed, not that they are managed.
 
-## 8. Approval and change log
+## 8. Approval
 
 | Role | Decision | Date |
 | --- | --- | --- |
 | ISMS Steering Group | Pending | |
-
-| Version | Change |
-| --- | --- |
-| 0.1 (portfolio draft, as NSD-ISMS-051) | Eight fictional suppliers with an initial criticality |
-| 0.2 | Numbered NSD-ISMS-055. Register owner changed to the GRC Analyst (NSD-ISMS-026 §7); "Procurement Manager" is not a charter role. Business owners mapped to charter roles: "Sales Director" became the Sales lead, "Security Lead" the GRC Analyst. Tiers aligned with NSD-ISMS-026 (Critical, High, Standard), with a rule to treat unknowns at the higher tier. **Re-tiering:** Microsoft 365, the MSSP (SUP-07) and, provisionally, the MSP (SUP-04) raised to Critical; CRM and recruitment raised to High. **Eight suppliers added** that the asset register already relies on, including the code pipeline, the ticketing system, contractor agencies and the incident response provider. Columns added for assets, classification, sub-processor status and location. Seven gaps recorded and routed, including a CRM missing from the asset register and possibly unlisted sub-processors. Reconciliations against Finance and Entra ID replace "reviewed periodically". SoA impact noted. |
 
 ---
 

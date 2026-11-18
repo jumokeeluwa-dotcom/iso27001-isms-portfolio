@@ -3,7 +3,7 @@
 | Field | Value |
 | --- | --- |
 | Reference | NSD-ISMS-013 |
-| Version | 0.1 — Draft for MD approval |
+| Version | 1.0 — Draft for MD approval |
 | Framework | ISO/IEC 27001:2022 incl. Amendment 1:2024 (clause 6.1.2(a), (b), (d)) |
 | Related documents | [NSD-ISMS-009 Valuation](../02-asset-management/09-asset-valuation-methodology.md) · [NSD-ISMS-010 Risk Mapping](../02-asset-management/10-asset-risk-mapping.md) · [NSD-ISMS-012 Methodology](12-risk-assessment-methodology.md) · NSD-ISMS-016 Risk Acceptance Criteria (planned) |
 | Owner | Information Security / GRC Analyst |
@@ -36,7 +36,7 @@ Likelihood is the chance that **the whole scenario**, including its consequence,
 **Scoring rules**
 
 - **Score the scenario, not the threat attempt.** Phishing emails arrive every day, but this does not make "phishing leads to a reportable breach" Almost certain. Score the full chain.
-- **Controls are not part of the scale.** For **inherent** risk, score as if the scenario's specific controls did not exist. For **current residual** risk, reduce the score only for controls that pass the control credit rule (NSD-ISMS-012 §5, Step 3). The 1.0 draft defined Rare as "strong preventative measures", which mixed the two, so that wording is removed.
+- **Controls are not part of the scale.** For **inherent** risk, score as if the scenario's specific controls did not exist. For **current residual** risk, reduce the score only for controls that pass the control credit rule (NSD-ISMS-012 §5, Step 3).
 - **If torn between two scores,** take the higher and record Low confidence.
 
 ## 3. Impact scale
@@ -119,13 +119,6 @@ The examples show three things the matrix is designed to capture:
 | ISMS Steering Group | Reviews for consistency with the risk appetite | Pending | |
 | Data Protection lead | Validates the data compromise and regulatory categories | Pending | |
 | Information Security / GRC Analyst | Prepared the matrix | Prepared | |
-
-## 8. Change log
-
-| Version | Change |
-| --- | --- |
-| 1.0 (portfolio draft) | Illustrative 5×5 matrix; bands Low 1–4, Medium 5–9, High 10–16, Critical 17–25 |
-| 0.1 | Numbered NSD-ISMS-013. Top band renamed from Critical to **Very High**, so it isn't confused with the asset "Critical" tier in NSD-ISMS-009. Score 16 (Likely × Major) moved from High to Very High, matching NSD-ISMS-012. Likelihood defined by probability, frequency and Northstar evidence over 12 months; control wording removed from the scale. Impact defined across six categories, with financial thresholds aligned to NSD-ISMS-009 and availability aligned to the 4-hour RTO. Added required responses per band, the Severe-impact reporting rule and three worked examples showing control credit. |
 
 ---
 

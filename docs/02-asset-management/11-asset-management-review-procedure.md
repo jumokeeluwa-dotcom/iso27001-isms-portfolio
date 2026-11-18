@@ -3,7 +3,7 @@
 | Field | Value |
 | --- | --- |
 | Reference | NSD-ISMS-011 |
-| Version | 0.1 — Draft for approval |
+| Version | 1.0 — Draft for approval |
 | Framework | ISO/IEC 27001:2022 incl. Amendment 1:2024 (clauses 7.5, 9.1, 10.2; Annex A 5.9–5.14, 5.18, 7.10, 7.14, 8.10) |
 | Related documents | [NSD-ISMS-006 Asset Register](06-information-asset-register.md) · [NSD-ISMS-007 Ownership](07-asset-ownership-register.md) · [NSD-ISMS-008 Classification](08-information-classification-scheme.md) · [NSD-ISMS-009 Valuation](09-asset-valuation-methodology.md) · [NSD-ISMS-010 Risk Mapping](10-asset-risk-mapping.md) |
 | Process owner | Information Security / GRC Analyst |
@@ -190,13 +190,6 @@ The retention periods are proposals. Three years covers a full certification cyc
 | IT Manager | Validates discovery and disposal steps | Pending | |
 | Data Protection lead | Validates retention and disposal rules | Pending | |
 | Information Security / GRC Analyst | Process owner | Prepared | |
-
-## 13. Change log
-
-| Version | Change |
-| --- | --- |
-| 1.0 (portfolio draft) | First draft: Information Asset Management Procedure (NSD-ISMS-010) |
-| 0.1 | Renumbered from NSD-ISMS-010 to NSD-ISMS-011 and retitled to include review and approval, completing the asset management milestone. Process owner moved from the IT Manager to the GRC Analyst to avoid a segregation-of-duties conflict. Classification now refers to confidentiality only (NSD-ISMS-008), with integrity and availability under NSD-ISMS-009. Replaced "quarterly for all" reviews with the risk-based schedule used in 006, 007 and 009. Added a RACI, the lifecycle stages, approval workflows with time limits, an attestation checklist with escalation, technical discovery and reconciliation, mandatory disposal records, exceptions aligned with NSD-ISMS-008, measures for Obj 2, and record retention periods. Replaced the generic protection list with references to NSD-ISMS-008 and 010. |
 
 ---
 

@@ -3,7 +3,7 @@
 | Field | Value |
 | --- | --- |
 | Reference | NSD-ISMS-018 |
-| Version | 0.3 — Draft for approval |
+| Version | 1.0 — Draft for approval |
 | Framework | ISO/IEC 27001:2022 incl. Amendment 1:2024 (clause 6.1.3(b)–(f); Annex A) |
 | Related documents | [NSD-ISMS-003 Interested Parties](../01-initiation-and-context/03-interested-party-requirements-register.md) · [NSD-ISMS-004 Scope](../01-initiation-and-context/04-isms-scope-statement.md) · [NSD-ISMS-012 Risk Methodology](../03-risk-management/12-risk-assessment-methodology.md) · [NSD-ISMS-014 Risk Register](../03-risk-management/14-risk-register.md) · [NSD-ISMS-015 Treatment Plan](../03-risk-management/15-risk-treatment-plan.md) · [NSD-ISMS-016 Acceptance Criteria](../03-risk-management/16-risk-acceptance-criteria-register.md) · NSD-ISMS-019 Statement of Applicability (planned) |
 | Owner | Information Security / GRC Analyst |
@@ -164,14 +164,6 @@ Customers and prospects often ask for it (IP-01, IP-02). It is shared externally
 | Managing Director | Approves the methodology | Pending | |
 | ISMS Steering Group | Reviews the methodology | Pending | |
 | Information Security / GRC Analyst | Prepared the methodology | Prepared | |
-
-## 13. Change log
-
-| Version | Change |
-| --- | --- |
-| 0.1 (portfolio draft, as NSD-ISMS-015) | Selection sources, applicability decisions, five implementation statuses, required fields |
-| 0.2 | Renumbered NSD-ISMS-018; 015 is the treatment plan and 017 is reserved for the risk ownership register. Approver changed from Senior Management to the MD. Added the Annex A theme summary, reason codes linked to Northstar documents, exclusion rules (no cost-based or "supplier does it" exclusions), and mapping of implementation statuses to the NSD-ISMS-012 control credit rule. Added the additional-controls section (NSD-C-nn), a seven-step process with an Annex A comparison and a link to the scope statement, quality checks, versioning rules, and classification and sharing rules. |
-| 0.3 | "Planned" also covers dated charter milestones (e.g. the information security policy, 5.1), found while building NSD-ISMS-019. |
 
 ---
 

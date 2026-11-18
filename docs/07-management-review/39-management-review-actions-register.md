@@ -3,7 +3,7 @@
 | Field | Value |
 | --- | --- |
 | Reference | NSD-ISMS-039 |
-| Version | 0.2 — Simulated examples |
+| Version | 1.0 — Simulated examples |
 | Procedure | [NSD-ISMS-036](36-management-review-procedure.md) §8 · Decisions recorded in [NSD-ISMS-038](38-management-review-minutes-template.md) §4 |
 | Register owner | Information Security / GRC Analyst (tracks; verifies evidence for actions it does not own) |
 | Reviewed | At every monthly Steering Group meeting; status is input (a) to the next management review |
@@ -48,7 +48,7 @@ Where the review takes a decision about an item in another register (for example
 
 ## 4. Required fields (operational register)
 
-The draft's field list is kept, with the following additions and clarifications:
+Each action records the following fields:
 
 | Field | Note |
 | --- | --- |
@@ -91,24 +91,6 @@ The draft's field list is kept, with the following additions and clarifications:
 8. Close the action and keep the record. Its status is input (a) to the next review.
 
 An action is **never marked complete only because the owner says it is done.**
-
-## 7. What happened to the draft's example actions
-
-| Draft action | Disposition | Reason |
-| --- | --- | --- |
-| MRA-001 Review and update the asset register | **Removed** | Already done by the quarterly attestation (NSD-ISMS-011). Raise an action only if the review finds a gap |
-| MRA-002 Complete overdue access reviews | **Tracked as CA-02** (NSD-ISMS-034) | Duplicate of a corrective action |
-| MRA-003 Improve leaver evidence retention | **Tracked as CA-01** (NSD-ISMS-034) | Duplicate of a corrective action |
-| MRA-004 Review cloud supplier assurance | **Monitored** (section 3) | Already covered by T-16.2 and Obj 9 |
-| MRA-005 Improve awareness training | **Replaced by MRA-2027-04** | Made measurable: 95% completion by a set date |
-| MRA-006 Review progress against objectives | **Removed** | An input to the review (clause 9.3.2(d)(4)), not an action |
-
-## 8. Change log
-
-| Version | Change |
-| --- | --- |
-| 0.1 (portfolio draft, as NSD-ISMS-035) | Six example actions, tracking fields and lifecycle |
-| 0.2 | Numbered NSD-ISMS-039. Added the rule that each action lives in one register: duplicates of CA-01 and CA-02 moved to monitoring, and the review input removed. Example actions now come from the decisions expected at MR-2027-01, each with a decision reference, expected outcome, one accountable owner, dates, completion evidence and an independent verifier. Includes the missing legal register (MRA-2027-02) and the ARM-26 deputy gap (MRA-2027-06). Added defined status values, 30-day escalation to the MD, date-change and cancellation rules, and the disposition of each draft action. The draft's field list, lifecycle and evidence principle are kept. |
 
 ---
 

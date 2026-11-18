@@ -28,7 +28,7 @@ A fictional B2B SaaS provider of about 85 people, with a UK head office and EU-b
 ## How I worked
 
 - **Evidence over assertion:** missing records are not success, "no events" is never 100%, and nobody verifies their own work.
-- **Drafts are challenged, and errors are corrected openly:** every document's change log records what was found and fixed, including two of my own mistakes, which I traced through every affected document.
+- **Drafts are challenged, and errors are corrected openly:** the build walkthrough records what was found and fixed at each stage, including two of my own mistakes, which I traced through every affected document.
 - **Honest conclusions:** the readiness assessment concludes the ISMS is **not yet ready for Stage 1,** and shows why, with owners and dates for each gap.
 
 ## Background and objective

@@ -3,7 +3,7 @@
 | Field | Value |
 | --- | --- |
 | Reference | NSD-ISMS-041 |
-| Version | 0.2 — Draft for MD approval |
+| Version | 1.0 — Draft for MD approval |
 | Framework | ISO/IEC 27001:2022 incl. Amendment 1:2024 (clauses 6.2, 9.1) |
 | Related documents | NSD-ISMS-042 KPI Register · NSD-ISMS-043 Monitoring and Measurement Plan · NSD-ISMS-044 Performance Dashboard · [NSD-ISMS-021 Evidence Checklist](../04-controls-and-soa/21-control-evidence-checklist.md) · [NSD-ISMS-036 Management Review](../07-management-review/36-management-review-procedure.md) |
 | Owner | Information Security / GRC Analyst |
@@ -136,16 +136,11 @@ Each period's results are compared with:
 | Dashboards and reports | Confidential (they show weaknesses) | 3 years |
 | Analysis, validation and evaluation records; escalations | Confidential | 3 years |
 
-## 12. Approval and change log
+## 12. Approval
 
 | Role | Decision | Date |
 | --- | --- | --- |
 | Managing Director | Pending | |
-
-| Version | Change |
-| --- | --- |
-| 0.1 (portfolio draft, as NSD-ISMS-037) | First draft |
-| 0.2 | Numbered NSD-ISMS-041; 037 to 040 are management review documents. Approver changed to the MD. Added a single-source rule making the KPI register the only place a measure is defined. Defined measure types and selection rules. Mapped clause 9.1(a)–(f), separating **who monitors** (data owners) from **who analyses** (the GRC Analyst) and **who evaluates** (the Steering Group and MD). Added validation rules (precise definitions, system sources, quarterly re-performance, annual audit, the "Unvalidated" label), Red/Amber/Green ratings consistent with NSD-ISMS-040, hard limits, investigation triggers and an escalation table with timescales and links to corrective action, the SoA and risk re-scoring. "Department Managers" replaced with named data owners, including the Head of Engineering and Data Protection lead. The draft's six elements and its principle on unvalidated results are kept. |
 
 ---
 

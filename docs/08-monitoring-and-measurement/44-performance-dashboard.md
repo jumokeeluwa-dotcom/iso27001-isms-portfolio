@@ -3,7 +3,7 @@
 | Field | Value |
 | --- | --- |
 | Reference | NSD-ISMS-044 |
-| Version | 0.2 — Illustrative example |
+| Version | 1.0 — Illustrative example |
 | Reporting period | **August 2027** (data cut-off 31 August 2027). This is also the cut-off for management review MR-2027-01 |
 | Status | **Simulated. All figures are fictional training examples, not actual performance data** |
 | Prepared by (analysis) | Information Security / GRC Analyst |
@@ -116,13 +116,6 @@ Most technical controls that protect against the most serious risks are performi
 The falling risk treatment trend points to a capacity issue rather than control failure. This supports the resource decision already on the agenda for management review.
 
 All Red results are validated and assigned for investigation, and no hard limit was breached. These results are input (d)(2) to MR-2027-01.
-
-## 7. Change log
-
-| Version | Change |
-| --- | --- |
-| 0.1 (portfolio draft, as NSD-ISMS-040) | 10 illustrative KPIs, observations, recommended actions and conclusion |
-| 0.2 | Numbered NSD-ISMS-044 and expanded to all 21 KPIs in NSD-ISMS-042. **Ratings recalculated strictly from the register thresholds:** MFA 96% changed from Amber to **Red** (below 98%); supplier reviews 80% from Amber to **Red** (below 90%); leavers 90% from Red to **Amber** (one late, no sign-ins, corrective action in place). Training target corrected to 95%. Incident acknowledgement replaced by KPI-12 and 13, reported as "No events". Added counts for small populations, 3-period trends, a hard-limit column, validation status, objective status, escalation timings and links to the corrective action and management review registers. Owners aligned: "Security Lead" removed; "Risk Owners / Senior Management" became the MD's resource decision. The illustrative month is set as August 2027 to connect with MR-2027-01. The draft's investigation-first observations are kept and made specific. |
 
 ---
 

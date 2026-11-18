@@ -3,7 +3,7 @@
 | Field | Value |
 | --- | --- |
 | Reference | NSD-ISMS-043 |
-| Version | 0.2 — Proposed |
+| Version | 1.0 — Proposed |
 | Procedure | [NSD-ISMS-041](41-monitoring-measurement-procedure.md) · KPI definitions: [NSD-ISMS-042](42-kpi-register.md) |
 | Plan owner | Information Security / GRC Analyst |
 | Approver | ISMS Steering Group |
@@ -90,7 +90,7 @@ Before any result is reported, the GRC Analyst confirms:
 
 ## 6. Escalation
 
-These match NSD-ISMS-041 §9 and the hard limits in NSD-ISMS-042 §4. The draft's list is kept, with timescales added:
+These match NSD-ISMS-041 §9 and the hard limits in NSD-ISMS-042 §4. Triggers and timescales:
 
 | Situation | Escalate to | Within |
 | --- | --- | --- |
@@ -112,13 +112,6 @@ The following are kept in the GRC evidence repository (Confidential) for **3 yea
 - exceptions;
 - escalations;
 - dashboards.
-
-## 8. Change log
-
-| Version | Change |
-| --- | --- |
-| 0.1 (portfolio draft, as NSD-ISMS-039) | Collection plan for 10 KPIs, validation steps, reporting schedule and escalation list |
-| 0.2 | Numbered NSD-ISMS-043, aligned with the 21 KPIs in NSD-ISMS-042. Separate roles for collecting (data owner), analysing (GRC Analyst) and evaluating (Steering Group, MD), with internal audit checking GRC-owned figures. A monthly working-day timetable. Collection plan with a validation check for each KPI. Quarterly re-performance of 3 KPIs. "Security Lead" and "Procurement Manager" replaced with existing roles; "senior management" replaced with the MD and Steering Group. "Promptly, based on severity" replaced with escalation timescales tied to the incident policy and hard limits. The draft's seven data-quality steps and its escalation situations are kept. |
 
 ---
 

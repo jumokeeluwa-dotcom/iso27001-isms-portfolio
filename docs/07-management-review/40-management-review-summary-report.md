@@ -3,7 +3,7 @@
 | Field | Value |
 | --- | --- |
 | Reference | NSD-ISMS-040 |
-| Version | 0.2 — Blank template |
+| Version | 1.0 — Blank template |
 | Review | *MR-YYYY-nn (first planned: MR-2027-01, 22 September 2027)* |
 | Period covered | *e.g. 1 December 2026 to 31 August 2027 (data cut-off)* |
 | Source records | Inputs: [NSD-ISMS-037](37-management-review-agenda-inputs.md) · Minutes: [NSD-ISMS-038](38-management-review-minutes-template.md) · Actions: [NSD-ISMS-039](39-management-review-actions-register.md) |
@@ -106,13 +106,6 @@ Every rating comes from a figure in the minutes.
 | Consistency check against the approved minutes | *GRC Analyst, with date* |
 | Distribution | *All staff via intranet; Steering Group; certification body on request* |
 | Record location | GRC repository; kept 3 years (NSD-ISMS-036 §9) |
-
-## 10. Change log
-
-| Version | Change |
-| --- | --- |
-| 0.1 (portfolio draft, as NSD-ISMS-036) | Summary report template |
-| 0.2 | Numbered NSD-ISMS-040. Separated from the minutes in purpose, length, audience and classification (Internal summary vs Confidential minutes). Headline conclusion copied word for word from the minutes. Defined the Green/Amber/Red ratings. Each performance area now names its measure, target, source document and trend. Significant issues, decisions and actions linked to their DEC and MRA references. Added "what this means for staff" (clause 7.4) and a consistency check against the approved minutes. The approver is now the MD only. The draft's disclaimer and "based on actual information" principle are kept. |
 
 ---
 

@@ -3,7 +3,7 @@
 | Field | Value |
 | --- | --- |
 | Reference | NSD-ISMS-022 |
-| Version | 0.2 — Draft for MD approval |
+| Version | 1.0 — Draft for MD approval |
 | Framework | ISO/IEC 27001:2022 incl. Amendment 1:2024 (clauses 5.1, 5.2; Annex A 5.1) |
 | Policy owner | Information Security / GRC Analyst |
 | Approver | Managing Director (top management, clause 5.2) |
@@ -123,13 +123,6 @@ Topic-specific policies are approved by the MD and must be consistent with this 
 | Role | Decision | Date |
 | --- | --- | --- |
 | Managing Director | Pending | |
-
-## 13. Change log
-
-| Version | Change |
-| --- | --- |
-| 0.1 (portfolio draft, as NSD-ISMS-018) | First draft |
-| 0.2 | Numbered NSD-ISMS-022; 018 is the SoA methodology. Owner changed from "Security Lead" to the GRC Analyst, and approver from Senior Management to the MD. Added the clause 5.2 commitments explicitly, and linked objectives to the measurable charter objectives (Obj 1–10). Scope aligned with NSD-ISMS-004, including EU personnel and regions. Roles aligned with NSD-ISMS-007, 016, 017 and 019. "Potential obligations, subject to validation" replaced with the obligations confirmed in NSD-ISMS-003. Added principles, the topic-specific policy set, a concrete reporting duty, the single exceptions process, the acknowledgement target and the Public classification on approval. |
 
 ---
 

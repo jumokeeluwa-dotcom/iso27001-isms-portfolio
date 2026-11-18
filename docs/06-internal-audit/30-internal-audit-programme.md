@@ -3,7 +3,7 @@
 | Field | Value |
 | --- | --- |
 | Reference | NSD-ISMS-030 |
-| Version | 0.3 — Draft for MD approval |
+| Version | 1.0 — Draft for MD approval |
 | Framework | ISO/IEC 27001:2022 incl. Amendment 1:2024 (clause 9.2; Annex A 5.35); guidance from ISO 19011 |
 | Related documents | [NSD-ISMS-001 Charter](../01-initiation-and-context/01-isms-project-charter.md) · [NSD-ISMS-014 Risk Register](../03-risk-management/14-risk-register.md) · [NSD-ISMS-019 SoA](../04-controls-and-soa/19-statement-of-applicability.md) · [NSD-ISMS-021 Evidence Checklist](../04-controls-and-soa/21-control-evidence-checklist.md) · Policies NSD-ISMS-022 to 029 |
 | Programme manager | Information Security / GRC Analyst (scheduling and logistics only, **not an auditor**) |
@@ -73,7 +73,7 @@ Cycle 1 runs after treatment actions are complete (NSD-ISMS-015: by 1 March 2027
 | AUD-09 | People, physical security and acceptable use | A 6.1–6.4, 6.6, 6.7; 7.1–7.14; 5.10; 8.1, 8.7 | R-10, R-20, R-04 | High | Aug 2027 | 0.5 | HR Manager, IT Manager |
 | AUD-10 | Performance evaluation and improvement, plus follow-up of AUD-01 to 09 findings | Clauses 9.1, 9.3, 10 | — | High | Aug 2027 | 1 | GRC Analyst, MD |
 
-**Resources.** Cycle 1 needs about **10.5 auditor days on site, or about 12 days including planning and reporting.** Charter §8.1 budgeted 5–7 days, so the MD is asked to approve the higher figure (charter v0.5).
+**Resources.** Cycle 1 needs about **10.5 auditor days on site, or about 12 days including planning and reporting.** Charter §8.1 budgeted 5–7 days, so the MD is asked to approve the higher figure (charter v1.0).
 
 ## 6. Coverage
 
@@ -191,14 +191,6 @@ Each audit report contains:
 | Managing Director | Approves the programme and auditor resources | Pending | |
 | ISMS Steering Group | Reviews coverage and priorities | Pending | |
 | Information Security / GRC Analyst | Programme manager | Prepared | |
-
-## 15. Change log
-
-| Version | Change |
-| --- | --- |
-| 0.1 (portfolio draft, as NSD-ISMS-026) | 11 audits spread over 12 months |
-| 0.2 | Numbered NSD-ISMS-030; 026 is the Supplier Security Policy. Approver changed to the MD. Schedule moved to June–August 2027 (charter months 7–9), after controls have operated for 3 months and before management review and Stage 1. The draft's month 1–12 spread would have audited controls before they existed and finished after certification. The independence principle is made concrete: an external lead auditor, written confirmation, reporting direct to the MD, and the GRC Analyst limited to programme management. Added a secure development and change audit (AUD-04), missing from the draft although Northstar builds its own SaaS. Priorities tied to Very High risks. Added clause and Annex A coverage, auditor days and the charter resource gap, grading of findings with deadlines, reuse of the NSD-ISMS-021 tests, and the link to management review. Merged the "readiness" audit into AUD-10. |
-| 0.3 | Found while planning AUD-03 (NSD-ISMS-031): logging and monitoring (8.15, 8.16) were in no audit's scope, and source code access (8.4) belongs with platform security. All three added to AUD-04, and 8.4 removed from AUD-03. |
 
 ---
 

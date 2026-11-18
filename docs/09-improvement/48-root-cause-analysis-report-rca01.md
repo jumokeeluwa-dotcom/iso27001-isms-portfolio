@@ -3,7 +3,7 @@
 | Field | Value |
 | --- | --- |
 | Reference | NSD-ISMS-048 (report RCA-01) |
-| Version | 0.2 — Simulated training example |
+| Version | 1.0 — Simulated training example |
 | Status | **Simulated. The investigation has not actually been performed. Facts come from earlier portfolio records; results not yet in those records are shown as "to be recorded", not assumed** |
 | Nonconformity | AUD03-F01 (Minor), corrective action CA-01 |
 | Trigger | August 2027 KPI-01: a **second** contractor disabled 2 days late (NSD-ISMS-044 §3). A possible **repeat nonconformity**, which requires this report (NSD-ISMS-046 §5) |
@@ -115,7 +115,7 @@ Existing actions are tracked in NSD-ISMS-034 and are **not repeated as new actio
 | **CA-01.4 (if H3):** Hiring managers record early terminations and extensions **in the HR system**, not by email. The leaver workflow starts from that record. Briefing for hiring managers | Proposed | HR Manager | 20 working days after approval |
 | **CA-01.5 (if H3):** Monthly reconciliation of active contractor accounts against **Finance's** list of contractors invoiced in the month. This independent source would catch an early termination that never reached HR | Proposed | IT Manager (Finance Manager provides the list) | First run in the month after approval |
 
-The draft's six generic actions (a leaver workflow, defined responsibilities, completion evidence, reconciliation, monitoring and training) were checked against what exists. The workflow (T-12.3), responsibilities (NSD-ISMS-023 §9) and monitoring (KPI-01) are already in place. Reconciliation and training remain, as CA-01.5 and CA-01.4, aimed at the contractor gap.
+Six actions commonly proposed for leaver failures (a leaver workflow, defined responsibilities, completion evidence, reconciliation, monitoring and training) were checked against what exists. The workflow (T-12.3), responsibilities (NSD-ISMS-023 §9) and monitoring (KPI-01) are already in place. Reconciliation and training remain, as CA-01.5 and CA-01.4, aimed at the contractor gap.
 
 **ISMS changes (clause 10.2(e)), if H3 is confirmed:** NSD-ISMS-023 §9 gains "changes to a contractor's end date are made in the HR system"; the HR contractor procedure is updated.
 
@@ -159,13 +159,6 @@ Testing the whole population shows that the control worked in the window. It doe
 | Facilitator | GRC Analyst | Analysis complete: pending | |
 | Verifier | Lead auditor | Effectiveness: pending | |
 | Informed (significant nonconformity) | Managing Director | | |
-
-## 10. Change log
-
-| Version | Change |
-| --- | --- |
-| 0.1 (portfolio draft, as NSD-ISMS-044) | Generic report: "former employee", FIND-001, joint owners, 30- and 45-day targets |
-| 0.2 | Numbered NSD-ISMS-048 (RCA-01), linked to AUD03-F01 and CA-01. **Trigger stated:** the August repeat case, as required by NSD-ISMS-046 §5. Facts aligned with the records: a contractor, 2 days late, whole population tested, no use, not "cannot demonstrate". Requirement made specific (023 §9; SoA status). Added is / is not analysis, which shows the cause is specific to contractors and rules out the draft's general "no workflow" chain; the 5 Whys taken from CA-01, plus a contributing cause (detective control removed when T-12.3 went live). Case 2 handled as **three hypotheses with tests,** not an assumed answer. Existing actions referenced rather than duplicated; two conditional actions added. Verification uses the whole population, requires a contractor in the window, and adds a reverse test. One owner; the lead auditor verifies; MD informed because R-12 is Very High. |
 
 ---
 

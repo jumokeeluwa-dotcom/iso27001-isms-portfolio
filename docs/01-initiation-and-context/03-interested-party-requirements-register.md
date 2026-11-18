@@ -3,7 +3,7 @@
 | Field | Value |
 | --- | --- |
 | Reference | NSD-ISMS-003 |
-| Version | 0.2 — Draft for review |
+| Version | 1.0 — Draft for review |
 | Framework | ISO/IEC 27001:2022 incl. Amendment 1:2024 (clause 4.2; Annex A 5.31) |
 | Related documents | [NSD-ISMS-001 Project Charter](01-isms-project-charter.md) · [NSD-ISMS-002 Context Register](02-organisational-context-register.md) · [NSD-ISMS-004 Scope Statement](04-isms-scope-statement.md) |
 | Owner | Information Security / GRC Analyst |
@@ -128,14 +128,6 @@ These triggers match the context register (NSD-ISMS-002 §7), and both registers
 | Data Protection lead | Validates legal and regulatory obligations | Pending | |
 | IT Manager | Validates technology requirements | Pending | |
 | Information Security / GRC Analyst | Maintains register | Prepared | |
-
-## 9. Change log
-
-| Version | Change |
-| --- | --- |
-| 1.0 (portfolio draft) | First draft: 14 parties and 6 legal or contractual obligations |
-| 0.1 | Renumbered as a draft pending approval. IDs aligned with charter v0.2 (IP-01 to IP-16), and IP-17 Business partners added. Microsoft Azure and Microsoft 365 merged into one party, IP-10. EU customers separated from EU regulators. Added regulated FS customers, outsourced HR/payroll/MSP, law enforcement/NCSC and sustainability. Added source, 4.2(c) decision, context link and owner columns. Removed "if certification is pursued", since certification is the charter goal. Changed EU GDPR from "potentially applicable" to applicable. Added DUAA 2025, UK–EU transfers, DORA, NIS2, the Cyber Security and Resilience Bill, the Computer Misuse Act and employment law. Mapped ISMS processes to Annex A controls. Gave each piece of evidence an owner. |
-| 0.2 | Linked to the scope statement NSD-ISMS-004. The planned legal register is renumbered NSD-ISMS-005. |
 
 ---
 

@@ -3,7 +3,7 @@
 | Field | Value |
 | --- | --- |
 | Reference | NSD-ISMS-057 |
-| Version | 0.2 — Template |
+| Version | 1.0 — Template |
 | Framework | ISO/IEC 27001:2022 incl. Amendment 1:2024: Annex A 5.19–5.23 |
 | Status | **Simulated template. No supplier has completed it** |
 | Used by | [NSD-ISMS-056 Methodology](56-supplier-risk-assessment-methodology.md) §3–4 · results recorded in NSD-ISMS-058 |
@@ -16,7 +16,7 @@
 
 | Rule | Why |
 | --- | --- |
-| **Part A is completed by Northstar** before sending: service, data, access, tier | The draft asked the supplier to name Northstar's business owner and describe its own service to Northstar. Northstar must know these before it asks anything |
+| **Part A is completed by Northstar** before sending: service, data, access, tier | Northstar must know the service, data, access and tier before it asks the supplier anything |
 | **Sections depend on the tier** (NSD-ISMS-055): Critical suppliers answer all of Part B; High suppliers answer the sections marked **H**; Standard suppliers receive no questionnaire | Proportionate effort (NSD-ISMS-026 §3) |
 | **Every "Yes" needs an evidence reference,** or it is recorded as an unsupported claim and gets **no credit** (NSD-ISMS-056 §4) | A yes/no questionnaire mostly collects yeses |
 | **Large cloud providers** (SUP-01, SUP-02) are not sent the questionnaire. Northstar maps their published certificates, SOC 2 reports and contract terms to the same questions and records the mapping | Such providers do not complete customer questionnaires; their independent assurance is stronger evidence anyway |
@@ -141,13 +141,6 @@ Checked by Northstar against the contract, not answered by the supplier: the nin
 | Technical review of B2, B5 and B6 | IT Manager (corporate services) or Head of Engineering (platform and development suppliers) |
 | Confirm the service facts in Part A | Business owner |
 | Record the results | NSD-ISMS-058 |
-
-## 6. Change log
-
-| Version | Change |
-| --- | --- |
-| 0.1 (portfolio draft, as NSD-ISMS-053) | Eleven-section template |
-| 0.2 | Numbered NSD-ISMS-057. **Part A completed by Northstar** (the draft asked the supplier to describe Northstar's own business owner). Sections set by tier. An evidence reference required for every "Yes", or no credit. Large cloud providers assessed from their published assurance rather than the questionnaire. Knock-out questions (★) for MFA, data location, secondary use including AI training, 24-hour incident notice and sub-processor notice. Questions made specific: certificate scope, SOC 2 Type II, complementary controls, support access locations, RTO and RPO compared with the BIA, notice periods. Added people security and secure development; physical security answered through the hosting provider's assurance where relevant. Contract terms checked by Northstar, not self-reported. Declaration includes authority to sign. |
 
 ---
 

@@ -3,7 +3,7 @@
 | Field | Value |
 | --- | --- |
 | Reference | NSD-ISMS-036 |
-| Version | 0.2 — Draft for MD approval |
+| Version | 1.0 — Draft for MD approval |
 | Framework | ISO/IEC 27001:2022 incl. Amendment 1:2024 (clauses 5.1, 9.3) |
 | Related documents | NSD-ISMS-037 Agenda and Inputs Register · NSD-ISMS-038 Minutes Template · NSD-ISMS-039 Actions Register · NSD-ISMS-040 Summary Report |
 | Procedure owner | Information Security / GRC Analyst (coordinator) |
@@ -133,16 +133,11 @@ The review must produce **recorded decisions**, not just discussion:
 
 These records are the documented information required by clause 9.3.3, and they are sampled in internal and certification audits.
 
-## 10. Approval and change log
+## 10. Approval
 
 | Role | Decision | Date |
 | --- | --- | --- |
 | Managing Director | Pending | |
-
-| Version | Change |
-| --- | --- |
-| 0.1 (portfolio draft, as NSD-ISMS-032) | First draft |
-| 0.2 | Numbered NSD-ISMS-036; 032 to 035 are internal audit documents. "Senior Management" replaced by the MD as chair and approver, with a quorum and a rule that the review cannot proceed without the MD. Quarterly frequency replaced with an annual full review (first in September 2027, before Stage 1), an interim review in the first cycle and extraordinary reviews on triggers, consistent with the charter and NSD-ISMS-030. The monthly Steering Group is separated from management review. Inputs mapped to clause 9.3.2(a)–(g), with a named source document for each. Outputs extended to include a formal suitable/adequate/effective conclusion, risk and resource decisions with amounts, and one owner per action. The internal auditor now presents audit results directly. Added timings, input quality rules, communication of outcomes, escalation and records. The draft's input list and its "not just a meeting" principle are kept. |
 
 ---
 

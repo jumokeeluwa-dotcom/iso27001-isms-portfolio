@@ -3,7 +3,7 @@
 | Field | Value |
 | --- | --- |
 | Reference | NSD-ISMS-002 |
-| Version | 0.3 — Draft for review |
+| Version | 1.0 — Draft for review |
 | Framework | ISO/IEC 27001:2022 incl. Amendment 1:2024 (clauses 4.1, 6.1.1) |
 | Related documents | [NSD-ISMS-001 Project Charter](01-isms-project-charter.md) · [NSD-ISMS-003 Interested-Party Requirements Register](03-interested-party-requirements-register.md) · [NSD-ISMS-004 ISMS Scope Statement](04-isms-scope-statement.md) |
 | Owner | Information Security / GRC Analyst |
@@ -27,7 +27,7 @@ The ISMS intended outcomes, taken from the charter, are:
 
 | Element | Approach |
 | --- | --- |
-| Inputs | Charter NSD-ISMS-001 v0.2; organisation chart; customer contracts; supplier list; architecture diagrams; incident history; interviews with the MD, IT Manager and department heads (simulated) |
+| Inputs | Charter NSD-ISMS-001 v1.0; organisation chart; customer contracts; supplier list; architecture diagrams; incident history; interviews with the MD, IT Manager and department heads (simulated) |
 | Technique | PESTLE for external issues; strengths and weaknesses review for internal issues |
 | Risks and opportunities | Each issue is labelled as a risk, an opportunity, or both (clause 6.1.1) |
 | Significance | Rated High / Medium / Low using the criteria below |
@@ -138,15 +138,6 @@ The register is reviewed:
 | Managing Director | Overall approval | Pending | |
 | IT Manager | Technical validation | Pending | |
 | Information Security / GRC Analyst | Register maintenance | Prepared | |
-
-## 9. Change log
-
-| Version | Change |
-| --- | --- |
-| 1.0 (portfolio draft) | First draft: 10 internal and 10 external issues |
-| 0.1 | Renumbered as a draft pending approval. Aligned with charter v0.2. Added method, significance ratings, sources, owners and opportunities. Replaced "Proposed response" with traceability to the charter. Added secure development, key-person, finance data, AI use, EU GDPR, data transfers, DORA, EU employment and insurer issues. Removed overlapping and generic items. Made the climate assessment Northstar-specific. |
-| 0.2 | Linked to NSD-ISMS-003 as the master interested-party record. Updated EXT-02 with DUAA 2025 commencement. Updated EXT-11 with the Cyber Security and Resilience Bill status and NIS2, and raised it to Medium. |
-| 0.3 | Scope references now point to NSD-ISMS-004 (Scope §n) instead of charter §4. |
 
 ---
 

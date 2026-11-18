@@ -3,7 +3,7 @@
 | Field | Value |
 | --- | --- |
 | Reference | NSD-ISMS-034 |
-| Version | 0.4 — Simulated records |
+| Version | 1.0 — Simulated records |
 | Framework | ISO/IEC 27001:2022 incl. Amendment 1:2024 (clause 10.2) |
 | Related documents | [NSD-ISMS-033 Findings Register](33-audit-findings-register.md) · [NSD-ISMS-027 Incident Management](../05-policies/27-incident-management-policy.md) · [NSD-ISMS-014 Risk Register](../03-risk-management/14-risk-register.md) · [NSD-ISMS-030 Audit Programme](30-internal-audit-programme.md) |
 | Register owner | Information Security / GRC Analyst (maintains records; verifies actions it does not own) |
@@ -99,7 +99,7 @@ This illustrative incident is the Milestone 5 analyst challenge, handled under N
 
 ## 5. Improvement actions (not clause 10.2)
 
-Improvements are not tracked here. IMP-01 (from Observation AUD03-F03) has moved to the [NSD-ISMS-047 Continual Improvement Register](../09-improvement/47-continual-improvement-register.md), so each item lives in one register.
+Improvements are not tracked here. IMP-01 (from Observation AUD03-F03) is tracked in the [NSD-ISMS-047 Continual Improvement Register](../09-improvement/47-continual-improvement-register.md), so each item lives in one register.
 
 ## 6. Workflow
 
@@ -123,15 +123,6 @@ Improvements are not tracked here. IMP-01 (from Observation AUD03-F03) has moved
 | Repeat nonconformities (same root cause within 12 months) | 0 |
 
 Overdue items are reported at each Steering Group meeting. A Minor action more than 30 days overdue is escalated to the MD. Corrective action status is a required input to management review (clause 9.3).
-
-## 8. Change log
-
-| Version | Change |
-| --- | --- |
-| 0.1 (portfolio draft, as NSD-ISMS-030) | Three corrective actions and the six-step workflow |
-| 0.4 | IMP-01 moved to NSD-ISMS-047. CA-01 re-test and closure on hold pending root cause analysis report RCA-01 (NSD-ISMS-048), triggered by a second late contractor in August 2027. |
-| 0.3 | **Correction:** clause 10.2 of ISO/IEC 27001:2022 has five actions, (a) to (e), where (e) is "make changes to the ISMS". Version 0.2 wrongly listed "update risks and opportunities" as 10.2(e), which comes from ISO 9001 clause 10.2.1. Risk updates are kept as good practice under clauses 6.1 and 8.2, but relabelled. Found while aligning NSD-ISMS-046. |
-| 0.2 | Numbered NSD-ISMS-034; finding references aligned with NSD-ISMS-033. **CA-003 reclassified** as improvement action IMP-01, because F03 is an Observation and not a nonconformity. Vague actions ("review and redesign the process") replaced with specific actions aimed at an illustrative root cause, with a 5 Whys example. One accountable owner per action. "30 days" replaced with dated deadlines that follow NSD-ISMS-030. Effectiveness tests now have pass criteria and timing. Added clause 10.2(e) risk update and 10.2(f) ISMS changes, and a requirement-by-requirement mapping. Scope widened to all sources, with an incident-sourced example (CA-03) from the Milestone 5 challenge. Independent verification added. The draft's six steps and its note that possible causes are not facts are kept. |
 
 ---
 

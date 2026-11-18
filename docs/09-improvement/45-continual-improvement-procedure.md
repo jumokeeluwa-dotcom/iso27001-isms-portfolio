@@ -3,7 +3,7 @@
 | Field | Value |
 | --- | --- |
 | Reference | NSD-ISMS-045 |
-| Version | 0.2 — Draft for MD approval |
+| Version | 1.0 — Draft for MD approval |
 | Framework | ISO/IEC 27001:2022 incl. Amendment 1:2024 (clauses 6.3, 10.1; input to 9.3.2(g)) |
 | Related documents | NSD-ISMS-046 Nonconformity and Corrective Action Procedure · NSD-ISMS-047 Continual Improvement Register · [NSD-ISMS-034 Corrective Action Register](../06-internal-audit/34-corrective-action-register.md) · [NSD-ISMS-042 KPI Register](../08-monitoring-and-measurement/42-kpi-register.md) |
 | Owner | Information Security / GRC Analyst |
@@ -124,16 +124,11 @@ Overdue P1 improvements are escalated to the Steering Group, and to the MD after
 
 The register (NSD-ISMS-047), proposals, assessments, approvals, change plans, implementation evidence and verification results are kept for **3 years**. Records showing weaknesses are classified Confidential.
 
-## 11. Approval and change log
+## 11. Approval
 
 | Role | Decision | Date |
 | --- | --- | --- |
 | Managing Director | Pending | |
-
-| Version | Change |
-| --- | --- |
-| 0.1 (portfolio draft, as NSD-ISMS-041) | First draft |
-| 0.2 | Numbered NSD-ISMS-045; 041 to 044 are monitoring and measurement documents. Approver changed to the MD. Added a triage rule separating improvements (this procedure; NSD-ISMS-047) from nonconformities (NSD-ISMS-046; 034) and risk treatment (015), so every item lives in one register. Sources linked to Northstar documents. Prioritisation criteria turned into a mandatory/benefit/effort rule with "Declined" recorded. Approval levels defined. Added clause 6.3 planning of changes, a success measure verified before closure, independent verification of GRC-owned items, measures and escalation. The draft's nine-step process and criteria are kept. |
 
 ---
 

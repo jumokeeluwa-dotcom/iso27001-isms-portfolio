@@ -3,7 +3,7 @@
 | Field | Value |
 | --- | --- |
 | Reference | NSD-ISMS-026 |
-| Version | 0.3 — Draft for MD approval |
+| Version | 1.0 — Draft for MD approval |
 | Framework | ISO/IEC 27001:2022 incl. Amendment 1:2024 (Annex A 5.19, 5.20, 5.21, 5.22, 5.23) |
 | Parent policy | [NSD-ISMS-022 Information Security Policy](22-information-security-policy.md) |
 | Policy owner | Finance Manager (owns supplier contracts, AST-015, and risk R-16) |
@@ -111,17 +111,11 @@ Exceptions follow NSD-ISMS-008 §8.
 
 Annex A 5.19–5.23 · Risks R-02, R-07, R-16 · Actions T-16.1, T-16.2
 
-## 14. Approval and change log
+## 14. Approval
 
 | Role | Decision | Date |
 | --- | --- | --- |
 | Managing Director | Pending | |
-
-| Version | Change |
-| --- | --- |
-| 0.1 (portfolio draft, as NSD-ISMS-023) | First draft |
-| 0.2 | Numbered NSD-ISMS-026. Owner changed from "Procurement Manager" (not a role at Northstar) to the Finance Manager, with the GRC Analyst running assessments; approver changed to the MD. "Proportionate" and "as appropriate" replaced with supplier tiers that set assessment depth and review frequency. Contract clauses made mandatory for Critical and High suppliers, including 24-hour incident reporting and DPAs. Added sub-processor rules, DORA flow-down, the supplier register and Obj 9 target, 90-day access expiry and the software supply chain link. |
-| 0.3 | §3 tier criteria aligned with NSD-ISMS-056: Critical adds production access and BIA dependency; High adds Restricted information and user-level access, closing the gap found in the supplier register (NSD-ISMS-055, gap 5). Rule added that unknown facts mean the higher tier. |
 
 ---
 

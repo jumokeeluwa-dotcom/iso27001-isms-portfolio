@@ -3,7 +3,7 @@
 | Field | Value |
 | --- | --- |
 | Reference | NSD-ISMS-049 |
-| Version | 0.2 — Draft for validation workshops |
+| Version | 1.0 — Draft for validation workshops |
 | Framework | ISO/IEC 27001:2022 incl. Amendment 1:2024: Annex A 5.29, 5.30; clauses 6.1, 8.1. Terms follow ISO 22301 |
 | Status | **Simulated. All ratings and times are proposals for validation. No workshop has been held and nothing has been approved** |
 | Related documents | [NSD-ISMS-028 Backup and Business Continuity Policy](../05-policies/28-backup-business-continuity-policy.md) §3 · NSD-ISMS-050 Business Continuity Plan · [NSD-ISMS-013 Impact scale](../03-risk-management/13-risk-scoring-matrix.md) §3 · [NSD-ISMS-006 Asset register](../02-asset-management/06-information-asset-register.md) · [NSD-ISMS-014 Risk register](../03-risk-management/14-risk-register.md) (R-09, R-14, R-02, R-12) |
@@ -30,7 +30,7 @@ The BIA identifies Northstar's business activities, how the impact of losing eac
 
 The BIA covers **business activities,** meaning what Northstar does for customers and itself. Systems, suppliers and people appear as **dependencies** of those activities, and their recovery times are derived from the activities they support.
 
-The draft listed identity management, cloud infrastructure and backup and restoration as activities with their own tolerances. They are resources, not activities. A backup system has no tolerable disruption of its own: it matters because the platform and data depend on it.
+Identity management, cloud infrastructure and backup and restoration are resources, not activities. A backup system has no tolerable disruption of its own: it matters because the platform and data depend on it.
 
 ## 3. Method
 
@@ -59,9 +59,9 @@ Using the same impact scale as the risk register means that a "Major" impact mea
 
 Notes on the ratings:
 
-- **A1:** NSD-ISMS-013 rates "platform down 4–24 hours; SLA breached" as 4, and "down more than 24 hours" as 5. The draft's 8-hour tolerance had no stated basis. The 24-hour MTPD follows from the impact scale, but the **customer SLAs and DORA contract terms are not yet recorded** (NSD-ISMS-005, MRA-2027-02) and may make it shorter.
+- **A1:** NSD-ISMS-013 rates "platform down 4–24 hours; SLA breached" as 4, and "down more than 24 hours" as 5. The 24-hour MTPD follows from the impact scale, but the **customer SLAs and DORA contract terms are not yet recorded** (NSD-ISMS-005, MRA-2027-02) and may make it shorter.
 - **A2** is rated separately because Northstar's duties to customers continue, and become more urgent, when the platform is down: notifying controllers without undue delay, and DORA-related incident terms for financial services customers (IP-03).
-- **A4 and A8** split the draft's "software development, 3 business days". Routine releases can wait. A fix for an exploited vulnerability cannot: 3 business days over a weekend is more than 72 hours.
+- **A4 and A8** separate software development into two activities. Routine releases can wait. A fix for an exploited vulnerability cannot: 3 business days over a weekend is more than 72 hours.
 - **A7a** splits the leaver step out of HR. HR administration can wait a week, but a leaver missed for a day is the R-12 scenario, rated Very High.
 
 ## 5. Dependencies and capability
@@ -123,13 +123,6 @@ Recovery follows dependencies, not only importance. A platform cannot be restore
 | Approval | Managing Director | 30 Nov 2027 |
 
 Approval accepts the MTPDs, which are statements of the impact management is prepared to tolerate. That makes them an MD decision, not an analyst's.
-
-## 9. Change log
-
-| Version | Change |
-| --- | --- |
-| 0.1 (portfolio draft, as NSD-ISMS-045) | First draft: eight activities with criticality and maximum tolerable disruption |
-| 0.2 | Numbered NSD-ISMS-049. Approver changed from "Senior Management" to the MD. **Activities separated from resources:** identity, cloud infrastructure and backup became dependencies. Impact over time added, rated on the NSD-ISMS-013 scale, with rules deriving the RTO and MTPD. A1 MTPD changed from 8 to 24 hours, following the impact scale; still to be checked against contracts. New activities: A2 (customer communication), A3 (incident response), A4 (emergency fixes, split from development) and A7a (leaver notification, split from HR). The draft's customer support tolerance (12 hours) conflicted with the 2-working-day RTO of the support systems in NSD-ISMS-028: recorded as G1. Dependencies listed by asset ID, with evidence of capability. Seven gaps recorded and routed. Recovery order based on dependencies. Validation with owners and dates. |
 
 ---
 

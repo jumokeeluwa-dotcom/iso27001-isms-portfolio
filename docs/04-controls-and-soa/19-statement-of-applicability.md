@@ -3,7 +3,7 @@
 | Field | Value |
 | --- | --- |
 | Reference | NSD-ISMS-019 |
-| Version | 0.3 — 48 of 93 controls assessed |
+| Version | 1.0 — 48 of 93 controls assessed |
 | Framework | ISO/IEC 27001:2022 incl. Amendment 1:2024 (clause 6.1.3(d); Annex A) |
 | Method | [NSD-ISMS-018 SoA Methodology](18-soa-methodology.md) |
 | Related documents | [NSD-ISMS-014 Risk Register](../03-risk-management/14-risk-register.md) · [NSD-ISMS-015 Treatment Plan](../03-risk-management/15-risk-treatment-plan.md) · [NSD-ISMS-016 Acceptance Criteria](../03-risk-management/16-risk-acceptance-criteria-register.md) · [NSD-ISMS-004 Scope](../01-initiation-and-context/04-isms-scope-statement.md) |
@@ -19,7 +19,7 @@ This version assesses **48 of the 93 Annex A controls**, chosen by risk:
 
 - **30 controls** from the initial representative set.
 - **17 controls** named in the treatment plan (NSD-ISMS-015) but missing from that set. The NSD-ISMS-018 §8 quality check requires every treatment action to map to an applicable control.
-- **1 control** (5.21) moved from Wave 2 during the supplier milestone (v0.3).
+- **1 control** (5.21) confirmed by the supplier risk assessment (NSD-ISMS-055 to 060).
 
 The other 45 controls are listed in section 5 with a preliminary view. They are scheduled for assessment by **29 January 2027**. A control awaiting assessment is not an exclusion.
 
@@ -224,11 +224,8 @@ In a real implementation, every status would cite a dated evidence record from t
 
 | # | Finding | Action |
 | --- | --- | --- |
-| 1 | 17 controls in the treatment plan were missing from the initial sample | Added to section 3 |
-| 2 | 5.27 is applicable, with no implementation and no plan | Escalated: propose action T-18.2 for NSD-ISMS-015 |
-| 3 | 7.4 has no linked risk | Raise a physical security scenario for the head office in the next risk assessment |
-| 4 | The 7.4 entry in the draft put "To be assessed" in the applicability column | Corrected: applicability is Yes or No; "To be assessed" is a status |
-| 5 | R-20 in NSD-ISMS-014 recorded BitLocker as Effective, although 4% of devices are non-compliant | Corrected to Partially effective in NSD-ISMS-014 v0.2, to match 8.1 here |
+| 1 | 5.27 is applicable, with no implementation and no plan | Escalated: propose action T-18.2 for NSD-ISMS-015 |
+| 2 | 7.4 has no linked risk | Raise a physical security scenario for the head office in the next risk assessment |
 
 ## 7. Approval
 
@@ -239,14 +236,6 @@ In a real implementation, every status would cite a dated evidence record from t
 | Information Security / GRC Analyst | Prepared the SoA | Prepared | |
 
 When approved, the version number and date are entered in the scope statement (NSD-ISMS-004 §3).
-
-## 8. Change log
-
-| Version | Change |
-| --- | --- |
-| 0.3 | Supplier milestone (NSD-ISMS-055 to 060). **5.21 assessed and moved from Wave 2:** applicable, justified by R-07 and the CI/CD provider; status To be assessed, because dependency scanning is untested. 5.19, 5.20, 5.22 and 5.23 updated with justifications and evidence references. **Statuses unchanged:** the milestone produced documents but no assessment evidence, and the SoA follows evidence, not documents. Counts: 48 assessed, 45 awaiting; To be assessed 12 → 13. |
-| 0.2 | Aligned with the portfolio SoA draft (numbered NSD-ISMS-016 there; 016 is the acceptance criteria). Added its scope statement and exclusion principle. Applicability limited to two values: the draft's "To be assessed" applicability for 7.4 is now an implementation status. Evidence basis explained: statuses follow the simulated evidence in NSD-ISMS-014, rather than the draft's "To be assessed" for all 30, so the SoA does not contradict the risk register. Approver changed from Senior Management to the MD. |
-| 0.1 | Initial assessment of 47 controls: the 30-control representative set plus 17 treatment-plan controls. 46 controls listed for Wave 2, with preliminary views and 3 exclusion candidates. Statuses derived from NSD-ISMS-014 using the NSD-ISMS-018 mapping. Two additional controls added. |
 
 ---
 

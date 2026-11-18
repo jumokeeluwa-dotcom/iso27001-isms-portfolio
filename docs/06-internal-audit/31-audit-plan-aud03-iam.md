@@ -4,7 +4,7 @@
 | --- | --- |
 | Reference | NSD-ISMS-031 |
 | Audit reference | AUD-03 (NSD-ISMS-030 §5) |
-| Version | 0.2 — Plan for issue to auditees |
+| Version | 1.0 — Plan for issue to auditees |
 | Status | Planned (simulated) |
 | Lead auditor | External auditor, ISO/IEC 27001 Lead Auditor. Independence confirmation required before fieldwork (NSD-ISMS-030 §3) |
 | Programme manager | Information Security / GRC Analyst: logistics only, attends as observer, does not audit |
@@ -51,7 +51,7 @@ To determine whether identity and access management at Northstar:
 | --- | --- |
 | ISO/IEC 27001:2022 clauses | 6.1.3 (SoA accuracy), 7.5 (documented information), 8.1 (operational control), 8.3 (treatment implemented), 9.1 (measures) |
 | Annex A controls, applicable in the SoA (NSD-ISMS-019) | 5.15, 5.16, 5.17, 5.18, 6.5, 8.2, 8.3, 8.5 |
-| Policy | **NSD-ISMS-023** Access Control and Identity Management Policy (the draft referred to its old number, NSD-ISMS-019) |
+| Policy | **NSD-ISMS-023** Access Control and Identity Management Policy |
 | Ownership | NSD-ISMS-007: asset owner approval of access |
 | Risk treatment | NSD-ISMS-015 actions T-01.1, T-10.1, T-11.1, T-12.1–12.3, T-13.1, T-13.2, T-16.1 |
 | Exceptions | NSD-ISMS-008 §8 |
@@ -152,13 +152,6 @@ Requested from the IT Manager and HR Manager by **8 June 2027**:
 | --- | --- | --- |
 | Lead auditor | Plan prepared | |
 | Managing Director | Plan noted | |
-
-## 12. Change log
-
-| Version | Change |
-| --- | --- |
-| 0.1 (portfolio draft, as NSD-ISMS-027 / AUD-005) | Draft audit plan |
-| 0.2 | Numbered NSD-ISMS-031, with audit reference AUD-03 to match the programme. Policy reference corrected to NSD-ISMS-023. Lead auditor named as the independent external auditor, with the GRC Analyst as observer only. Dates, test period and report deadline set. Criteria extended to 8.3, the treatment actions and SoA accuracy. Fixed samples of 5 replaced with whole-population testing for populations under 25, drawn from systems of record. Fifteen tests written with procedures and pass criteria, including orphan accounts (the reverse of the leaver test), a re-performed legacy sign-in, break-glass, production data access and exceptions. Added the evidence request, integrity controls, timetable and audit risks. |
 
 ---
 

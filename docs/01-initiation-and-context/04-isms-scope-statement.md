@@ -3,7 +3,7 @@
 | Field | Value |
 | --- | --- |
 | Reference | NSD-ISMS-004 |
-| Version | 0.1 — Draft for management approval |
+| Version | 1.0 — Draft for management approval |
 | Framework | ISO/IEC 27001:2022 incl. Amendment 1:2024 (clause 4.3) |
 | Related documents | [NSD-ISMS-001 Project Charter](01-isms-project-charter.md) · [NSD-ISMS-002 Context Register](02-organisational-context-register.md) · [NSD-ISMS-003 Interested-Party Register](03-interested-party-requirements-register.md) |
 | Owner | Information Security / GRC Analyst |
@@ -89,7 +89,7 @@ Cloud hosting sites are dependencies, not premises Northstar controls. Northstar
 | Mobile devices with access to company data | Included | Managed through mobile device or app management |
 | Finance, billing and payroll systems | Included | Systems holding in-scope financial and employee data |
 
-"Where used" and "where supporting" qualifiers in the earlier draft are removed. An auditor would ask which systems they mean. Anything that holds or protects in-scope information is in scope.
+The scope does not use qualifiers such as "where used" or "where supporting", because an auditor would ask which systems they mean. Anything that holds or protects in-scope information is in scope.
 
 ## 8. Information covered
 
@@ -167,13 +167,6 @@ A scope change is proposed by the GRC Analyst, reviewed by the ISMS Steering Gro
 | IT Manager | Technology boundary validation | Pending | |
 | Data Protection lead | Personal data and location validation | Pending | |
 | Information Security / GRC Analyst | Document preparation | Prepared | |
-
-## 14. Change log
-
-| Version | Change |
-| --- | --- |
-| 1.0 (portfolio draft) | First draft of the scope statement |
-| 0.1 | Renumbered as a draft pending approval. Added EU-based personnel and Azure UK and EU regions, in line with the charter. Shortened the scope statement to certificate wording with product, location and SoA version placeholders. Added clause 4.3(a)–(c) traceability to NSD-ISMS-002 and NSD-ISMS-003. Added Sales and Marketing, Executive and contractors to the functions. Split Azure into Northstar-managed subscriptions (in scope) and Microsoft infrastructure (dependency). Added development and test environments, code repositories and CI/CD, mobile devices and finance systems. Removed "where used" and "where supporting" qualifiers. Linked interfaces to interested-party IDs. Added items to confirm, a scope change process and Data Protection lead approval. |
 
 ---
 

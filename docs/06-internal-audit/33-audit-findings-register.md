@@ -3,7 +3,7 @@
 | Field | Value |
 | --- | --- |
 | Reference | NSD-ISMS-033 |
-| Version | 0.2 — Simulated example entries |
+| Version | 1.0 — Simulated example entries |
 | Framework | ISO/IEC 27001:2022 incl. Amendment 1:2024 (clauses 9.2, 10.2) |
 | Related documents | [NSD-ISMS-030 Programme](30-internal-audit-programme.md) · [NSD-ISMS-031 AUD-03 Plan](31-audit-plan-aud03-iam.md) · [NSD-ISMS-032 AUD-03 Checklist](32-audit-checklist-aud03-iam.md) · [NSD-ISMS-014 Risk Register](../03-risk-management/14-risk-register.md) · [NSD-ISMS-019 SoA](../04-controls-and-soa/19-statement-of-applicability.md) |
 | Register owner | Information Security / GRC Analyst (maintains the register; **does not grade or verify findings**) |
@@ -99,7 +99,7 @@ The auditor answers these questions in order, using the definitions in NSD-ISMS-
 - an account still active at the time of the audit, weeks or months after leaving;
 - no working leaver process at all.
 
-The draft graded this finding Major "illustratively". Under these rules, with the facts in NSD-ISMS-032 §7, it is Minor. The grade follows the evidence, not how serious the scenario sounds.
+Under these rules, with the facts in NSD-ISMS-032 §7, it is Minor. The grade follows the evidence, not how serious the scenario sounds.
 
 ## 5. Finding lifecycle
 
@@ -122,13 +122,6 @@ Overdue plans or actions are reported to the Steering Group. Any Major open at S
 | Minor nonconformities | 2 (F01, F02) |
 | Observations | 1 (F03) |
 | Overall conclusion | Identity and access management largely conforms and operates effectively. Weaknesses remain in how timely the leaver data is and in recording access reviews. These support keeping R-12 and the 5.18 and 6.5 statuses at their current levels |
-
-## 7. Change log
-
-| Version | Change |
-| --- | --- |
-| 0.1 (portfolio draft, as NSD-ISMS-029) | 3 illustrative findings for AUD-005 |
-| 0.2 | Numbered NSD-ISMS-033, with references aligned: AUD-03; risks R-12, R-03 and R-13. **F01 regraded from Major to Minor,** to stay consistent with the NSD-ISMS-032 §7 example and the NSD-ISMS-030 definitions; section 4 shows what would make it Major. **F02's "potential nonconformity" resolved** through documented investigation into a Minor, because a provisional grade is not a valid register entry. F03 kept as an Observation, with the reason. Requirements made specific. Extent and working paper references added. Corrective actions are now proposed by the owner, not prescribed by the auditor. One accountable owner per finding. Added the lifecycle, verification approach, effect on the risk register and SoA, and a summary for management review. The draft's classification guidance is kept and applied. |
 
 ---
 

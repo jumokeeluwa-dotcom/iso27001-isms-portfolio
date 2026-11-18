@@ -3,7 +3,7 @@
 | Field | Value |
 | --- | --- |
 | Reference | NSD-ISMS-027 |
-| Version | 0.2 — Draft for MD approval |
+| Version | 1.0 — Draft for MD approval |
 | Framework | ISO/IEC 27001:2022 incl. Amendment 1:2024 (Annex A 5.24, 5.25, 5.26, 5.27, 5.28, 6.8) |
 | Parent policy | [NSD-ISMS-022 Information Security Policy](22-information-security-policy.md) |
 | Policy owner | Information Security / GRC Analyst |
@@ -123,16 +123,11 @@ Systems are restored only once they are confirmed clean. Restoration follows the
 
 Annex A 5.24–5.28, 6.8 · Risks R-18, plus every risk whose scenario ends in an incident · Actions T-18.1 and the proposed T-18.2 (lessons learned)
 
-## 14. Approval and change log
+## 14. Approval
 
 | Role | Decision | Date |
 | --- | --- | --- |
 | Managing Director | Pending | |
-
-| Version | Change |
-| --- | --- |
-| 0.1 (portfolio draft, as NSD-ISMS-022) | Incident management procedure |
-| 0.2 | Numbered NSD-ISMS-027 and retitled "Policy and Procedure". Owner changed from "Security Lead" to the GRC Analyst as incident manager; approver to the MD. Added severity levels with response times, roles and an out-of-hours channel. Added the processor-versus-controller notification table: customers notified under their DPAs, and the ICO or EU authority within 72 hours for Northstar's own data. Added DORA, insurer and law enforcement notifications, a 24-hour breach assessment target and chain of custody. Lessons-learned review within 10 working days, which provides the Annex A 5.27 process the SoA found missing. Annual tabletop exercise. The draft's accurate description of the 72-hour rule is kept. |
 
 ---
 

@@ -3,7 +3,7 @@
 | Field | Value |
 | --- | --- |
 | Reference | NSD-ISMS-017 |
-| Version | 0.1 — Draft for owner acceptance |
+| Version | 1.0 — Draft for owner acceptance |
 | Framework | ISO/IEC 27001:2022 incl. Amendment 1:2024 (clauses 5.3, 6.1.2(c)(2), 6.1.3(f)) |
 | Related documents | [NSD-ISMS-007 Asset Ownership](../02-asset-management/07-asset-ownership-register.md) · [NSD-ISMS-014 Risk Register](14-risk-register.md) · [NSD-ISMS-015 Treatment Plan](15-risk-treatment-plan.md) · [NSD-ISMS-016 Acceptance Criteria](16-risk-acceptance-criteria-register.md) |
 | Owner | Information Security / GRC Analyst |
@@ -44,7 +44,7 @@ A risk owner must:
 
 ## 4. What the review found
 
-The first allocation in NSD-ISMS-014 v0.2 failed three of these criteria:
+An ownership review against these criteria found three problems with a first allocation, which this register resolves:
 
 | Finding | Detail | Criterion |
 | --- | --- | --- |
@@ -165,9 +165,9 @@ Each acceptance records:
 
 | Document | Update |
 | --- | --- |
-| NSD-ISMS-014 Risk Register | v0.3: owners for R-02, R-12, R-18 and R-19; concentration table |
-| NSD-ISMS-015 Treatment Plan | v0.3: target approval owners; independent verification rule |
-| NSD-ISMS-016 Acceptance Criteria | v0.2: GRC-owned risks are now R-15 only; target acceptance owners |
+| NSD-ISMS-014 Risk Register | v1.0: owners for R-02, R-12, R-18 and R-19; concentration table |
+| NSD-ISMS-015 Treatment Plan | v1.0: target approval owners; independent verification rule |
+| NSD-ISMS-016 Acceptance Criteria | v1.0: GRC-owned risks are now R-15 only; target acceptance owners |
 
 ## 12. Approval
 
@@ -176,12 +176,6 @@ Each acceptance records:
 | Managing Director | Approves the allocation and the four ownership changes | Pending | |
 | Risk owners | Accept ownership (section 9) | Pending | |
 | Information Security / GRC Analyst | Prepared the register | Prepared | |
-
-## 13. Change log
-
-| Version | Change |
-| --- | --- |
-| 0.1 | First version. Owner criteria set; review of the NSD-ISMS-014 allocation; four ownership changes (R-02, R-12, R-18, R-19); capacity analysis; deputies; duties; acceptance and change records. |
 
 ---
 

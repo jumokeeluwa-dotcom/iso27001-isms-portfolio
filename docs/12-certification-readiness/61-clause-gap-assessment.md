@@ -3,7 +3,7 @@
 | Field | Value |
 | --- | --- |
 | Reference | NSD-ISMS-061 |
-| Version | 0.3 — Simulated assessment |
+| Version | 1.0 — Simulated assessment |
 | Standard | ISO/IEC 27001:2022 incl. Amendment 1:2024, clauses 4–10 |
 | Status | **Simulated. Every finding is taken from earlier portfolio records. A record that is not in the portfolio is treated as missing** |
 | Evidence as at | 30 September 2027 |
@@ -20,7 +20,7 @@ To assess how far Northstar's ISMS meets clauses 4–10 of ISO/IEC 27001:2022, a
 
 ## 2. Method
 
-The draft used one scale running from "Designed" to "Implemented and evidenced". It assessed every clause as "Designed", including internal audit, management review and corrective action, even though the portfolio already holds records of all three in operation. Understating evidence is as inaccurate as overstating it.
+A single scale cannot show a process that is operating but not approved. Understating evidence is as inaccurate as overstating it.
 
 So each clause is assessed on **two separate questions:**
 
@@ -43,7 +43,7 @@ The same method is used for the Annex A review (NSD-ISMS-062).
 | --- | --- | --- | --- | --- | --- |
 | 4.1 | Context, including climate change (Amd 1) | Drafted: 002 | Partial | Issues register incl. climate (EXT-12); changes in issues are a planned input to MR-2027-01 (037) | 🟨 Partly ready |
 | 4.2 | Interested parties, including climate requirements | Drafted: 003 | Partial | Requirements recorded (IP-01 to IP-17); **customer SLAs and DORA terms not recorded** (legal register 005 missing) | 🟨 Partly ready |
-| 4.3 | Scope | Drafted: 004 v0.1 | None | **Scope not approved.** Charter Obj 1 required MD approval by month 2 | 🟧 Not ready |
+| 4.3 | Scope | Drafted: 004 v1.0 | None | **Scope not approved.** Charter Obj 1 required MD approval by month 2 | 🟧 Not ready |
 | 4.4 | ISMS established and maintained | Drafted: 60 documents | Partial | Processes operating in part (audit, review, KPIs, corrective action); most documents unapproved | 🟨 Partly ready |
 | 5.1 | Leadership and commitment | Drafted: charter | Unknown | MR-2027-01 was planned for 22 Sep 2027 (037), but **no minutes exist** (038 and 040 are blank); decisions D-01 to D-08 are proposals only (039). No recorded leadership decision on the ISMS since the charter | 🟧 Not ready |
 | 5.2 | Information security policy | Drafted: 022 | Unknown | **Policy not approved,** yet KPI-20 reports 93% policy acknowledgement. Either approval records exist outside the portfolio, or staff acknowledged a draft. **Must be resolved before Stage 1** | 🟧 Not ready |
@@ -57,7 +57,7 @@ The same method is used for the Annex A review (NSD-ISMS-062).
 | 7.2 | Competence | None | Unknown | No competence requirements or records for ISMS roles in the portfolio. Only the auditor's qualification is specified (030) | 🟧 Not ready |
 | 7.3 | Awareness | Drafted: 022, 024 | Partial | KPI-10 training 91.8% (Amber); KPI-11 phishing reports 42% | 🟨 Partly ready |
 | 7.4 | Communication | Drafted, scattered: 027, 050 §6 | Partial | Incident and continuity communications defined; **no overall statement** of what, when, with whom and how the ISMS communicates | 🟨 Partly ready |
-| 7.5 | Documented information | Drafted: reference scheme, change logs, classification | Partial | Version control and change logs throughout. **Approval missing on almost every document**; KPI-20 conflict (5.2) | 🟧 Not ready |
+| 7.5 | Documented information | Drafted: reference scheme, version and classification fields | Partial | Version and classification recorded on every document. **Approval missing on almost every document**; KPI-20 conflict (5.2) | 🟧 Not ready |
 | 8.1 | Operational planning and control | Drafted | Partial | Controls operating in part (KPI dashboard); outsourced processes (suppliers) **not yet assured** (058) | 🟨 Partly ready |
 | 8.2 | Risk assessment at planned intervals and on change | Drafted: 012 §4 | Partial | Assessment Dec 2026. Reassessment after a significant change **not completed:** R-21 (INC-2027-014) still proposed | 🟨 Partly ready |
 | 8.3 | Risk treatment implemented | Drafted: 015 | Partial | KPI-17: 70% of actions on time (Red); T-14.3, T-18.1 and T-09.2 have no completion record | 🟨 Partly ready |
@@ -102,17 +102,11 @@ Gaps are tracked in the registers named in NSD-ISMS-068, not here.
 
 Northstar's ISMS is **substantially designed and partly operating.** It has real operating evidence in clauses 9.1, 9.2 and 10: a measured dashboard, one internal audit, and corrective actions with root cause analysis. **No management review has been recorded.** It is **not ready for Stage 1,** because the documents an auditor checks first (scope, policy, risk criteria, SoA) are unapproved or incomplete, and top management has not yet reviewed the ISMS. It is not ready for Stage 2, because 8 of 9 planned internal audits and several key control tests have no record.
 
-## 7. Approval and change log
+## 7. Approval
 
 | Role | Decision | Date |
 | --- | --- | --- |
 | Managing Director | Pending | |
-
-| Version | Change |
-| --- | --- |
-| 0.1 (portfolio draft, as NSD-ISMS-057) | Clause table with every clause "Designed" or "Not assessed" |
-| 0.3 | **Correction:** v0.2 treated management review MR-2027-01 as held. The portfolio records only its agenda (037); the minutes and summary are blank (038, 040) and the actions are hypothetical (039). Clauses 5.1 and 9.3 changed to Not ready; 7.1 evidence corrected; a gap added to hold the first review. |
-| 0.2 | Numbered NSD-ISMS-061; document references corrected to portfolio numbering. **Single scale replaced by design and operation,** so existing operating evidence is credited (9.1, 9.3, 10.2) and missing approval is still visible. Every clause assessed from portfolio records, including **Amendment 1** climate requirements in 4.1 and 4.2. New findings: the KPI-20 acknowledgement conflict, provisional risk scores because the criteria are unapproved, 8 of 9 audits with no record, no competence records, R-21 not added. Priority gaps ordered by whether they block Stage 1 or Stage 2, with owners. |
 
 ---
 

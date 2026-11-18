@@ -3,7 +3,7 @@
 | Field | Value |
 | --- | --- |
 | Reference | NSD-ISMS-050 (asset AST-019, with NSD-ISMS-051) |
-| Version | 0.2 — Draft for MD approval |
+| Version | 1.0 — Draft for MD approval |
 | Framework | ISO/IEC 27001:2022 incl. Amendment 1:2024: Annex A 5.29, 5.30, 5.24–5.26; clause 8.1 |
 | Status | **Simulated. Not activated, approved or exercised** |
 | Related documents | [NSD-ISMS-049 BIA](49-business-impact-analysis.md) · NSD-ISMS-051 Disaster Recovery Plan · [NSD-ISMS-027 Incident Management](../05-policies/27-incident-management-policy.md) · [NSD-ISMS-028 Backup and Business Continuity Policy](../05-policies/28-backup-business-continuity-policy.md) |
@@ -122,16 +122,11 @@ Each exercise records its objectives, participants, measured times, what went wr
 | Contact lists and offline copies checked | Quarterly |
 | BIA changes reflected in sections 5 and 6 | Within 10 working days of BIA approval |
 
-## 10. Approval and change log
+## 10. Approval
 
 | Role | Decision | Date |
 | --- | --- | --- |
 | Managing Director | Pending | |
-
-| Version | Change |
-| --- | --- |
-| 0.1 (portfolio draft, as NSD-ISMS-046) | First draft |
-| 0.2 | Numbered NSD-ISMS-050. Owner changed from "Operations Director", not a charter role, to the **MD,** who owns AST-019; approver changed from "Senior Management" to the MD. Roles mapped to charter roles: "Incident Coordinator" became the GRC Analyst, as incident manager under NSD-ISMS-027; "Security Lead" removed; "Communications Lead" split between the Customer Support Manager, Sales lead and Data Protection lead, with the MD approving; "department managers" named. Deputies added. "May be considered" and "significantly" replaced with concrete triggers linked to BIA RTOs, a named activator and time targets. One shared timeline with the incident process. Workarounds for each BIA activity, including the leaver fallback and a freeze on supplier bank detail changes. Communication table with channels that work without Microsoft 365, the processor notification duty and data loss disclosure. Exercise scenarios include climate (EXT-12). "Periodically" replaced with set review points. |
 
 ---
 

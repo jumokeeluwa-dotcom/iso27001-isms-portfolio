@@ -3,7 +3,7 @@
 | Field | Value |
 | --- | --- |
 | Reference | NSD-ISMS-047 |
-| Version | 0.2 — Simulated records |
+| Version | 1.0 — Simulated records |
 | Framework | ISO/IEC 27001:2022 incl. Amendment 1:2024 (clauses 6.3, 9.3.2(g), 10.1) |
 | Status | **Simulated. All entries are fictional training examples, not actual findings or approved management actions** |
 | Position as at | 30 September 2027 |
@@ -33,7 +33,7 @@ An improvement register that lists unresolved nonconformities makes them look op
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | IMP-01 | Use PIM access review records as the single source for privileged account review dates, and remove the "last reviewed" column from the spreadsheet inventory, so the two records cannot disagree | AUD03-F03 (Observation, NSD-ISMS-033) | 16 Jun 2027 | IT Manager | No / Medium (R-13; KPI-04 already Green) / Low | P2 | IT Manager (within one team, no spend) | At the next AUD-03, every privileged account has a review date in PIM, and no second inventory holds review dates | Next AUD-03 (cycle 2) | Approved; implementation to be evidenced |
 | IMP-02 | Add more detail to risk treatment progress reporting | GRC Analyst proposal, linked to KPI-17 Red (NSD-ISMS-044) | 30 Sep 2027 | GRC Analyst | No / Low / Low | — | Steering Group | — | — | **Declined:** KPI-17 already reports progress monthly, and it shows the cause: lack of DevOps and IT capacity. More reporting would not move the KPI. The capacity gap is the subject of decision D-04, **proposed** for management review (NSD-ISMS-037; actions MRA-2027-05, 06 in 039 are proposals) |
-| IMP-03 | Quarterly incident trend summary (by category, root cause and affected risk) as an input to management review 9.3.2(c) | GRC Analyst proposal (NSD-ISMS-027 §10, lessons learned) | 30 Sep 2027 | GRC Analyst | No / Low / Low | P3 | Steering Group (changes an ISMS input) | Summary presented at MR-2028-01, with each recurring cause linked to a risk or corrective action | MR-2028-01 | Proposed: for Steering Group decision |
+| IMP-03 | Quarterly incident trend summary (by category, root cause and affected risk) as an input to management review 9.3.2(d) | GRC Analyst proposal (NSD-ISMS-027 §10, lessons learned) | 30 Sep 2027 | GRC Analyst | No / Low / Low | P3 | Steering Group (changes an ISMS input) | Summary presented at MR-2028-01, with each recurring cause linked to a risk or corrective action | MR-2028-01 | Proposed: for Steering Group decision |
 
 **Verification:** IMP-01 is verified by the internal auditor at the next AUD-03. IMP-03 is owned by the GRC Analyst, so the internal auditor verifies it as well (NSD-ISMS-045 §4, step 8).
 
@@ -97,16 +97,11 @@ The table in section 2 shows the summary. The full record for each IMP holds:
 
 If an improvement turns out to involve an unmet requirement, it is moved to NSD-ISMS-034 and the IMP entry is closed with a cross-reference.
 
-## 7. Approval and change log
+## 7. Approval
 
 | Role | Decision | Date |
 | --- | --- | --- |
 | ISMS Steering Group | Pending | |
-
-| Version | Change |
-| --- | --- |
-| 0.1 (portfolio draft, as NSD-ISMS-043) | First draft: eight proposed improvements |
-| 0.2 | Numbered NSD-ISMS-047; IDs aligned with NSD-ISMS-045 (IMP-nn). **IMP-01 moved here from NSD-ISMS-034 §5.** The draft's eight items triaged: **six belong elsewhere** (two open nonconformities, three possible nonconformities, one management review decision) and are listed in section 3 with pointers, not tracked twice; one (risk treatment reporting) recorded as **Declined** with the reason; one (incident trends) kept as IMP-03, P3. Roles changed to charter roles: "Procurement Manager" and "Security Lead" removed; joint owners replaced by one owner. High/Medium/Low replaced by the NSD-ISMS-045 §5 priority method. Added a success measure per item, status values, and a monthly review in place of "periodically". |
 
 ---
 

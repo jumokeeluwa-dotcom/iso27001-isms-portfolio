@@ -3,7 +3,7 @@
 | Field | Value |
 | --- | --- |
 | Reference | NSD-ISMS-059 |
-| Version | 0.2 — Draft for MD approval |
+| Version | 1.0 — Draft for MD approval |
 | Framework | ISO/IEC 27001:2022 incl. Amendment 1:2024: Annex A 5.19–5.23, 5.24, 5.26 |
 | Parent policy | [NSD-ISMS-026 Supplier Security Policy](../05-policies/26-supplier-security-policy.md) |
 | Related documents | [055 Register](55-supplier-register.md) · [056 Methodology](56-supplier-risk-assessment-methodology.md) · [057 Questionnaire](57-supplier-due-diligence-questionnaire.md) · [058 Assessments](58-supplier-security-assessment-register.md) · [NSD-ISMS-027 Incident Management](../05-policies/27-incident-management-policy.md) · [NSD-ISMS-023 §10](../05-policies/23-access-control-policy.md) |
@@ -32,7 +32,6 @@ It applies to every supplier in NSD-ISMS-055, including cloud providers, managed
 | **Data Protection lead** | DPAs; sub-processor list and customer notices (026 §5); transfer mechanisms |
 | **Managing Director** | Decisions under NSD-ISMS-056 §8; approves exit of a Critical supplier |
 
-"Procurement Manager" and "Security Lead" in the draft are not charter roles; their duties are shared as above.
 
 ## 3. Continuous monitoring
 
@@ -49,7 +48,7 @@ Between scheduled reviews, these signals are checked, so problems are found when
 
 ## 4. Scheduled reviews
 
-Frequencies are set by **NSD-ISMS-026 §3,** not by this procedure. The draft proposed different intervals, including an annual review for High suppliers and Medium and Low tiers that the policy does not have. Two documents with different schedules would make one of them wrong.
+Frequencies are set by **NSD-ISMS-026 §3,** not by this procedure. Keeping one schedule means the two documents cannot disagree.
 
 | Tier | Full review |
 | --- | --- |
@@ -124,16 +123,11 @@ Contractor agencies (SUP-15) follow the same steps for each contractor, together
 
 Assessments, reviews, assurance documents, contracts, incident records and exit evidence are kept for **3 years after the relationship ends,** or longer where the contract requires it. They are classified Confidential.
 
-## 10. Approval and change log
+## 10. Approval
 
 | Role | Decision | Date |
 | --- | --- | --- |
 | Managing Director | Pending | |
-
-| Version | Change |
-| --- | --- |
-| 0.1 (portfolio draft, as NSD-ISMS-055) | Review procedure with responsibilities, frequencies, incidents, changes and exit |
-| 0.2 | Numbered NSD-ISMS-059. One owner (the GRC Analyst); approver changed to the MD. Responsibilities mapped to charter roles: "Procurement Manager" duties to the Finance Manager and GRC Analyst, "Security Lead" duties to the IT Manager and Head of Engineering; Data Protection lead added. **Review frequencies taken from NSD-ISMS-026 §3,** instead of a second, different schedule. Added continuous monitoring signals, including guest account and paid-supplier reconciliations. Supplier incidents linked to NSD-ISMS-027, recording when the supplier became aware and starting Northstar's own processor clock. Changes: sub-processors and transfers approved **before** they take effect. Exit with timings, secret rotation and removal from the sub-processor list. Measures and retention added; "periodically" replaced with an annual review. |
 
 ---
 

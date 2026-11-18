@@ -3,7 +3,7 @@
 | Field | Value |
 | --- | --- |
 | Reference | NSD-ISMS-051 (asset AST-019, with NSD-ISMS-050) |
-| Version | 0.2 — Draft for MD approval |
+| Version | 1.0 — Draft for MD approval |
 | Framework | ISO/IEC 27001:2022 incl. Amendment 1:2024: Annex A 5.30, 8.13, 8.14, 5.29, 5.28, 8.15, 8.16 |
 | Status | **Simulated. No actual recovery or technical test is claimed** |
 | Related documents | [NSD-ISMS-049 BIA](49-business-impact-analysis.md) · [NSD-ISMS-050 BCP](50-business-continuity-plan.md) · [NSD-ISMS-028 Backup and Business Continuity Policy](../05-policies/28-backup-business-continuity-policy.md) · [NSD-ISMS-027 Incident Management](../05-policies/27-incident-management-policy.md) · Risks R-09, R-14, R-02 · Actions T-09.1, T-09.2, T-13.2, T-14.1–14.3 |
@@ -52,7 +52,7 @@ Until a deputy is named (proposed action MRA-2027-06), both DR leads are single 
 
 ## 4. Choose the recovery path
 
-The draft had one sequence for every disruption. Recovery differs a great deal by cause, and choosing the wrong path is a common DR failure, for example failing over a ransomware infection into the second region.
+Recovery differs a great deal by cause, and choosing the wrong path is a common DR failure, for example failing over a ransomware infection into the second region.
 
 | Scenario | Path | Key risk |
 | --- | --- | --- |
@@ -117,16 +117,11 @@ For each activation or test: activation record and chosen path; the single incid
 
 Reviewed annually; after every activation or test; and within 10 working days of any major platform, backup or identity change, or any change to the BIA.
 
-## 11. Approval and change log
+## 11. Approval
 
 | Role | Decision | Date |
 | --- | --- | --- |
 | Managing Director | Pending | |
-
-| Version | Change |
-| --- | --- |
-| 0.1 (portfolio draft, as NSD-ISMS-047) | First draft |
-| 0.2 | Numbered NSD-ISMS-051. Approver changed to the MD. Roles mapped to charter roles: "Cloud Administrator" and "Database Administrator" became the DevOps team under the Head of Engineering; "Security Lead" removed, with security validation given to the GRC Analyst, who does not restore systems; "Application Owner" became the BIA activity owner. Added **recovery paths by scenario**, so ransomware is not failed over. **Restore order corrected:** the draft restored identity after databases and reapplied security settings after restoring; identity now comes first, and the baseline is applied as systems are built. Added clean restore point selection, credential rotation, achieved RTO and RPO measurements, and the trade-off when a clean backup is older than the RPO. Prerequisites shown against portfolio records, including the same-region backup gap. Tests made specific, with "no record counts as a failure". |
 
 ---
 

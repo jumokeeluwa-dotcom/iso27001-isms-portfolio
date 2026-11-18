@@ -3,7 +3,7 @@
 | Field | Value |
 | --- | --- |
 | Reference | NSD-ISMS-008 |
-| Version | 0.1 — Draft for approval |
+| Version | 1.0 — Draft for approval |
 | Framework | ISO/IEC 27001:2022 incl. Amendment 1:2024 (Annex A 5.10, 5.12, 5.13, 5.14, 7.10, 7.14, 8.10, 8.11, 8.12) |
 | Related documents | [NSD-ISMS-006 Asset Register](06-information-asset-register.md) · [NSD-ISMS-007 Ownership Register](07-asset-ownership-register.md) · [NSD-ISMS-004 Scope](../01-initiation-and-context/04-isms-scope-statement.md) |
 | Owner | Information Security / GRC Analyst |
@@ -151,7 +151,7 @@ Purview labels and data loss prevention rules are configured by IT Operations. T
 
 ## 10. Current asset classification
 
-Classifications in NSD-ISMS-006 v0.2, checked against this standard:
+Classifications in NSD-ISMS-006 v1.0, checked against this standard:
 
 | Level | Assets | Count |
 | --- | --- | --- |
@@ -160,7 +160,7 @@ Classifications in NSD-ISMS-006 v0.2, checked against this standard:
 | Internal | None yet registered | 0 |
 | Public | None yet registered | 0 |
 
-The check found one mismatch. Source code (AST-004) was Confidential but had a High confidentiality rating. It stays **Confidential**: secrets are kept out of the repositories by secret scanning and held separately as AST-006 (Restricted). Its confidentiality rating was corrected to Medium in NSD-ISMS-006 v0.2.
+The check found one mismatch. Source code (AST-004) was Confidential but had a High confidentiality rating. It stays **Confidential**: secrets are kept out of the repositories by secret scanning and held separately as AST-006 (Restricted). Its confidentiality rating was corrected to Medium in NSD-ISMS-006 v1.0.
 
 No Internal or Public assets are registered yet, because the first 20 are the highest-value assets. Internal assets will appear when the section 5 items in NSD-ISMS-006 are added.
 
@@ -172,13 +172,6 @@ No Internal or Public assets are registered yet, because the first 20 are the hi
 | Data Protection lead | Validates personal data rules | Pending | |
 | IT Manager | Validates technical controls | Pending | |
 | Information Security / GRC Analyst | Prepared the standard | Prepared | |
-
-## 12. Change log
-
-| Version | Change |
-| --- | --- |
-| 1.0 (portfolio draft) | First draft: four levels with handling guidance |
-| 0.1 | Renumbered from NSD-ISMS-007 to NSD-ISMS-008, since 007 is the ownership register. Owner changed from "Information Security Lead" to the GRC Analyst, in line with charter §6. Defined each level by confidentiality impact. Added Northstar-specific examples, including customer platform data. Moved vulnerability reports to Restricted, matching NSD-ISMS-006. Added decision steps, inheritance, aggregation, default, customer data, personal data and external-marking rules. Replaced "where appropriate" handling bullets with a mandatory handling matrix, including generative AI, test environments and suppliers. Added Purview labelling, a reclassification process with triggers, an exceptions process and compliance checks. Reconciled with the NSD-ISMS-006 classifications. |
 
 ---
 

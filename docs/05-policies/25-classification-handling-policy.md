@@ -3,7 +3,7 @@
 | Field | Value |
 | --- | --- |
 | Reference | NSD-ISMS-025 |
-| Version | 0.2 — Draft for MD approval |
+| Version | 1.0 — Draft for MD approval |
 | Framework | ISO/IEC 27001:2022 incl. Amendment 1:2024 (Annex A 5.12, 5.13, 5.14, 5.33, 8.10) |
 | Parent policy | [NSD-ISMS-022 Information Security Policy](22-information-security-policy.md) |
 | Supporting standard | [NSD-ISMS-008 Information Classification and Handling Standard](../02-asset-management/08-information-classification-scheme.md): definitions, decision steps and the full handling matrix |
@@ -62,16 +62,11 @@ Exceptions follow NSD-ISMS-008 §8: approved by the owner for Confidential infor
 
 Annex A 5.12, 5.13, 5.14, 5.33, 8.10 · Risks R-03, R-19 · Actions T-03.2, T-19.2
 
-## 7. Approval and change log
+## 7. Approval
 
 | Role | Decision | Date |
 | --- | --- | --- |
 | Managing Director | Pending | |
-
-| Version | Change |
-| --- | --- |
-| 0.1 (portfolio draft, as NSD-ISMS-021) | First draft, repeating the level definitions and handling rules |
-| 0.2 | Numbered NSD-ISMS-025. Owner changed from "Security Lead" to the GRC Analyst; approver to the MD. Changed to a short policy that refers to NSD-ISMS-008 for the detail, so the rules exist in one place. **Corrected a conflict:** the draft listed vulnerability assessment reports as Confidential, but NSD-ISMS-008 makes full reports Restricted. Added the default, customer-data and public-release rules. Replaced "where appropriate" for labelling and encryption with mandatory rules. Linked retention to the Data Protection lead's schedule. |
 
 ---
 

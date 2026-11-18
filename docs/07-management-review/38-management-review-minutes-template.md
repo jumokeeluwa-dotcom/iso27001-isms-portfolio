@@ -3,7 +3,7 @@
 | Field | Value |
 | --- | --- |
 | Reference | NSD-ISMS-038 |
-| Version | 0.2 — Blank template |
+| Version | 1.0 — Blank template |
 | Procedure | [NSD-ISMS-036](36-management-review-procedure.md) · Agenda and inputs: [NSD-ISMS-037](37-management-review-agenda-inputs.md) |
 | Classification | Confidential once completed |
 
@@ -109,13 +109,6 @@
 | Approved by (chair) | *Managing Director* |
 | Date approved | |
 | Next review | *Date and type* |
-
-## 10. Change log
-
-| Version | Change |
-| --- | --- |
-| 0.1 (portfolio draft, as NSD-ISMS-034) | Blank minutes template |
-| 0.2 | Numbered NSD-ISMS-038. Linked to the NSD-ISMS-037 agenda items and clause 9.3.2 references. Added review type and trigger, a quorum check with a postpone rule, pack issue date, data cut-off and conflict-of-interest declarations. Previous actions now need evidence and a verifier to be closed. Inputs separate "summary presented" from "management evaluation". Decisions record authority and dissent. Actions carry one owner and a completion measure. The conclusion is a structured yes/no on suitability, adequacy and effectiveness, plus readiness for certification, with conditions turned into actions. Added a communication section. The draft's structure and its "only from an actual meeting" rule are kept. |
 
 ---
 

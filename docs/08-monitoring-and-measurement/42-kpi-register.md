@@ -3,7 +3,7 @@
 | Field | Value |
 | --- | --- |
 | Reference | NSD-ISMS-042 |
-| Version | 0.2 — Proposed, for Steering Group and MD approval |
+| Version | 1.0 — Proposed, for Steering Group and MD approval |
 | Procedure | [NSD-ISMS-041](41-monitoring-measurement-procedure.md): this register is the **single source** of measure definitions (§3) |
 | Register owner | Information Security / GRC Analyst |
 | Approver | Managing Director. The Steering Group approves definition changes |
@@ -102,7 +102,7 @@ Seven KPIs have hard limits: **KPI-01, 03, 04, 05, 07, 13 and 18.** Any breach i
 
 ## 6. Interpretation and limits
 
-The draft's principles are kept:
+Principles for interpreting results:
 
 - A high percentage does not on its own prove a control is effective. Hard limits and audit testing support it.
 - The population must be complete and come from the system of record. For example, KPI-01 takes leavers from HR, not from IT's list.
@@ -114,29 +114,6 @@ The draft's principles are kept:
 ## 7. Review
 
 The register is reviewed **annually,** and when objectives, risks or policies change. Definition changes need Steering Group approval and are version-controlled. The dashboard marks any break in a trend (NSD-ISMS-041 §6).
-
-## 8. What happened to the draft's KPIs
-
-| Draft | Now | Change |
-| --- | --- | --- |
-| KPI-001 Leaver removal | KPI-01 | "Required timeframe" set to the end of the last working day; population from HR; hard limit on use after leaving |
-| KPI-002 Access reviews | KPI-02 | Must be **recorded** (the lesson from AUD03-F02) |
-| KPI-003 MFA | KPI-03 | Includes service accounts and managed identities; admin hard limit |
-| KPI-004 Critical vulnerabilities | KPI-05 | 14-day deadline and the 72-hour exploited hard limit stated; owner changed to the Head of Engineering |
-| KPI-005 Restore testing | KPI-09 | Pass means meeting the RTO and RPO, not just completing a restore |
-| KPI-006 Training | KPI-10 | **Target changed from 100% to 95%** to match charter Obj 5 |
-| KPI-007 Incident acknowledgement | KPI-12, KPI-13 | Activity measure replaced by outcome measures: triage within 1 hour; breach assessment and notification on time |
-| KPI-008 Corrective actions | KPI-19 | "Closed" means verified effective |
-| KPI-009 Supplier reviews | KPI-14 | Critical suppliers within 12 months; owner changed to the Finance Manager |
-| KPI-010 Risk treatment progress | KPI-17 | "Completed" means verified; KPI-18 added for Very High tolerance |
-| (gap) | KPI-04, 06, 07, 08, 11, 15, 16, 20, 21 | Added for privileged access, cloud configuration, deployment approval, backups, phishing behaviour, guest accounts, DLP and R-21, policy acknowledgement, and major nonconformities |
-
-## 9. Change log
-
-| Version | Change |
-| --- | --- |
-| 0.1 (portfolio draft, as NSD-ISMS-038) | 10 KPIs with calculations, targets, owners, thresholds and interpretation principles |
-| 0.2 | Numbered NSD-ISMS-042 and made the single source of measures (NSD-ISMS-041 §3). Expanded to 21 KPIs covering every charter objective and the main risks. Precise calculations with population, source and timing. One data owner per KPI, using existing roles. Targets taken from the charter and policies, including the training target changed to 95% to match Obj 5. Amber and Red thresholds set per KPI, and seven hard limits defined. Added separation of duties for GRC-owned KPIs and an objective coverage table. The draft's interpretation principles are kept. |
 
 ---
 

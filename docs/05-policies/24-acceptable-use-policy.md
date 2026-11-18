@@ -3,7 +3,7 @@
 | Field | Value |
 | --- | --- |
 | Reference | NSD-ISMS-024 |
-| Version | 0.2 — Draft for MD approval |
+| Version | 1.0 — Draft for MD approval |
 | Framework | ISO/IEC 27001:2022 incl. Amendment 1:2024 (Annex A 5.10, 6.7, 7.7, 7.9, 7.10, 8.1, 8.7, 8.19, 8.23) |
 | Parent policy | [NSD-ISMS-022 Information Security Policy](22-information-security-policy.md) |
 | Policy owner | IT Manager |
@@ -102,16 +102,11 @@ Monitoring is lawful, proportionate and transparent. It is described in the empl
 
 Annex A 5.10, 6.7, 7.7, 7.9, 7.10, 8.1, 8.7, 8.19, 8.23 · Risks R-04, R-10, R-19, R-20 · Actions T-04.1, T-10.2, T-19.1, T-19.2, T-20.1
 
-## 13. Approval and change log
+## 13. Approval
 
 | Role | Decision | Date |
 | --- | --- | --- |
 | Managing Director | Pending | |
-
-| Version | Change |
-| --- | --- |
-| 0.1 (portfolio draft, as NSD-ISMS-020) | First draft |
-| 0.2 | Numbered NSD-ISMS-024. Approver changed to the MD. Added rules on generative AI (R-19), payment verification (R-04), personal mobile devices, no Restricted data on endpoints, removable media, a 5-minute screen lock, working outside the UK and EU, and clear desk. Monitoring made specific: privacy notice, DPIA and UK and EU employment law. "Promptly" replaced with "immediately". Added measures. |
 
 ---
 

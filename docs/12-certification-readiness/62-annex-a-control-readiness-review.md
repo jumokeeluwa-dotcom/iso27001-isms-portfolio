@@ -3,11 +3,11 @@
 | Field | Value |
 | --- | --- |
 | Reference | NSD-ISMS-062 |
-| Version | 0.3 — Simulated review |
+| Version | 1.0 — Simulated review |
 | Standard | ISO/IEC 27001:2022 incl. Amendment 1:2024, Annex A (93 controls) |
 | Status | **Simulated. Evidence is taken from earlier portfolio records only. A record not in the portfolio is treated as missing** |
 | Evidence as at | 30 September 2027 |
-| Inputs | [NSD-ISMS-019 SoA v0.3](../04-controls-and-soa/19-statement-of-applicability.md) · [NSD-ISMS-014 Risk register](../03-risk-management/14-risk-register.md) · [NSD-ISMS-044 Dashboard](../08-monitoring-and-measurement/44-performance-dashboard.md) · AUD-03 records (031–035) · [NSD-ISMS-034](../06-internal-audit/34-corrective-action-register.md) |
+| Inputs | [NSD-ISMS-019 SoA v1.0](../04-controls-and-soa/19-statement-of-applicability.md) · [NSD-ISMS-014 Risk register](../03-risk-management/14-risk-register.md) · [NSD-ISMS-044 Dashboard](../08-monitoring-and-measurement/44-performance-dashboard.md) · AUD-03 records (031–035) · [NSD-ISMS-034](../06-internal-audit/34-corrective-action-register.md) |
 | Method | Same as the clause gap assessment ([NSD-ISMS-061](61-clause-gap-assessment.md) §2) |
 | Reviewer | Information Security / GRC Analyst; independent check in the mock audits (066, 067) |
 | Approver | Managing Director |
@@ -17,11 +17,11 @@
 
 ## 1. Purpose and coverage
 
-This review checks whether each Annex A control is ready to show to a certification auditor: designed, approved and operating with evidence. Unlike the draft's sample of 34 controls, it accounts for **all 93.** A readiness review that skips controls cannot support a readiness decision.
+This review checks whether each Annex A control is ready to show to a certification auditor: designed, approved and operating with evidence. It accounts for **all 93.** A readiness review that skips controls cannot support a readiness decision.
 
 | Group | Controls | Treatment here |
 | --- | --- | --- |
-| Assessed in the SoA (v0.3) | 48 | Reviewed one by one (section 4) |
+| Assessed in the SoA (v1.0) | 48 | Reviewed one by one (section 4) |
 | Awaiting assessment (SoA Wave 2, overdue since Jan 2027) | 45 | **Not ready:** applicability not yet decided. Readiness cannot be judged before applicability |
 | **Total** | **93** | |
 
@@ -29,7 +29,7 @@ This review checks whether each Annex A control is ready to show to a certificat
 
 Each control is rated on **design** (Approved, Drafted, None) and **operation** (Evidenced, Partial, None, Unknown), giving a readiness of Ready, Partly ready or Not ready (NSD-ISMS-061 §2).
 
-The draft's five categories overlapped: every "Designed" control also needs evidence, so "Designed" and "Evidence required" described the same controls. They also gave 8.15, 8.16 and 8.24 "Not assessed", although the SoA already rates them Partially implemented. Two separate dimensions avoid both problems.
+Two separate dimensions keep design and operation apart, so a control that operates but is not approved is still visible.
 
 **Operated by:** whether the control is operated by **Northstar**, **shared** with a supplier (for example, Azure provides the backup service and Northstar configures and tests it), or provided by a **supplier.** For shared controls, Northstar must evidence its own part and hold the supplier's assurance for the rest.
 
@@ -51,7 +51,7 @@ The draft's five categories overlapped: every "Designed" control also needs evid
 
 ## 4. Assessed controls
 
-| Control | Title | Operated by | Design | Operation | Evidence (as at 30 Sep 2027) | Readiness | SoA v0.3 status |
+| Control | Title | Operated by | Design | Operation | Evidence (as at 30 Sep 2027) | Readiness | SoA v1.0 status |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 5.1 | Policies for information security | Northstar | Drafted: 022–029 | Unknown | Policies not approved; yet KPI-20 reports 93% policy acknowledgement. **Conflict** | 🟧 Not ready | Planned |
 | 5.2 | Information security roles and responsibilities | Northstar | Drafted: charter; 007 | Partial | Roles operated in AUD-03; owner acceptance not recorded | 🟨 Partly ready | Planned |
@@ -103,7 +103,7 @@ The draft's five categories overlapped: every "Designed" control also needs evid
 | 8.32 | Change management | Northstar | Drafted: 029 §5 | Partial | KPI-07 100% approvals (Green); testing and emergency-change review not evidenced | 🟨 Partly ready | Partially implemented |
 ## 5. Differences from the SoA, for validation (NSD-ISMS-063)
 
-| Control | SoA v0.3 says | Later evidence says | Question for 063 |
+| Control | SoA v1.0 says | Later evidence says | Question for 063 |
 | --- | --- | --- | --- |
 | 5.1 | Planned | KPI-20 reports 93% policy acknowledgement | Were policies approved and published outside the portfolio, or were drafts acknowledged? |
 | 5.2 | Planned | Roles operated in AUD-03 | Partially implemented? |
@@ -111,13 +111,13 @@ The draft's five categories overlapped: every "Designed" control also needs evid
 | 5.25, 5.26 | To be assessed | INC-2027-014 was triaged, assessed and handled (CA-03) | Partially implemented? |
 | 5.27 | **Not implemented (escalated)** | CA-03 recorded root causes and ISMS changes from INC-2027-014 | Partially implemented? The escalation may be out of date |
 | 8.12 | Planned | KPI-16 shows DLP blocking Restricted data | Status to change when CA-03 effectiveness is verified, as 034 states |
-| 7.4 | To be assessed (head office only) | The draft treated 7.4 as cloud provider assurance | Keep the SoA scope: Microsoft's facilities are covered by 5.23 and supplier assurance, not 7.4 |
+| 7.4 | To be assessed (head office only) | 7.4 can be mistaken for cloud provider assurance | Keep the SoA scope: Microsoft's facilities are covered by 5.23 and supplier assurance, not 7.4 |
 
 Each difference is evidence pointing one way. The SoA changes only once 063 checks the evidence, and the control owner confirms.
 
 ## 6. Review rules
 
-The draft's six rules are kept, with two additions.
+Eight rules apply.
 
 1. Do not mark a control implemented merely because a policy mentions it.
 2. Distinguish controls Northstar operates from controls provided by suppliers.
@@ -132,17 +132,11 @@ The draft's six rules are kept, with two additions.
 
 29 of the 48 assessed controls are partly ready and 19 are not ready; with Wave 2, 64 of 93 are not ready. The fastest improvement would come from **approvals** (affecting every control) and **Wave 2** (45 controls). The controls most likely to produce major findings at Stage 2 are those with no evidence of operation where the risk is Very High: recovery (R-14) and leavers' access (R-12, where RCA-01 is still open).
 
-## 8. Approval and change log
+## 8. Approval
 
 | Role | Decision | Date |
 | --- | --- | --- |
 | Managing Director | Pending | |
-
-| Version | Change |
-| --- | --- |
-| 0.1 (portfolio draft, as NSD-ISMS-058) | Readiness sample of 34 controls; five readiness categories; six review rules |
-| 0.3 | Correction: references to management review MR-2027-01 as held removed; it is planned but unrecorded (037, 038, 040). |
-| 0.2 | Numbered NSD-ISMS-062; document references corrected to portfolio numbering. **Coverage extended to all 93 controls:** the 48 assessed controls reviewed individually, and the 45 Wave 2 controls counted as not ready. Five overlapping categories replaced by design and operation (as 061). Each control given its owner-independent evidence from AUD-03, the KPI dashboard and corrective actions, and whether it is operated by Northstar, shared or supplier-provided. Readiness compared with the SoA: seven differences listed for 063, including 5.27 (escalated as Not implemented, but CA-03 shows learning from an incident) and 7.4 (the draft confused head office monitoring with cloud provider assurance). Controls the draft omitted, including 5.27, are now included. Two review rules added: evidence within 12 months, and "no events" is not evidence. |
 
 ---
 

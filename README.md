@@ -68,20 +68,21 @@ These principles run through every document:
 - **No one verifies their own work.** The GRC Analyst coordinates but never accepts risk or verifies its own actions.
 - **Controls come from risk treatment and** are then compared with Annex A (clause 6.1.3). Annex A is not used as a checklist.
 - **Correction, corrective action and effectiveness verification are kept separate.**
-- **Drafts are challenged before they are accepted.** Every document ends with a change log recording what was found and fixed.
+- **Drafts are challenged before they are accepted.** The [build walkthrough](guide/isms-build-walkthrough.md) explains what was found and fixed at each stage.
 
-**Examples of judgement calls you can trace in the change logs:**
+**Examples of judgement calls (explained in the build walkthrough):**
 
-- A separate 3×3 supplier risk scale was replaced with the organisation's 5×5 matrix, so all risks stay comparable (056).
-- A supplier KPI reported as 80% was reset to 0 of 7 when its records could not be found (058, 060).
-- A clause 10.2 mapping borrowed from ISO 9001 was found and corrected (034).
-- A management review treated as held was found to have no minutes, and every affected document was corrected (061–067).
-- A mock auditor found that KPI validation had passed three unsupported results (066).
+- A separate 3×3 supplier risk scale was replaced with the organisation's 5×5 matrix, so all risks stay comparable.
+- A supplier KPI reported as 80% was reset to 0 of 7 when its records could not be found.
+- A clause 10.2 mapping borrowed from ISO 9001 was found and corrected.
+- A management review treated as held was found to have no minutes, and every affected document was corrected.
+- A mock auditor found that KPI validation had passed three unsupported results.
 
 ## Repository structure
 
 ```
 README.md
+guide/                              build walkthrough (.md and .docx)
 career/                             portfolio summary (.md and .docx)
 docs/
   01-initiation-and-context/        README.md, 001–004 (.md and .docx)
@@ -108,6 +109,7 @@ docs/
 | SoA statuses | Implemented · Partially implemented · Planned · Not implemented · To be assessed. Applicability is Yes or No only |
 | Evidence types | Documented · Operational · Effectiveness |
 | Classification | Restricted · Confidential · Internal · Public |
+| Versions | All documents are issued as version 1.0, not yet approved by Northstar's (fictional) MD |
 | Word versions | A4 landscape; footer shows document, classification, "Simulated" and page number |
 
 ## Standards and frameworks referenced

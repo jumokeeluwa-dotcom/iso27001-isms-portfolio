@@ -3,7 +3,7 @@
 | Field | Value |
 | --- | --- |
 | Reference | NSD-ISMS-053 (exercise EX-01) |
-| Version | 0.2 — Plan for MD approval |
+| Version | 1.0 — Plan for MD approval |
 | Framework | ISO/IEC 27001:2022 incl. Amendment 1:2024: Annex A 5.24–5.27, 5.29, 5.30; clauses 8.1, 9.1 |
 | Status | **Simulated plan. The exercise has not taken place. No result in this document is a result** |
 | Exercise type | Tabletop: discussion only, no live systems touched |
@@ -55,7 +55,7 @@ Each objective is rated **Met, Partly met** or **Not met,** with the evidence: w
 | HR Manager | Staff communication | |
 | Internal auditor | Facilitator, timekeeper and evaluator | Does not take part in decisions |
 
-Roles in the draft that are not in the charter were mapped: "Incident Coordinator" is the GRC Analyst; "Security Lead" and "Cloud Administrator" are covered by the technical leads; "Privacy Lead" is the Data Protection lead; "Communications Lead" is split between the Customer Support Manager and Sales lead, with the MD approving; "Senior Management" is the MD.
+All participants hold charter roles. Incident coordination sits with the GRC Analyst as incident manager; technical investigation with the technical leads; privacy with the Data Protection lead; and customer communication with the Customer Support Manager and Sales lead, with the MD approving.
 
 ## 4. Scenario
 
@@ -193,7 +193,7 @@ The investigation finds the attacker's first access was **three days earlier.** 
 | Exercise report EX-01: rating and evidence for each objective, timeline, gaps | Internal auditor, with the GRC Analyst | Within **10 working days** (22 Dec 2027) |
 | Each gap triaged under NSD-ISMS-045 §2: a requirement not met goes to NSD-ISMS-034; a weak but compliant arrangement goes to NSD-ISMS-047; a changed risk goes to NSD-ISMS-014 | GRC Analyst | With the report |
 | T-18.1 status updated: complete **only if** O5 is rated Met | GRC Analyst, verified by the internal auditor or MD | With the report |
-| Summary to management review (input 9.3.2(c)) | GRC Analyst | Next management review |
+| Summary to management review (input 9.3.2(d)) | GRC Analyst | Next management review |
 
 An exercise that finds nothing is reviewed for whether it was realistic. With database logging untested and backup protection unconfirmed, this scenario is designed to find something.
 
@@ -201,16 +201,11 @@ An exercise that finds nothing is reviewed for whether it was realistic. With da
 
 Kept for 3 years, classified Confidential: this plan, the inject pack, attendance, the facilitator's timeline and notes, decisions in scenario time, the evaluation, the report, and the resulting actions.
 
-## 9. Approval and change log
+## 9. Approval
 
 | Role | Decision | Date |
 | --- | --- | --- |
 | Managing Director | Pending | |
-
-| Version | Change |
-| --- | --- |
-| 0.1 (portfolio draft, as NSD-ISMS-049) | Draft exercise plan EX-001 with five injects |
-| 0.2 | Numbered NSD-ISMS-053 (EX-01) and linked to T-18.1, which the portfolio shows as **overdue** (due 1 Mar 2027, no record). Owner changed from "Security Lead" to the GRC Analyst; the internal auditor facilitates and evaluates, so the incident manager is not scoring themselves. Participants mapped to charter roles. Evaluation criteria replaced with ten objectives and pass criteria taken from 027, 050 and 051. Scenario made specific: an adversary-in-the-middle attack on the IT Manager's admin account on a Friday evening, testing R-13, R-01, R-14 and R-18 and the deputy arrangements. Injects timed in scenario time with expected actions; added persistence through an app registration, incomplete database logs, backup deletion attempts, external pressure and a backup that is not clean. Logistics, ground rules, outputs, triage of gaps and record retention added. |
 
 ---
 

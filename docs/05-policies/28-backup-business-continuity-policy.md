@@ -3,7 +3,7 @@
 | Field | Value |
 | --- | --- |
 | Reference | NSD-ISMS-028 |
-| Version | 0.3 — Draft for MD approval |
+| Version | 1.0 — Draft for MD approval |
 | Framework | ISO/IEC 27001:2022 incl. Amendment 1:2024 (Annex A 5.29, 5.30, 8.13, 8.14) |
 | Parent policy | [NSD-ISMS-022 Information Security Policy](22-information-security-policy.md) |
 | Policy owner | IT Manager (backup and recovery) |
@@ -89,17 +89,11 @@ Security controls stay in force during an incident and recovery:
 
 Annex A 5.29, 5.30, 8.13, 8.14 · Risks R-02, R-09, R-14 · Actions T-09.1, T-09.2, T-14.1, T-14.2, T-14.3
 
-## 11. Approval and change log
+## 11. Approval
 
 | Role | Decision | Date |
 | --- | --- | --- |
 | Managing Director | Pending | |
-
-| Version | Change |
-| --- | --- |
-| 0.1 (portfolio draft, as NSD-ISMS-024) | Backup and recovery procedure |
-| 0.2 | Numbered NSD-ISMS-028 and widened to cover business continuity, as planned for this milestone. MD named as business continuity owner and approver. Added recovery objectives by availability rating (NSD-ISMS-009). Made mandatory what the draft said "should be considered": immutable copies, a separate backup role, encryption and same-region storage. Added same-day failure investigation, a 99% success target, annual restore and failover tests ("at planned intervals" replaced), an offline BC plan copy, and security during disruption. |
-| 0.3 | §3 points to the Recovery Objectives Register (NSD-ISMS-052) as the single place for system-level RTOs and RPOs; the rating table becomes the default. |
 
 ---
 

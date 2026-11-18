@@ -3,7 +3,7 @@
 | Field | Value |
 | --- | --- |
 | Reference | NSD-ISMS-052 |
-| Version | 0.2 — Proposed objectives for validation |
+| Version | 1.0 — Proposed objectives for validation |
 | Framework | ISO/IEC 27001:2022 incl. Amendment 1:2024: Annex A 5.30, 8.13, 8.14 |
 | Status | **Simulated. All objectives are proposals. None has been validated, approved or demonstrated** |
 | Derived from | [NSD-ISMS-049 BIA](49-business-impact-analysis.md) §4–5 |
@@ -34,20 +34,20 @@ Objectives are **derived, not chosen:**
 
 ## 2. Register
 
-| # | System (asset) | Owner | Supports (BIA) | Required by BIA | Draft proposal | **Proposed objective** | How the RPO is met | Demonstrated? | Status |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Identity and break-glass access (AST-009, AST-010) | IT Manager | A1, A3, A5 | RTO 1 h | 2 h / 30 min | **Break-glass sign-in: 1 h.** Entra ID itself is restored by Microsoft, so Northstar's objective is access through break-glass accounts. **Configuration RPO: 24 h** (conditional access, PIM and role settings) | Daily export of identity configuration (to be confirmed) | Quarterly break-glass test (T-13.2): results to be linked | Proposed |
-| 2 | Keys and secrets (AST-006) | Head of Engineering | A1 | RTO 4 h | Not in draft | **RTO 4 h; RPO zero.** A lost encryption key means the data it protects cannot be recovered | Every key and secret version recoverable after deletion (to be confirmed) | Not tested separately | Proposed |
-| 3 | Production environment (AST-007) | Head of Engineering | A1 | RTO 4 h | 4 h / 1 h (with the platform) | **RTO 4 h.** No RPO: the environment is rebuilt from code | Environment held as code in the repository | **Not evidenced:** failover test (T-09.2) due 1 Mar 2027; no result recorded | Proposed |
-| 4 | Customer databases, UK and EU (AST-001) | Head of Engineering | A1 | RTO 4 h; RPO 1 h | 4 h / 1 h | **RTO 4 h; RPO 1 h.** EU data restored only to an EU region (R-02) | Continuous or hourly protection (028 §4) | **Partly:** KPI-09 Q2 2027, 3 of 4 recovery tests met the RTO and RPO; the 4th has no record | Proposed |
-| 5 | Backups (AST-011) | IT Manager | A1, A5, A6, A7 | Available within 4 h, including in a regional outage | Not in draft | **Available within 4 h from outside the affected region** | Copy held outside the source region | **Not met:** backups are in the same region as the source (BIA gap G2) | **Gap:** for risk review (R-09, R-14) |
-| 6 | Security logs (AST-012) | GRC Analyst | A3 | RTO 4 h | 4 h / 1 h | **RTO 4 h; RPO 1 h** | Logs forwarded continuously to the log store | Not tested | Proposed. **Differs from 028** (Medium: 2 working days) |
-| 7 | Customer status channel, independent of the platform and Microsoft 365 | Customer Support Manager | A2 | RTO 1 h | Not in draft | **Available within 1 h** | Not applicable | **Not in place,** and not in the asset register (BIA gap G1) | **Gap** |
-| 8 | Support ticketing (AST-013) | Customer Support Manager | A2 | RTO 1 h, **unless** item 7 exists | 12 h / 4 h | **2 working days; RPO 24 h, if item 7 is in place.** Without it, 1 h | Supplier backup (to be confirmed in 026) | Not tested | Proposed, conditional on item 7 |
-| 9 | Microsoft 365 (AST-008) | IT Manager | A2, A5, A6 | 4 h for email (A2), unless item 7 exists; 2 working days for data | 8 h / 4 h | **Service: supplier-restored;** Northstar's objective is BCP workarounds within 1 h. **Data restore: 2 working days; RPO 24 h** | Daily backup of mail, SharePoint and Teams (AST-011) | Quarterly sample restores (028 §6): results to be linked | Proposed |
-| 10 | Code repository and CI/CD (AST-004, AST-005) | Head of Engineering | A4, A8 | RTO 1 working day | 24 h / 8 h | **1 working day; RPO 24 h** | Repository copies and daily backup (to be confirmed) | Not tested | Proposed. **Differs from 028** (2 working days) |
-| 11 | Finance and banking systems (AST-003) | Finance Manager | A6 | RTO 2 working days; MTPD 1 working day in payroll week | 3 business days / 24 h | **2 working days; RPO 24 h.** In a payroll week the bank's own service is used (BCP §5) | Supplier-hosted; supplier backup (026) | Not tested | Proposed |
-| 12 | HR system (AST-002) | HR Manager | A7, A7a | RTO 2 working days; leavers the same day | 3 business days / 24 h | **2 working days; RPO 24 h.** The manual leaver fallback (BCP §5) runs from day 1 | Supplier-hosted; supplier backup (026) | Not tested | Proposed |
+| # | System (asset) | Owner | Supports (BIA) | Required by BIA | **Proposed objective** | How the RPO is met | Demonstrated? | Status |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Identity and break-glass access (AST-009, AST-010) | IT Manager | A1, A3, A5 | RTO 1 h | **Break-glass sign-in: 1 h.** Entra ID itself is restored by Microsoft, so Northstar's objective is access through break-glass accounts. **Configuration RPO: 24 h** (conditional access, PIM and role settings) | Daily export of identity configuration (to be confirmed) | Quarterly break-glass test (T-13.2): results to be linked | Proposed |
+| 2 | Keys and secrets (AST-006) | Head of Engineering | A1 | RTO 4 h | **RTO 4 h; RPO zero.** A lost encryption key means the data it protects cannot be recovered | Every key and secret version recoverable after deletion (to be confirmed) | Not tested separately | Proposed |
+| 3 | Production environment (AST-007) | Head of Engineering | A1 | RTO 4 h | **RTO 4 h.** No RPO: the environment is rebuilt from code | Environment held as code in the repository | **Not evidenced:** failover test (T-09.2) due 1 Mar 2027; no result recorded | Proposed |
+| 4 | Customer databases, UK and EU (AST-001) | Head of Engineering | A1 | RTO 4 h; RPO 1 h | **RTO 4 h; RPO 1 h.** EU data restored only to an EU region (R-02) | Continuous or hourly protection (028 §4) | **Partly:** KPI-09 Q2 2027, 3 of 4 recovery tests met the RTO and RPO; the 4th has no record | Proposed |
+| 5 | Backups (AST-011) | IT Manager | A1, A5, A6, A7 | Available within 4 h, including in a regional outage | **Available within 4 h from outside the affected region** | Copy held outside the source region | **Not met:** backups are in the same region as the source (BIA gap G2) | **Gap:** for risk review (R-09, R-14) |
+| 6 | Security logs (AST-012) | GRC Analyst | A3 | RTO 4 h | **RTO 4 h; RPO 1 h** | Logs forwarded continuously to the log store | Not tested | Proposed. **Differs from 028** (Medium: 2 working days) |
+| 7 | Customer status channel, independent of the platform and Microsoft 365 | Customer Support Manager | A2 | RTO 1 h | **Available within 1 h** | Not applicable | **Not in place,** and not in the asset register (BIA gap G1) | **Gap** |
+| 8 | Support ticketing (AST-013) | Customer Support Manager | A2 | RTO 1 h, **unless** item 7 exists | **2 working days; RPO 24 h, if item 7 is in place.** Without it, 1 h | Supplier backup (to be confirmed in 026) | Not tested | Proposed, conditional on item 7 |
+| 9 | Microsoft 365 (AST-008) | IT Manager | A2, A5, A6 | 4 h for email (A2), unless item 7 exists; 2 working days for data | **Service: supplier-restored;** Northstar's objective is BCP workarounds within 1 h. **Data restore: 2 working days; RPO 24 h** | Daily backup of mail, SharePoint and Teams (AST-011) | Quarterly sample restores (028 §6): results to be linked | Proposed |
+| 10 | Code repository and CI/CD (AST-004, AST-005) | Head of Engineering | A4, A8 | RTO 1 working day | **1 working day; RPO 24 h** | Repository copies and daily backup (to be confirmed) | Not tested | Proposed. **Differs from 028** (2 working days) |
+| 11 | Finance and banking systems (AST-003) | Finance Manager | A6 | RTO 2 working days; MTPD 1 working day in payroll week | **2 working days; RPO 24 h.** In a payroll week the bank's own service is used (BCP §5) | Supplier-hosted; supplier backup (026) | Not tested | Proposed |
+| 12 | HR system (AST-002) | HR Manager | A7, A7a | RTO 2 working days; leavers the same day | **2 working days; RPO 24 h.** The manual leaver fallback (BCP §5) runs from day 1 | Supplier-hosted; supplier backup (026) | Not tested | Proposed |
 
 ## 3. Objectives that depend on suppliers
 
@@ -60,11 +60,11 @@ For Entra ID, Microsoft 365, the finance system and the HR system, **Northstar c
 
 | Conflict | Resolution |
 | --- | --- |
-| The draft gave support systems 12 hours, the BIA needs customer communication within 1 hour, and NSD-ISMS-028 gives 2 working days | Separated into the **status channel** (1 h, item 7) and the **ticketing system** (2 working days, if item 7 exists) |
-| The draft gave finance an RTO of 3 business days, equal to its MTPD | RTO 2 working days, leaving a margin. An RTO equal to the MTPD leaves no time for anything to go wrong |
-| The draft gave identity a 30-minute RPO | Entra ID data is held by Microsoft. Northstar's RPO applies to its own configuration |
+| The BIA needs customer communication within 1 hour, but NSD-ISMS-028 gives support systems 2 working days | Separated into the **status channel** (1 h, item 7) and the **ticketing system** (2 working days, if item 7 exists) |
+| An RTO for finance equal to its MTPD (3 working days) would leave no margin | RTO 2 working days, leaving a margin. An RTO equal to the MTPD leaves no time for anything to go wrong |
+| A short RPO cannot apply to directory data that Microsoft holds | Entra ID data is held by Microsoft. Northstar's RPO applies to its own configuration |
 | Security logs and CI/CD are rated Medium in NSD-ISMS-028 | Shorter objectives proposed here. If approved, the asset availability ratings (NSD-ISMS-009) are raised to match |
-| Keys and backups were missing from the draft | Added. Every other recovery depends on them |
+| Keys and backups underpin every other recovery | Included as items 2 and 5 |
 
 ## 5. Validation
 
@@ -98,13 +98,6 @@ Reviewed with the BIA every year, and within 10 working days of:
 - a new or changed customer commitment;
 - a platform, backup or supplier change;
 - any test or real recovery that missed its objective.
-
-## 8. Change log
-
-| Version | Change |
-| --- | --- |
-| 0.1 (portfolio draft, as NSD-ISMS-048) | Nine services with illustrative RTO, RPO and priority |
-| 0.2 | Numbered NSD-ISMS-052. One register owner (the GRC Analyst) and one owner for each objective, replacing "IT Manager / GRC Analyst". Every objective **derived from the BIA,** with the draft's values kept for comparison. "Critical/High" priority removed, because recovery order is set in BIA §7 and "Critical" is an asset tier. Added keys, backups and a customer status channel. Supplier-restored services handled separately. Columns added for how the RPO is met and what has been demonstrated, using portfolio records only. Conflicts with the draft and with NSD-ISMS-028 resolved or recorded. Validation with named roles; review triggers made specific. |
 
 ---
 

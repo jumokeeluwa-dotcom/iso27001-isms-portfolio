@@ -3,7 +3,7 @@
 | Field | Value |
 | --- | --- |
 | Reference | NSD-ISMS-016 |
-| Version | 0.2 — Draft for MD approval |
+| Version | 1.0 — Draft for MD approval |
 | Framework | ISO/IEC 27001:2022 incl. Amendment 1:2024 (clauses 6.1.2(a)(1), 6.1.3(f), 8.3) |
 | Related documents | [NSD-ISMS-012 Methodology](12-risk-assessment-methodology.md) · [NSD-ISMS-013 Scoring Matrix](13-risk-scoring-matrix.md) · [NSD-ISMS-014 Risk Register](14-risk-register.md) · [NSD-ISMS-015 Treatment Plan](15-risk-treatment-plan.md) |
 | Criteria owner | Managing Director |
@@ -205,14 +205,6 @@ Each record contains these fields:
 | ISMS Steering Group | Reviews the criteria; decides Steering Group items in Part B | Pending | |
 | Data Protection lead | Validates section 4 and the personal data rules | Pending | |
 | Information Security / GRC Analyst | Prepared and maintains the register; **no acceptance authority** | Prepared | |
-
-## 11. Change log
-
-| Version | Change |
-| --- | --- |
-| 0.2 | Risk owners updated to match NSD-ISMS-017: R-02 and R-18 to the Data Protection lead, R-12 to the HR Manager, R-19 to the MD. GRC-owned risks are now R-15 only. |
-| 0.1 (portfolio draft, as NSD-ISMS-014) | Approval register for 10 risks, all "Senior Management"; field list and seven principles |
-| 0.1 | Numbered NSD-ISMS-016, the number reserved in NSD-ISMS-012; retitled to include the criteria. Added Part A: risk appetite, authority by band, maximum periods, the Severe-impact and personal data rules, GRC-owned risks, non-acceptable risks, decision statuses and invalidation triggers. Part B aligned with the NSD-ISMS-014 IDs and scores and extended to all 20 risks, separating interim tolerance from target acceptance. Added full acceptance records for R-07 and R-13. Principle 5 changed from "where appropriate" to "always time-limited". "Senior Management" replaced by named authorities. |
 
 ---
 

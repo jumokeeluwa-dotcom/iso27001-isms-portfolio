@@ -3,6 +3,7 @@
 | Field | Value |
 | --- | --- |
 | Reference | NSD-ISMS-035 |
+| Version | 1.0 — Final report |
 | Audit reference | AUD-03 (NSD-ISMS-030 §5) |
 | Status | **Illustrative completed report.** It is built only from the simulated facts in NSD-ISMS-032 §7, 033 and 034. **No audit has been conducted** |
 | Lead auditor | External auditor, ISO/IEC 27001 Lead Auditor. Independence confirmed in writing before fieldwork (NSD-ISMS-030 §3) |
@@ -145,13 +146,6 @@ Managing Director; ISMS Steering Group; IT Manager; HR Manager; Head of Engineer
 | --- | --- | --- |
 | Lead auditor | | 30 Jun 2027 (illustrative) |
 | Managing Director: report received | | |
-
-## 14. Change log
-
-| Version | Change |
-| --- | --- |
-| 0.1 (portfolio draft, as NSD-ISMS-031) | Report template with illustrative findings |
-| 0.2 | Numbered NSD-ISMS-035, with audit reference AUD-03. Completed as an illustrative report, consistent with NSD-ISMS-032, 033 and 034. F01 shown as Minor and F02 as a resolved Minor, replacing "Illustrative major" and "Pending investigation", which no final report can carry. Owners aligned. Added the independence statement, a results table by area, a conclusion for each audit objective, good practice, implications for the SoA and risk register, limitations, management responses and a restricted distribution. Recipient changed from "Senior Management" to the MD and Steering Group. The draft's rule that the conclusion must not rest on policies alone is kept and applied. |
 
 ---
 

@@ -5,7 +5,7 @@
 | Reference | NSD-ISMS-032 |
 | Audit reference | AUD-03 (NSD-ISMS-030 §5) |
 | Audit plan | [NSD-ISMS-031](31-audit-plan-aud03-iam.md): tests IAM-01 to IAM-15 |
-| Version | 0.2 — Ready for use |
+| Version | 1.0 — Ready for use |
 | Lead auditor | External auditor (independence confirmed in section 2) |
 | Fieldwork | 15–16 June 2027 · Period tested: 1 February to 31 May 2027 |
 | Classification | Confidential once completed: it holds audit evidence |
@@ -157,13 +157,6 @@ This example shows how to complete a row. It is **not** an audit result.
 | --- | --- | --- |
 | Lead auditor: checklist completed | | |
 | Process owner (IT Manager): results discussed at the closing meeting | | |
-
-## 9. Change log
-
-| Version | Change |
-| --- | --- |
-| 0.1 (portfolio draft, as NSD-ISMS-028 / AUD-005) | 15 questions with evidence and results |
-| 0.2 | Numbered NSD-ISMS-032, with audit reference AUD-03 to match the programme. Each question tied to a plan test (IAM-01 to IAM-15) and a policy clause. Vague questions made testable: "MFA where required" became 100% of accounts; "disabled promptly" became the end of the last working day; "reviewed periodically" became quarterly. Added questions on joiners, movers, orphan accounts, service accounts, production data access, break-glass accounts, legacy sign-in re-performance, treatment evidence and SoA accuracy. Draft questions 8 and 14 (logging) and 15 (incidents) kept as limited cross-checks, because the full controls are audited in AUD-04 and AUD-07. Added pre-fieldwork checks, a population register, the Major/Minor grade, "Not applicable" with evidence, working paper references and an illustrative example entry. The draft's results scale, notes fields and investigate-first principle are kept. |
 
 ---
 

@@ -3,7 +3,7 @@
 | Field | Value |
 | --- | --- |
 | Reference | NSD-ISMS-010 |
-| Version | 0.1 — Draft for risk owner review |
+| Version | 1.0 — Draft for risk owner review |
 | Framework | ISO/IEC 27001:2022 incl. Amendment 1:2024 (clauses 6.1.2, 8.2; Annex A controls as referenced) |
 | Related documents | [NSD-ISMS-002 Context](../01-initiation-and-context/02-organisational-context-register.md) · [NSD-ISMS-006 Asset Register](06-information-asset-register.md) · [NSD-ISMS-007 Ownership](07-asset-ownership-register.md) · [NSD-ISMS-009 Valuation](09-asset-valuation-methodology.md) |
 | Owner | Information Security / GRC Analyst |
@@ -132,32 +132,13 @@ When phase 2 starts, each scenario moves into the risk register with these field
 | Risk owner | This register, confirmed by the owner | Proposed |
 | Treatment decision and target date | Risk treatment plan | To be done in phase 2 |
 
-## 7. Changes from the 1.0 draft
-
-| 1.0 draft | Change in v0.1 |
-| --- | --- |
-| Asset IDs from the original list (e.g. AST-009 privileged credentials) | Aligned with NSD-ISMS-006 (privileged credentials are now AST-010) |
-| 10 scenarios covering 9 assets | 26 scenarios covering all 20 assets |
-| Mostly confidentiality threats | Integrity and availability added: Azure outage, failed restore, payment fraud, log tampering, BC plan failure |
-| Exposures stated as facts ("weak access restrictions") | Rephrased as hypotheses to test |
-| Generic control suggestions | Mapped to Annex A control numbers |
-| No impact, owner or priority | Impact from NSD-ISMS-009; owners from NSD-ISMS-007; P1–P3 priority |
-| Missing scenarios | Added: EU data residency, secrets in code, CI/CD supply chain, AI tool misuse, leaver access, missed 72-hour reporting and owner unavailability |
-
-## 8. Approval
+## 7. Approval
 
 | Role | Responsibility | Decision | Date |
 | --- | --- | --- | --- |
 | Managing Director | Approves the register as input to phase 2 | Pending | |
 | Proposed risk owners | Confirm scenarios and ownership | Pending | |
 | Information Security / GRC Analyst | Prepared the register | Prepared | |
-
-## 9. Change log
-
-| Version | Change |
-| --- | --- |
-| 1.0 (portfolio draft) | First draft: 10 scenarios with suggested controls |
-| 0.1 | Renumbered from NSD-ISMS-009 to NSD-ISMS-010. Changes as listed in section 7. Classification raised to Confidential. |
 
 ---
 

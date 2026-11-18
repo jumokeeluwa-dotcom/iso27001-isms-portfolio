@@ -3,7 +3,7 @@
 | Field | Value |
 | --- | --- |
 | Reference | NSD-ISMS-023 |
-| Version | 0.2 — Draft for MD approval |
+| Version | 1.0 — Draft for MD approval |
 | Framework | ISO/IEC 27001:2022 incl. Amendment 1:2024 (Annex A 5.15, 5.16, 5.17, 5.18, 8.2, 8.3, 8.4, 8.5) |
 | Parent policy | [NSD-ISMS-022 Information Security Policy](22-information-security-policy.md) |
 | Policy owner | IT Manager |
@@ -136,13 +136,6 @@ Breaches of this policy are handled as security incidents.
 | --- | --- | --- |
 | Managing Director | Pending | |
 | IT Manager (policy owner) | Prepared | |
-
-## 15. Change log
-
-| Version | Change |
-| --- | --- |
-| 0.1 (portfolio draft, as NSD-ISMS-019) | First draft |
-| 0.2 | Numbered NSD-ISMS-023; 019 is the SoA. Retitled to include identity management. Approver changed to the MD. Vague terms replaced with the commitments already approved elsewhere in the portfolio: MFA for **every** account; phishing-resistant MFA for administrators; legacy authentication blocked; secrets only in Key Vault; just-in-time privileged access; two break-glass accounts only; no standing production data access; leavers disabled by the end of their last working day; movers within 5 working days; review frequencies by classification; 90-day supplier account expiry. Added the identity management section, measures with targets, and links to controls, risks and treatment actions. |
 
 ---
 

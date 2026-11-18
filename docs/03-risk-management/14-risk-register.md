@@ -3,7 +3,7 @@
 | Field | Value |
 | --- | --- |
 | Reference | NSD-ISMS-014 |
-| Version | 0.3 — Provisional: scores to be confirmed once NSD-ISMS-016 is approved |
+| Version | 1.0 — Provisional: scores to be confirmed once NSD-ISMS-016 is approved |
 | Framework | ISO/IEC 27001:2022 incl. Amendment 1:2024 (clauses 6.1.2, 8.2) |
 | Related documents | [NSD-ISMS-010 Risk Mapping](../02-asset-management/10-asset-risk-mapping.md) · [NSD-ISMS-012 Methodology](12-risk-assessment-methodology.md) · [NSD-ISMS-013 Scoring Matrix](13-risk-scoring-matrix.md) · NSD-ISMS-015 Treatment Plan · NSD-ISMS-016 Acceptance Criteria · NSD-ISMS-017 Ownership Register |
 | Owner | Information Security / GRC Analyst |
@@ -28,13 +28,13 @@ Four risks need escalation to the MD within 2 working days (NSD-ISMS-013 §4):
 
 If the treatment plan is delivered, the **target** profile is 2 High, 14 Medium and 4 Low. The two risks still High after treatment (R-07 and R-13) need explicit acceptance under NSD-ISMS-016.
 
-**Why the scores are high.** Residual scores are reduced only for controls with test evidence (the control credit rule, NSD-ISMS-012 §5). Northstar's ISMS is new, so few controls have been tested yet. The scores reflect what can be proven, not what is believed. The 1.0 draft reduced every residual score while marking every control "(verify)". That would have overstated Northstar's security, so it is corrected here.
+**Why the scores are high.** Residual scores are reduced only for controls with test evidence (the control credit rule, NSD-ISMS-012 §5). Northstar's ISMS is new, so few controls have been tested yet. The scores reflect what can be proven, not what is believed.
 
 ## 2. Basis and assumptions
 
 | Item | Basis |
 | --- | --- |
-| Scales and bands | NSD-ISMS-013 v0.1 |
+| Scales and bands | NSD-ISMS-013 v1.0 |
 | Period | Likelihood within 12 months |
 | Control status | **Simulated for this portfolio.** E = Effective (tested); P = Partially effective; U = Untested (no credit); N = Not in place. In a real assessment each status cites a test record |
 | Sources | NSD-ISMS-010 scenarios (ARM), context issues (NSD-ISMS-002) and a process and supplier review |
@@ -140,29 +140,7 @@ These NSD-ISMS-010 scenarios are lower priority or are partly covered above. The
 | ARM-24 BC/DR plan out of date | Linked to R-09; assessed with the BC/DR plan |
 | ARM-26 both senior owners unavailable | Organisational; assessed with NSD-ISMS-017 |
 
-## 8. Changes from the 1.0 draft
-
-| 1.0 draft | v0.1 |
-| --- | --- |
-| Numbered NSD-ISMS-012 | NSD-ISMS-014; 012 is the methodology |
-| Residual scores reduced for every control marked "(verify)" | Credit only for controls with simulated test evidence that address the scenario. Twelve risks show no reduction |
-| Band "Critical"; 16 shown as High | "Very High"; 16 is Very High (NSD-ISMS-013) |
-| Owners included Head of Customer Operations, Head of Development, Security Lead, Procurement Manager, Operations Director, Commercial Director and Department Managers | Owners aligned with NSD-ISMS-007 and 010. Each risk has one owner |
-| Inherent and residual only | Inherent, current residual and target residual, plus confidence and treatment decision |
-| No link to assets or scenarios | Each risk links to its ARM scenario and AST assets |
-| R-016 phishing and R-020 awareness overlapped | Merged into R-10 |
-| Network architecture and contract disclosure in the top 20 | Deferred (section 7). Replaced by secrets in code, CI/CD supply chain, EU data residency, AI tool misuse and breach-notification delay |
-| Some scenarios read as labels, e.g. "Security awareness" | All risks written as full scenarios (NSD-ISMS-012 §5) |
-
-## 9. Version history
-
-| Version | Change |
-| --- | --- |
-| 0.1 | First version of the register |
-| 0.3 | Risk owners changed for R-02 (Data Protection lead), R-12 (HR Manager), R-18 (Data Protection lead) and R-19 (Managing Director), following NSD-ISMS-017. Section 6 updated. |
-| 0.2 | R-20: BitLocker changed from Effective to Partially effective (4% of devices non-compliant), found in the SoA cross-check (NSD-ISMS-019 §6). Score unchanged: remote wipe is effective, and the gap is small. |
-
-## 10. Approval
+## 8. Approval
 
 | Role | Responsibility | Decision | Date |
 | --- | --- | --- | --- |

@@ -3,7 +3,7 @@
 | Field | Value |
 | --- | --- |
 | Reference | NSD-ISMS-054 (test BRT-01) |
-| Version | 0.2 — Report template with BRT-01 planned |
+| Version | 1.0 — Report template with BRT-01 planned |
 | Framework | ISO/IEC 27001:2022 incl. Amendment 1:2024: Annex A 8.13, 5.30, 8.31, 8.33 |
 | Status | **Simulated. No test has been performed. Every result field is blank until a test produces evidence** |
 | Requirement tested | [NSD-ISMS-028](../05-policies/28-backup-business-continuity-policy.md) §6.1: full restore of the production database into an isolated environment at least once a year, measured against the RTO and RPO · Treatment action T-14.3 (R-14) |
@@ -24,7 +24,7 @@ Whether those tests ran is not assumed either way. This template exists so that 
 
 **One test, one report.** Each report covers one system and one restore. A report covering a database, application data, configuration files and identity together cannot give a clear pass or fail for any of them.
 
-| Draft scope item | Where it is tested |
+| Scope item | Where it is tested |
 | --- | --- |
 | Customer database | **This report: BRT-01 (UK database). BRT-02 covers the EU database** |
 | SaaS application data | Included in BRT-01: the application is tested against the restored database |
@@ -125,13 +125,6 @@ Corrective actions are tracked in the register the finding is triaged to, not in
 | Business validation (Customer Support Manager) | | | |
 | Evidence review (GRC Analyst) | | | |
 | Sign-off (Head of Engineering) | | | |
-
-## 9. Change log
-
-| Version | Change |
-| --- | --- |
-| 0.1 (portfolio draft, as NSD-ISMS-050) | Template BRT-001, all results pending |
-| 0.2 | Numbered NSD-ISMS-054 (BRT-01). The draft's honest "pending" approach is kept: no results are claimed. Linked to the 028 §6 requirement, T-14.3 and KPI-09, and records that the T-14.3 report and one Q2 test record are missing. **One system per report;** the other draft scope items are placed with their own tests. Details filled in where the portfolio sets them: system, objectives, isolated UK environment, authorisation, deputy operator, immutable backup and separate backup role. Exact start and stop points for the achieved RTO and RPO. Pass criteria for every item; "pass only if every item passes"; result values limited to Pass, Fail and Not tested. Added protection of restored personal data and its destruction afterwards. Findings triaged into the existing registers rather than tracked in the report. Effects on NSD-ISMS-052, KPI-09, R-14 control credit and T-14.3 set out. |
 
 ---
 

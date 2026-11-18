@@ -3,13 +3,13 @@
 | Field | Value |
 | --- | --- |
 | Reference | NSD-ISMS-060 |
-| Version | 0.2 — Simulated report |
+| Version | 1.0 — Simulated report |
 | Period | 1 July – 30 September 2027 |
 | Framework | ISO/IEC 27001:2022 incl. Amendment 1:2024: Annex A 5.19–5.23; clauses 9.1, 9.3 |
 | Status | **Simulated. Every statement is taken from earlier portfolio records. No supplier evidence has been reviewed, and nothing is shown as assured without a record** |
 | Sources | [055 Register](55-supplier-register.md) · [058 Assessments](58-supplier-security-assessment-register.md) · [NSD-ISMS-044 Dashboard](../08-monitoring-and-measurement/44-performance-dashboard.md) · [NSD-ISMS-014](../03-risk-management/14-risk-register.md) · [NSD-ISMS-049 BIA](../10-business-continuity/49-business-impact-analysis.md) |
 | Prepared by | Information Security / GRC Analyst |
-| For | ISMS Steering Group, October 2027; summary to the next management review (input 9.3.2(c)) |
+| For | ISMS Steering Group, October 2027; summary to the next management review (input 9.3.2(d)) |
 | Classification | Confidential |
 
 ---
@@ -63,7 +63,7 @@ Actions already tracked elsewhere are referenced, not repeated. **New** actions 
 | Set expiries on the 3 guest accounts | IT Manager | Overdue (from the August dashboard) | NSD-ISMS-044 |
 | Supplier continuity: backups outside the source region | Head of Engineering / IT Manager | Risk review decision | BIA gap G2 |
 
-The draft's owners "Procurement" and "Legal" are not charter roles. Contract work sits with the Finance Manager (owner of 026 and AST-015), and DPA and sub-processor work with the Data Protection lead.
+Contract work sits with the Finance Manager (owner of 026 and AST-015), and DPA and sub-processor work with the Data Protection lead.
 
 ## 5. Decisions requested
 
@@ -77,13 +77,6 @@ The draft's owners "Procurement" and "Legal" are not charter roles. Contract wor
 ## 6. Conclusion
 
 Supplier security arrangements are now **designed:** register, methodology, questionnaire, assessment register and procedure (055–059). They are **not yet operating:** no supplier has an assessment record. The figures in this report are lower than the Q2 KPI suggested, because the portfolio now counts every Critical supplier and accepts only evidence on record. The next report (Q4 2027) will show whether the plan in section 4 has been carried out.
-
-## 7. Change log
-
-| Version | Change |
-| --- | --- |
-| 0.1 (portfolio draft, as NSD-ISMS-056) | Report template with every status "Pending" and illustrative actions |
-| 0.2 | Numbered NSD-ISMS-060 and written as the **Q3 2027 report,** using only portfolio records. Statuses use Red, Amber, Green and ⬜ "no evidence", so a gap is not mistaken for Green; "no supplier incidents recorded" is not read as "none occurred". The draft's example concerns replaced by the actual position: 0 of 7 Critical suppliers with records, possibly unlisted sub-processors, unrecorded MSP admin roles. Risks linked to NSD-ISMS-014 ratings. Actions given charter owners and dates, with existing actions referenced rather than duplicated. "Management considerations" turned into four decisions with recommendations, including the time the plan needs. |
 
 ---
 

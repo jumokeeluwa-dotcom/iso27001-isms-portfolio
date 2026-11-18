@@ -3,7 +3,7 @@
 | Field | Value |
 | --- | --- |
 | Reference | NSD-ISMS-066 (mock audit MS1-01) |
-| Version | 0.3 — Simulated audit |
+| Version | 1.0 — Simulated audit |
 | Standard | ISO/IEC 27001:2022 incl. Amendment 1:2024, clauses 4–10 and the SoA |
 | Status | **Training exercise. No certification audit took place. Findings rest only on portfolio records; no finding is invented** |
 | Type | **Baseline** mock Stage 1, to test the readiness report (065) independently. A second mock Stage 1 follows in Feb 2028, before any external audit is booked |
@@ -77,8 +77,8 @@ Stage 1 findings are not graded as nonconformities. They are classed by what the
 
 | Ref | Class | Clause | Finding | Evidence |
 | --- | --- | --- | --- | --- |
-| MS1-01 | **Blocker** | 4.3, 5.2, 6.1.2(a), 6.2 | Scope, policy, objectives and risk acceptance criteria are **not approved.** Charter Obj 1 required approval by month 2 | 004 v0.1; 022; 016 Part A; charter §2 |
-| MS1-02 | **Blocker** | 6.1.3(b)–(d) | The SoA covers **48 of 93 controls,** is unapproved, and its statuses date from Dec 2026. **Re-performed:** 063 checks 2 and 7 confirmed; 4 of the 7 status differences confirmed by sampling AUD-03, KPI-07 and CA-03 | 019 v0.3; 063 |
+| MS1-01 | **Blocker** | 4.3, 5.2, 6.1.2(a), 6.2 | Scope, policy, objectives and risk acceptance criteria are **not approved.** Charter Obj 1 required approval by month 2 | 004 v1.0; 022; 016 Part A; charter §2 |
+| MS1-02 | **Blocker** | 6.1.3(b)–(d) | The SoA covers **48 of 93 controls,** is unapproved, and its statuses date from Dec 2026. **Re-performed:** 063 checks 2 and 7 confirmed; 4 of the 7 status differences confirmed by sampling AUD-03, KPI-07 and CA-03 | 019 v1.0; 063 |
 | MS1-03 | **Blocker** | 9.2(b) | The programme planned **9 audits** for June–August 2027; **only AUD-03 has records.** There is no record of a decision to postpone the others, and the programme has not been rescheduled | 030; 031–035 |
 | MS1-04 | Concern | 5.2, 7.5 | **93% of staff acknowledged a policy that has no approval record** (KPI-20). No record shows which version was acknowledged | 044; 022 |
 | MS1-05 | Concern | 9.1 | **KPI validation did not detect unsupported results.** Three examples: KPI-14 (Q2) is marked "validated against the supplier register", but no assessment records exist and the register was built in Q3; KPI-20 counts acknowledgement of an unapproved policy; KPI-18 reports "0 Very High risks beyond tolerance", but the interim tolerances it measures against are **not approved** (016 §8). The Stage 2 auditor will re-test KPI sources rather than rely on the dashboard. *(Not found by 061–065)* | 044; 058; 016 |
@@ -110,14 +110,6 @@ A real certification body makes its own decision under its own programme. The mo
 | Finding | Response | Owner | Date |
 | --- | --- | --- | --- |
 | MS1-01 to MS1-13 | Pending | | |
-
-## 8. Change log
-
-| Version | Change |
-| --- | --- |
-| 0.1 (portfolio draft, as NSD-ISMS-062) | Stage 1 objectives, criteria, plan and six observations |
-| 0.3 | **Correction:** v0.2 listed management review MR-2027-01 as a strength. It is planned but unrecorded (038 and 040 blank; 039 hypothetical), so it is now a fourth blocker, MS1-13. Strengths revised. |
-| 0.2 | Numbered NSD-ISMS-066 (MS1-01) as a **baseline** mock held in Oct 2027, with a second mock planned before booking. Lead auditor named, with an independence statement: the external internal auditor, not the GRC Analyst. Timed plan with auditees and records. **Observations corrected from portfolio records:** the draft said no completed audit or management review records exist. AUD-03 records do exist, so the audit gap is 8 of 9 audits without records; the draft was right about management review (MS1-13). Findings classed as Blocker, Concern or OFI by their likely Stage 2 grade. **New finding from independent review:** KPI validation did not detect unsupported results (KPI-14, KPI-18, KPI-20). Three 063 checks re-performed and confirmed. Strengths recorded. Management response with dates. |
 
 ---
 

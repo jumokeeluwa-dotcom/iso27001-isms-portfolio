@@ -3,7 +3,7 @@
 | Field | Value |
 | --- | --- |
 | Reference | NSD-ISMS-058 |
-| Version | 0.2 — Simulated records |
+| Version | 1.0 — Simulated records |
 | Framework | ISO/IEC 27001:2022 incl. Amendment 1:2024: Annex A 5.19–5.23; clause 8.2 |
 | Status | **Simulated. No assessment has been performed through this register** |
 | Position as at | 30 September 2027 |
@@ -16,7 +16,7 @@
 
 ## 1. What this register holds
 
-One entry per assessment: the evidence reviewed, how much credit it earns, what was found, the risks affected and the decision. **Risk ratings are not held here.** They live in NSD-ISMS-014, on the NSD-ISMS-013 scale. The draft's "illustrative risk" column gave suppliers High and Medium ratings before anything had been assessed, on a scale the methodology no longer uses, so it has been removed.
+One entry per assessment: the evidence reviewed, how much credit it earns, what was found, the risks affected and the decision. **Risk ratings are not held here.** They live in NSD-ISMS-014, on the NSD-ISMS-013 scale.
 
 ## 2. Assessment status
 
@@ -79,7 +79,7 @@ These are scenarios **to examine**, written in the NSD-ISMS-012 format. They are
 | SUP-04 MSP | An attacker compromises an MSP engineer's account and uses its access to Microsoft 365 or Entra ID to read Restricted files or change security settings | **R-16** (High, 15). Controls: due diligence (U), guest accounts with MFA (P) | Which roles the MSP holds; named accounts only; MFA enforced **in Northstar's tenant** (checked by Northstar); 90-day guest expiry; sign-in monitoring; contract terms |
 | SUP-03 Payroll | Employees' salary and bank details are disclosed through the provider's weak access control or insecure file transfer | Not directly covered: **R-03** concerns Northstar's own SharePoint, not the provider | DPA; transfer method (no email attachments); encryption; the provider's assurance; deletion. If not covered, **propose a new risk** to the HR Manager |
 
-The draft's treatments for these scenarios (MFA, named accounts, monitoring, DPA, encryption and so on) are kept as the **controls to test,** not as controls assumed to be in place.
+The treatments for these scenarios (MFA, named accounts, monitoring, DPA, encryption and so on) are the **controls to test,** not controls assumed to be in place.
 
 ## 6. Conclusions
 
@@ -92,16 +92,11 @@ The draft's treatments for these scenarios (MFA, named accounts, monitoring, DPA
 
 For a supplier **already in use,** "do not onboard" means an exit plan or a dated remediation, decided by the MD.
 
-## 7. Approval and change log
+## 7. Approval
 
 | Role | Decision | Date |
 | --- | --- | --- |
 | ISMS Steering Group | Pending | |
-
-| Version | Change |
-| --- | --- |
-| 0.1 (portfolio draft, as NSD-ISMS-054) | Eight suppliers with illustrative risk ratings; assessment fields; two scenarios; evidence principles |
-| 0.2 | Numbered NSD-ISMS-058. **Illustrative ratings removed:** suppliers had High and Medium ratings before any assessment, on the 3×3 scale replaced in 056; ratings now live only in NSD-ISMS-014. All 16 suppliers from 055 listed. **No supplier shown as assessed,** because the Q2 KPI-14 records are not in the portfolio; the KPI effect stated. Assessment order and due dates set, MSP first (R-16). The draft's evidence principles kept and mapped to the 056 credit levels, with Northstar's own checks as strongest. The two scenarios linked to existing risks: the payroll scenario is not covered by R-03, so a new risk may be needed. Treatments kept as controls to test. Decisions and authorities aligned with 056 §8. |
 
 ---
 

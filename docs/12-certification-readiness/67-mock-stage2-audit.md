@@ -3,7 +3,7 @@
 | Field | Value |
 | --- | --- |
 | Reference | NSD-ISMS-067 (mock audit MS2-01) |
-| Version | 0.3 — Plan and test programme |
+| Version | 1.0 — Plan and test programme |
 | Standard | ISO/IEC 27001:2022 incl. Amendment 1:2024, clauses 4–10 and applicable Annex A controls |
 | Status | **Training exercise. The audit has not been held. No result in this document is an audit result.** Section 6 shows only how **existing** portfolio records would be judged, to illustrate the grading |
 | Planned | May 2028 (NSD-ISMS-065 §5), **only if the entry conditions in section 2 are met** |
@@ -132,14 +132,6 @@ A successful backup job does not show that data can be restored. Only a measured
 | Minor: plan within 20 working days; closed within 90 days | Finding owner | 030 §8 |
 | Findings tracked through the remediation tracker into NSD-ISMS-034 | GRC Analyst | With the report |
 | MD decides whether to book external Stage 2 | MD | After the report |
-
-## 9. Change log
-
-| Version | Change |
-| --- | --- |
-| 0.1 (portfolio draft, as NSD-ISMS-063) | Stage 2 objective, approach, 13-area test programme, two detailed tests, findings format |
-| 0.3 | Aligned with the 066 correction: management review is unrecorded (MS1-13); entry condition, T01, T15 and the grading illustration updated. |
-| 0.2 | Numbered NSD-ISMS-067 (MS2-01) and planned for May 2028, **behind five entry conditions**, so no results are claimed. Lead auditor and independence aligned with 066. Testing rules from the portfolio: populations from systems of record, 021 sample sizes, reverse tests, re-performance, a 12-month window. Programme extended to 18 tests, driven by the Very High risks and the mock Stage 1 findings, including **re-calculating KPIs** (MS1-05) and legal requirements. Leaver test covers contractors and early terminations (the RCA-01 weak point) and a reverse test; backup test checks immutability, the separate backup role, backup location, and measures RTO and RPO as 054 defines them. Section 6 illustrates grading using **existing** records only. Grades and deadlines from 030 §8. |
 
 ---
 

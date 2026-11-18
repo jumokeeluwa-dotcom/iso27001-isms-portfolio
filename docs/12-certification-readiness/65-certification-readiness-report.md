@@ -3,7 +3,7 @@
 | Field | Value |
 | --- | --- |
 | Reference | NSD-ISMS-065 |
-| Version | 0.3 — Simulated report for MD decision |
+| Version | 1.0 — Simulated report for MD decision |
 | Standard | ISO/IEC 27001:2022 incl. Amendment 1:2024 |
 | Status | **Simulated internal readiness report, not an external audit report. Every finding is drawn from portfolio records** |
 | Evidence as at | 30 September 2027 |
@@ -19,7 +19,7 @@
 
 **Decision recommended: Northstar is not ready for a Stage 1 audit. It should not book one until the six Stage 1 entry criteria in section 4 are met.**
 
-The draft concluded that Northstar is "at the documentation design stage". That understates it. The portfolio shows parts of the ISMS **operating**:
+Northstar is more than a set of designed documents. The portfolio shows parts of the ISMS **operating**:
 
 - an internal audit (AUD-03) with graded findings;
 - a validated monthly KPI dashboard;
@@ -51,11 +51,11 @@ The ISMS is **designed, partly operating, and almost entirely unapproved.** Top 
 | Business continuity | BIA, plans and recovery objectives drafted; **no recovery test passed; backups held in the same region** | 049–054 | 🟥 |
 | Legal requirements | **Legal register not written** | 061: 4.2; 062: 5.31 | 🟥 |
 
-The draft rated internal audit, management review and performance evaluation as "not demonstrated". Records exist for internal audit (AUD-03) and performance evaluation, so they are credited; performance evaluation is the strongest area. **The draft was right about management review:** no review is recorded.
+Records exist for internal audit (AUD-03) and performance evaluation, so they are credited; performance evaluation is the strongest area. **No management review is recorded.**
 
 ## 3. Findings
 
-The draft listed risks as possibilities ("may not have been formally authorised"). The assessments have now tested them, so they are stated as findings.
+The assessments have tested the risks to readiness, so they are stated as findings.
 
 | # | Finding | Effect at audit | Source |
 | --- | --- | --- | --- |
@@ -126,19 +126,13 @@ For the MD's decision. **Achievable only if the capacity gap (F10) is resolved;*
 
 ## 7. Actions
 
-The draft listed ten actions (CR-001 to CR-010) with their own IDs. Most already exist in other registers: SoA Wave 2, the legal register (MRA-2027-02), CA-02, RCA-01, BRT-01, EX-01, supplier assessments. Giving them new IDs here would put the same work in two places. **All actions are tracked in the remediation tracker, NSD-ISMS-068,** which points to the register where each one lives and adds only the actions that are genuinely new (for example, the competence records and the KPI-20 investigation).
+Most readiness actions already exist in other registers: SoA Wave 2, the legal register (MRA-2027-02), CA-02, RCA-01, BRT-01, EX-01, supplier assessments. Giving them new IDs here would put the same work in two places. **All actions are tracked in the remediation tracker, NSD-ISMS-068,** which points to the register where each one lives and adds only the actions that are genuinely new (for example, the competence records and the KPI-20 investigation).
 
-## 8. Approval and change log
+## 8. Approval
 
 | Role | Decision | Date |
 | --- | --- | --- |
 | Managing Director | Pending | |
-
-| Version | Change |
-| --- | --- |
-| 0.1 (portfolio draft, as NSD-ISMS-061) | Summary, eleven areas, seven possible risks, ten actions, readiness decision pending |
-| 0.3 | **Correction:** v0.2 treated management review MR-2027-01 as held. It is planned but unrecorded (037; 038 and 040 blank; 039 hypothetical). Headline measures updated; management review rated Red; finding F11 added; S1-6 not met; the first management review added to the timeline. |
-| 0.2 | Numbered NSD-ISMS-065. **Conclusion made definite:** not ready for Stage 1, with reasons, rather than "pending". Positions credit the operating evidence in the portfolio (internal audit, management review, KPIs, corrective action), which the draft called "not demonstrated". Headline measures from 061–064. Possible risks replaced with ten tested findings, including the KPI-20 conflict, the 8 audits without records, and capacity. **Stage 1 and Stage 2 entry criteria** added, with an indicative timeline conditional on resourcing, and five decisions for the MD. Actions moved to NSD-ISMS-068 instead of being given new IDs here. Roles changed to charter roles ("Senior Management", "Procurement", "Internal Audit Lead" removed). |
 
 ---
 

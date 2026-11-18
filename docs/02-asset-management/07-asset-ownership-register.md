@@ -3,7 +3,7 @@
 | Field | Value |
 | --- | --- |
 | Reference | NSD-ISMS-007 |
-| Version | 0.1 — Draft for owner acceptance |
+| Version | 1.0 — Draft for owner acceptance |
 | Framework | ISO/IEC 27001:2022 incl. Amendment 1:2024 (Annex A 5.2, 5.3, 5.9, 5.18) |
 | Related documents | [NSD-ISMS-001 Charter](../01-initiation-and-context/01-isms-project-charter.md) · [NSD-ISMS-006 Information Asset Register](06-information-asset-register.md) |
 | Owner | Information Security / GRC Analyst |
@@ -149,13 +149,6 @@ Attestations follow the Asset Review and Approval Process (NSD-ISMS-011).
 | Data Protection lead | Confirms owners of personal data assets | Pending | |
 | IT Manager | Validates custodian assignments | Pending | |
 | Information Security / GRC Analyst | Maintains register | Prepared | |
-
-## 11. Change log
-
-| Version | Change |
-| --- | --- |
-| 1.0 (portfolio draft) | First draft: 20 owner and custodian assignments |
-| 0.1 | Renumbered from NSD-ISMS-006 to NSD-ISMS-007, since 006 is the asset register. Asset IDs and names aligned with NSD-ISMS-006 v0.1. Owners aligned with charter roles: removed Head of Customer Operations, Commercial Director, Operations Director, Security Lead and Procurement Manager. Replaced 13 individual administrator titles with five custodian teams, to fit the small IT function (INT-01). Added deputy owners, classification and acceptance status. Added owner workload analysis, segregation-of-duties checks, the acceptance record, time limits in the principles and an ownership change log. Set the review frequency to match NSD-ISMS-006. |
 
 ---
 

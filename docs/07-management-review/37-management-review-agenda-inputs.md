@@ -3,7 +3,7 @@
 | Field | Value |
 | --- | --- |
 | Reference | NSD-ISMS-037 |
-| Version | 0.2 — For MR-2027-01 |
+| Version | 1.0 — For MR-2027-01 |
 | Procedure | [NSD-ISMS-036 Management Review Procedure](36-management-review-procedure.md) |
 | Review | **MR-2027-01**: first full management review |
 | Date | **22 September 2027**, 09:30–12:30 (planned) |
@@ -60,8 +60,8 @@ Each input is drawn from its source record at the cut-off date. The GRC Analyst 
 | Input | Clause 9.3.2 | Information required | Source | Input owner | Trend shown | Status |
 | --- | --- | --- | --- | --- | --- | --- |
 | Previous actions | (a) | Open, overdue and completed actions, with evidence | NSD-ISMS-039 | GRC Analyst | — (first review) | To collect |
-| Context changes | (b) | New or changed internal and external issues; climate relevance | NSD-ISMS-002 | GRC Analyst | Since v0.3 | To collect |
-| Interested-party changes | (c) | New customers (especially FS), contract terms, regulator changes | NSD-ISMS-003 | Data Protection lead | Since v0.2 | To collect |
+| Context changes | (b) | New or changed internal and external issues; climate relevance | NSD-ISMS-002 | GRC Analyst | Since the last version | To collect |
+| Interested-party changes | (c) | New customers (especially FS), contract terms, regulator changes | NSD-ISMS-003 | Data Protection lead | Since the last version | To collect |
 | Legal and regulatory changes | (c) | Status of the Cyber Security and Resilience Bill; DUAA guidance; NIS2 applicability | NSD-ISMS-003 §4; NSD-ISMS-005 | Data Protection lead | — | To collect. **The NSD-ISMS-005 legal register is still not written** |
 | Nonconformities and corrective actions | (d)(1) | Number by grade and source; overdue items; effectiveness results; repeat nonconformities | NSD-ISMS-034 | Internal auditor | Monthly since January 2027 | To collect |
 | Monitoring and measurement | (d)(2) | Policy measures: MFA coverage, leavers on time, patching, backups, DLP, training | NSD-ISMS-023 to 029 §12; NSD-ISMS-021 | Control owners | Monthly | To collect |
@@ -70,7 +70,7 @@ Each input is drawn from its source record at the cut-off date. The GRC Analyst 
 | Incidents | (d)(2) | Number by severity, causes, notifications, lessons learned | NSD-ISMS-027; AST-017 | GRC Analyst | Monthly | To collect |
 | Interested-party feedback | (e) | Customer questionnaires and complaints; insurer conditions; certification body | Sales lead; Finance Manager | Data Protection lead | — | To collect |
 | Risk results and treatment | (f) | Risk profile now vs November 2026; treatment action status; acceptances due; new risks | NSD-ISMS-014 to 017, 020 | GRC Analyst; risk owners | Since November 2026 | To collect |
-| SoA | (f) | Wave 2 completion; status changes since v0.2; exclusions proposed | NSD-ISMS-019 | GRC Analyst | Since v0.2 | To collect |
+| SoA | (f) | Wave 2 completion; status changes since v1.0; exclusions proposed | NSD-ISMS-019 | GRC Analyst | Since the last version | To collect |
 | Supplier performance | (e), (f) | Critical supplier assessments (Obj 9); supplier incidents; sub-processor changes | NSD-ISMS-026 | Finance Manager | — | To collect |
 | Resources | Additional | Auditor days used, DevOps and IT capacity, licences, training needs | Charter §8.1; NSD-ISMS-015 §5 | MD | — | To collect |
 | Improvement opportunities | (g) | Improvement actions; audit OFIs; suggestions | NSD-ISMS-034 §5 | GRC Analyst | — | To collect |
@@ -84,7 +84,7 @@ The portfolio already shows these items need a decision from top management at M
 | D-01 | Grant or refuse the **target acceptances** for R-07 (supply chain) and R-13 (privileged access) | Records AR-01 and AR-02 are proposed (NSD-ISMS-016 §9) | Steering Group with MD (impact 5) |
 | D-02 | Confirm the **re-scored risks**, including R-01, R-11 and R-13 using the AUD-03 evidence, and add the new risk R-21 | NSD-ISMS-035 §8; NSD-ISMS-034 CA-03 | Risk owners; MD for any that remain Very High |
 | D-03 | Renew or close any **remaining Very High temporary tolerances** | Allowed for 3 months at most, renewable once (NSD-ISMS-016 §3) | MD only |
-| D-04 | Approve **resources**: about 12 auditor days a year; continued DevOps and IT capacity; licences | Charter v0.5; NSD-ISMS-015 §5 | MD |
+| D-04 | Approve **resources**: about 12 auditor days a year; continued DevOps and IT capacity; licences | Charter v1.0; NSD-ISMS-015 §5 | MD |
 | D-05 | Approve **SoA v1.0** covering all 93 controls, including any exclusions, and record its version in the scope statement | Required before Stage 1 (NSD-ISMS-018 §7) | MD |
 | D-06 | Commission the missing **legal register (NSD-ISMS-005)**, and decide on NIS2 and CSRB applicability | An open gap since Milestone 1 | MD, with the Data Protection lead |
 | D-07 | Confirm or change **objective targets**, especially Obj 5 (training) and Obj 7 (patching) if they are off track | Clause 6.2 | MD |
@@ -102,13 +102,6 @@ The portfolio already shows these items need a decision from top management at M
 | Have customer or regulatory expectations changed? | New FS customers; CSRB status (item 4) |
 | What improvements need management sponsorship? | Improvement list (item 14) |
 | **Can we honestly say the ISMS is effective?** | Everything above (item 15) |
-
-## F. Change log
-
-| Version | Change |
-| --- | --- |
-| 0.1 (portfolio draft, as NSD-ISMS-033) | Agenda, inputs register and discussion prompts |
-| 0.2 | Numbered NSD-ISMS-037 and set up for MR-2027-01 (22 September 2027, data cut-off 31 August), replacing "quarterly" in line with NSD-ISMS-036. Presenters changed from the GRC Analyst for most items to owners: risk owners, the internal auditor, the Data Protection lead, the Finance Manager and objective owners. "Senior Management", "Security Lead" and "IT / Procurement" replaced with roles. Added SoA and formal-conclusion items, clause 9.3.2 references, timings and decision flags. The inputs register now names the source document, owner, trend and collection status for each input. Added eight decisions the portfolio shows are pending, including the missing legal register (NSD-ISMS-005). The draft's discussion prompts are kept and linked to the data that answers them. |
 
 ---
 

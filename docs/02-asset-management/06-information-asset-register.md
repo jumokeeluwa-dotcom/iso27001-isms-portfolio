@@ -3,7 +3,7 @@
 | Field | Value |
 | --- | --- |
 | Reference | NSD-ISMS-006 |
-| Version | 0.3 — Draft for owner review |
+| Version | 1.0 — Draft for owner review |
 | Framework | ISO/IEC 27001:2022 incl. Amendment 1:2024 (Annex A 5.9, 5.10, 5.12, 5.13) |
 | Related documents | [NSD-ISMS-001 Charter](../01-initiation-and-context/01-isms-project-charter.md) · [NSD-ISMS-002 Context](../01-initiation-and-context/02-organisational-context-register.md) · [NSD-ISMS-003 Interested Parties](../01-initiation-and-context/03-interested-party-requirements-register.md) · [NSD-ISMS-004 Scope](../01-initiation-and-context/04-isms-scope-statement.md) · [NSD-ISMS-007 Ownership](07-asset-ownership-register.md) · [NSD-ISMS-008 Classification](08-information-classification-scheme.md) · [NSD-ISMS-009 Valuation](09-asset-valuation-methodology.md) |
 | Owner | Information Security / GRC Analyst |
@@ -169,15 +169,6 @@ The working register will be a spreadsheet. It holds these extra fields for each
 | IT Manager | Validates technology assets | Pending | |
 | Data Protection lead | Validates personal data assets | Pending | |
 | Information Security / GRC Analyst | Maintains register | Prepared | |
-
-## 11. Change log
-
-| Version | Change |
-| --- | --- |
-| 1.0 (portfolio draft) | First draft: 20 assets with owner and classification |
-| 0.1 | Renumbered from NSD-ISMS-005 to NSD-ISMS-006 because 005 is reserved for the legal register. Renumbered as a draft pending approval. Aligned owners with the charter's roles: removed Head of Customer Operations, Commercial Director, Operations Director, Security Lead and Procurement Manager. Added type, location and custodian columns. Added CIA ratings, personal data flags, security requirements and traceability to context issues and interested parties. Added the classification inheritance rule. Raised vulnerability reports, backups, M365 and identity to Restricted, and rated endpoints by the data they hold. Added CI/CD pipelines, encryption keys and secrets, and EU data residency. Merged development documentation into technical documentation and moved ISMS policies to section 5. Added ownership observations and the list of unregistered assets. |
-| 0.3 | C/I/A ratings validated against NSD-ISMS-009 with no changes. Criticality tiers are recorded there. |
-| 0.2 | Classification levels now defined by NSD-ISMS-008. AST-004 confidentiality rating corrected from High to Medium to match its Confidential classification, since secrets are held separately in AST-006. |
 
 ---
 

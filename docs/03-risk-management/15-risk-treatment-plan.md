@@ -3,7 +3,7 @@
 | Field | Value |
 | --- | --- |
 | Reference | NSD-ISMS-015 |
-| Version | 0.3 — Draft for risk owner and MD approval |
+| Version | 1.0 — Draft for risk owner and MD approval |
 | Framework | ISO/IEC 27001:2022 incl. Amendment 1:2024 (clauses 6.1.3(e)–(f), 8.3) |
 | Related documents | [NSD-ISMS-012 Methodology](12-risk-assessment-methodology.md) · [NSD-ISMS-013 Scoring Matrix](13-risk-scoring-matrix.md) · [NSD-ISMS-014 Risk Register](14-risk-register.md) · NSD-ISMS-016 Acceptance Criteria · Statement of Applicability (planned) |
 | Plan owner | Information Security / GRC Analyst |
@@ -180,15 +180,6 @@ The Annex A references are candidate controls, not evidence of implementation. N
 | Risk owners (NSD-ISMS-017) | Approve treatment and target residual for their risks | Pending | |
 | ISMS Steering Group | Accepts the High targets for R-07 and R-13 with MD approval; approves the R-15 target | Pending | |
 | Information Security / GRC Analyst | Prepared the plan | Prepared | |
-
-## 10. Change log
-
-| Version | Change |
-| --- | --- |
-| 0.1 (portfolio draft, as NSD-ISMS-013) | 10 risks with planned actions and relative targets (30–60 days) |
-| 0.1 | Numbered NSD-ISMS-015; 013 is the scoring matrix. Risk IDs aligned with NSD-ISMS-014. Coverage extended to all 20 risks in four priority groups, with the 4 Very High risks first. "Review" and "establish" actions replaced by 36 specific actions, each with completion evidence and dated deadlines. Action owners changed to custodian teams from NSD-ISMS-007; the Cloud Administrator, Security Lead, Procurement Manager, Operations Director and Department Managers roles removed. Approver changed from Senior Management to the MD and risk owners. Added interim controls, independent verification, target residual approvals, resource and capacity needs, and the Modify/Mitigate note. |
-| 0.3 | Risk owners for R-02, R-12, R-18 and R-19 updated to match NSD-ISMS-017. Verification rule now covers GRC-owned actions. |
-| 0.2 | Approval authorities aligned with NSD-ISMS-016: R-07 and R-13 targets need Steering Group with MD approval (impact 5). |
 
 ---
 
